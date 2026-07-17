@@ -35,6 +35,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-04568E4F": {
+"fetched_at": "2026-07-17T12:37:05.501013+00:00",
+"submission_code": "SUB-04568E4F",
+"team_id": "08d4f959-3747-4578-b962-e5d3cad16c4f",
+"team_name": "Walking Devs",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-06073EE8": {
 "fetched_at": "2026-07-17T02:58:06.449430+00:00",
 "submission_code": "SUB-06073EE8",
@@ -175,6 +184,15 @@
 "submission_code": "SUB-1A481AA8",
 "team_id": "c4b9d83c-1016-4e71-86c5-28f45f903647",
 "team_name": "Rocks",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-1AF8D087": {
+"fetched_at": "2026-07-17T12:37:04.703000+00:00",
+"submission_code": "SUB-1AF8D087",
+"team_id": "2eb973b2-9db3-4769-80b2-70e5daa72015",
+"team_name": "Big A",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
@@ -655,6 +673,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-48BC8EF0": {
+"fetched_at": "2026-07-17T12:37:05.173775+00:00",
+"submission_code": "SUB-48BC8EF0",
+"team_id": "78238f52-670e-4120-a20c-1062a83f021e",
+"team_name": "Candyland",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
 },
 "SUB-4AC60848": {
 "fetched_at": "2026-07-17T02:57:55.955784+00:00",
