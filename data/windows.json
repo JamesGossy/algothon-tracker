@@ -476,6 +476,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-412AAA9B": {
+"fetched_at": "2026-07-17T05:47:53.237233+00:00",
+"submission_code": "SUB-412AAA9B",
+"team_id": "f99dc6e2-561f-4fdb-afd8-63e615d507c4",
+"team_name": "Zero Alpha",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-4179BA66": {
 "fetched_at": "2026-07-17T02:58:03.880133+00:00",
 "submission_code": "SUB-4179BA66",
@@ -1903,6 +1912,15 @@
 "submission_code": "SUB-E1BA4733",
 "team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
 "team_name": "SYD2AKL",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E37AE905": {
+"fetched_at": "2026-07-17T05:47:52.081464+00:00",
+"submission_code": "SUB-E37AE905",
+"team_id": "dfbe2719-e9c0-42aa-a63a-2816ca646030",
+"team_name": "Algoholics",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
