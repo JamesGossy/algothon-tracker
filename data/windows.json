@@ -431,6 +431,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-3EAA0DDA": {
+"fetched_at": "2026-07-17T05:32:47.734566+00:00",
+"submission_code": "SUB-3EAA0DDA",
+"team_id": "4921eb70-4145-4f78-b83a-18c24bca9f20",
+"team_name": "FPGA Engineers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-40B8D4E7": {
 "fetched_at": "2026-07-17T02:58:06.804318+00:00",
 "submission_code": "SUB-40B8D4E7",
@@ -1246,6 +1255,15 @@
 "submission_code": "SUB-9BBA7984",
 "team_id": "4d4e1859-f204-4377-949f-75c7840e1040",
 "team_name": "Codeblooded",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9C163EC8": {
+"fetched_at": "2026-07-17T05:32:48.481709+00:00",
+"submission_code": "SUB-9C163EC8",
+"team_id": "f179c019-8fe9-4021-b8f1-c611d6e5e4f7",
+"team_name": "XOR",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
