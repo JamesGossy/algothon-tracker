@@ -773,6 +773,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-54C5D7CD": {
+"fetched_at": "2026-07-17T12:22:00.703548+00:00",
+"submission_code": "SUB-54C5D7CD",
+"team_id": "5606986c-7d01-4512-bbb1-1be620ff3683",
+"team_name": "Wolf of George Street",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-55EA4E3F": {
 "fetched_at": "2026-07-17T02:58:07.531760+00:00",
 "submission_code": "SUB-55EA4E3F",
@@ -1655,6 +1664,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-AD27B96E": {
+"fetched_at": "2026-07-17T12:22:00.886187+00:00",
+"submission_code": "SUB-AD27B96E",
+"team_id": "0a445daf-55df-4068-9f3e-7886ba11667c",
+"team_name": "Arbitrage Victims",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-AD818755": {
 "fetched_at": "2026-07-17T02:58:07.175193+00:00",
 "submission_code": "SUB-AD818755",
@@ -1768,6 +1786,15 @@
 "submission_code": "SUB-B57B2FD1",
 "team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
 "team_name": "the DESTination",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-B937C6DE": {
+"fetched_at": "2026-07-17T12:22:00.243502+00:00",
+"submission_code": "SUB-B937C6DE",
+"team_id": "23674fa4-f1cc-451b-86e8-60ad0ce5dd68",
+"team_name": "sorrywilson",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
@@ -1903,6 +1930,15 @@
 "submission_code": "SUB-C41EBC99",
 "team_id": "399908c9-4a67-4430-8f28-3028c77b0825",
 "team_name": "Overfitters",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C4E48103": {
+"fetched_at": "2026-07-17T12:22:00.188607+00:00",
+"submission_code": "SUB-C4E48103",
+"team_id": "28333ef4-76f6-4369-943f-70df09d2d312",
+"team_name": "Tundra-wawa",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
@@ -2095,6 +2131,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-D9857702": {
+"fetched_at": "2026-07-17T12:22:00.469664+00:00",
+"submission_code": "SUB-D9857702",
+"team_id": "3e79e967-bb43-4069-aba1-2f240cc42e27",
+"team_name": "Epic Blenders",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
 },
 "SUB-DA314977": {
 "fetched_at": "2026-07-17T02:58:08.430600+00:00",
