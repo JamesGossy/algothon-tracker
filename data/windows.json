@@ -1007,6 +1007,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-60A9E290": {
+"fetched_at": "2026-07-17T21:27:54.958093+00:00",
+"submission_code": "SUB-60A9E290",
+"team_id": "863d2b2d-a813-4e4d-980b-80b8aa5ddaff",
+"team_name": "Swingly",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-60EA4EE8": {
 "fetched_at": "2026-07-17T02:57:54.744748+00:00",
 "submission_code": "SUB-60EA4EE8",
