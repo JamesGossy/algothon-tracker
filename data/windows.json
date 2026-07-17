@@ -89,6 +89,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-0AA74697": {
+"fetched_at": "2026-07-17T16:39:37.151248+00:00",
+"submission_code": "SUB-0AA74697",
+"team_id": "c638819d-2997-4390-917d-6731ba3c43c5",
+"team_name": "The Dark Knights",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-0C91097C": {
 "fetched_at": "2026-07-17T06:02:58.452191+00:00",
 "submission_code": "SUB-0C91097C",
@@ -376,6 +385,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-2EEAD55C": {
+"fetched_at": "2026-07-17T16:39:37.945402+00:00",
+"submission_code": "SUB-2EEAD55C",
+"team_id": "c3d0357b-3453-4c2a-ac95-722d744180ae",
+"team_name": "Clankers",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-2F132C50": {
 "fetched_at": "2026-07-17T14:23:06.324897+00:00",
@@ -2419,6 +2437,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-F3DB476B": {
+"fetched_at": "2026-07-17T16:39:37.560447+00:00",
+"submission_code": "SUB-F3DB476B",
+"team_id": "f25455fc-daee-4c04-9616-0d71c5537e17",
+"team_name": "MSAM",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-F520ABDA": {
 "fetched_at": "2026-07-17T02:58:03.484449+00:00",
