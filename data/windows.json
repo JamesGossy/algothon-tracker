@@ -215,6 +215,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-1FF75175": {
+"fetched_at": "2026-07-17T11:06:04.820076+00:00",
+"submission_code": "SUB-1FF75175",
+"team_id": "0653a73b-e467-4673-80e0-087cc2f4528d",
+"team_name": "The Market Makers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-2066CC9B": {
 "fetched_at": "2026-07-17T02:58:01.510050+00:00",
 "submission_code": "SUB-2066CC9B",
