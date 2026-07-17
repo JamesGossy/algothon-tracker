@@ -1484,6 +1484,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-93549561": {
+"fetched_at": "2026-07-17T16:24:31.375296+00:00",
+"submission_code": "SUB-93549561",
+"team_id": "462dead1-f892-4b29-9a83-855af0574356",
+"team_name": "Win Traders",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-936ECA9B": {
 "fetched_at": "2026-07-17T13:07:29.366832+00:00",
 "submission_code": "SUB-936ECA9B",
