@@ -98,6 +98,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-1031775A": {
+"fetched_at": "2026-07-17T07:49:13.049035+00:00",
+"submission_code": "SUB-1031775A",
+"team_id": "4cdae5fb-92a4-47c0-90dc-e9ee963332e6",
+"team_name": "ATC",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-10DF4BEF": {
 "fetched_at": "2026-07-17T02:58:08.085205+00:00",
 "submission_code": "SUB-10DF4BEF",
@@ -1030,6 +1039,15 @@
 "submission_code": "SUB-7D03B4B0",
 "team_id": "1531aca8-6f3c-4166-8e3c-64e96997940c",
 "team_name": "+xp",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7D3D19F8": {
+"fetched_at": "2026-07-17T07:49:13.499605+00:00",
+"submission_code": "SUB-7D3D19F8",
+"team_id": "424a4af3-5018-4e91-9417-77d00321189c",
+"team_name": "Buy Low Sell High",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
