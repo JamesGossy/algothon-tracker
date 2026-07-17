@@ -1547,6 +1547,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-BCA24CB5": {
+"fetched_at": "2026-07-17T05:17:30.856395+00:00",
+"submission_code": "SUB-BCA24CB5",
+"team_id": "3b5ead06-0534-4a81-bffa-702bb602a87a",
+"team_name": "Band of the Hawk",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-BCB0C9DE": {
 "fetched_at": "2026-07-17T02:58:06.677739+00:00",
 "submission_code": "SUB-BCB0C9DE",
