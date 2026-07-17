@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Algothon Leaderboard Tracker</title>
+<title>Algothon Tracker · DC KB</title>
 <style>
   :root {
     color-scheme: light;
@@ -20,6 +20,7 @@
     --warning:        #fab219;
     --series-1: #2a78d6; --series-2: #1baf7a; --series-3: #eda100; --series-4: #008300;
     --series-5: #4a3aa7; --series-6: #e34948; --series-7: #e87ba4; --series-8: #eb6834;
+    --seq-light: #9ec5f4; --seq-mid: #3987e5; --seq-dark: #1c5cab;
     --pin-glow: rgba(42,120,214,0.12);
   }
   html.dark {
@@ -33,10 +34,11 @@
     --baseline:       #383835;
     --border:         rgba(255,255,255,0.10);
     --good:           #0ca30c;
-    --critical:       #e66767;
+    --critical:      #e66767;
     --warning:        #fab219;
     --series-1: #3987e5; --series-2: #199e70; --series-3: #c98500; --series-4: #008300;
     --series-5: #9085e9; --series-6: #e66767; --series-7: #d55181; --series-8: #d95926;
+    --seq-light: #256abf; --seq-mid: #3987e5; --seq-dark: #86b6ef;
     --pin-glow: rgba(57,135,229,0.16);
   }
   @media (prefers-color-scheme: dark) {
@@ -48,13 +50,14 @@
       --text-secondary: #c3c2b7;
       --text-muted:     #898781;
       --grid:           #2c2c2a;
-      --baseline:       #383835;
-      --border:         rgba(255,255,255,0.10);
-      --good:           #0ca30c;
-      --critical:       #e66767;
-      --warning:        #fab219;
+      --baseline:      #383835;
+      --border:        rgba(255,255,255,0.10);
+      --good:          #0ca30c;
+      --critical:      #e66767;
+      --warning:       #fab219;
       --series-1: #3987e5; --series-2: #199e70; --series-3: #c98500; --series-4: #008300;
       --series-5: #9085e9; --series-6: #e66767; --series-7: #d55181; --series-8: #d95926;
+      --seq-light: #256abf; --seq-mid: #3987e5; --seq-dark: #86b6ef;
       --pin-glow: rgba(57,135,229,0.16);
     }
   }
@@ -67,8 +70,9 @@
     padding: 20px 24px 60px;
   }
   a { color: inherit; }
-  h1 { font-size: 20px; margin: 0; }
-  h2 { font-size: 15px; margin: 0 0 12px; color: var(--text-primary); }
+  h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: 14px; margin: 0 0 12px; color: var(--text-primary); }
+  .kicker { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin-bottom: 2px; }
   .sub { color: var(--text-secondary); font-size: 13px; }
   .muted { color: var(--text-muted); }
   .top-row {
@@ -78,7 +82,6 @@
   .status-line { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-top: 4px; }
   .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); display: inline-block; }
   .dot.stale { background: var(--warning); }
-  .dot.down { background: var(--critical); }
   button.toggle {
     border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
     border-radius: 6px; padding: 6px 10px; font-size: 12px; cursor: pointer;
@@ -87,34 +90,78 @@
     background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
     padding: 16px 18px; margin-bottom: 18px;
   }
-  input[type="text"] {
+  input[type="text"], input[type="password"] {
     background: var(--surface-1); border: 1px solid var(--border); color: var(--text-primary);
-    border-radius: 6px; padding: 6px 10px; font-size: 13px; width: 220px;
+    border-radius: 6px; padding: 6px 10px; font-size: 13px;
   }
+  #searchBox { width: 220px; }
+
+  /* ---- password gate ---- */
+  #gate {
+    position: fixed; inset: 0; background: var(--page); z-index: 100;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .gate-card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+    padding: 32px 36px; width: 320px; text-align: center;
+  }
+  .gate-card h1 { font-size: 17px; margin-bottom: 4px; }
+  .gate-card .sub { margin-bottom: 18px; }
+  .gate-card input { width: 100%; text-align: center; font-size: 15px; padding: 9px 10px; margin-bottom: 10px; }
+  .gate-card button {
+    width: 100%; padding: 9px; border-radius: 6px; border: none; cursor: pointer;
+    background: var(--series-1); color: #fff; font-size: 14px; font-weight: 500;
+  }
+  .gate-error { color: var(--critical); font-size: 12px; margin-top: 10px; min-height: 15px; }
+  #app { display: none; }
+
+  /* ---- stat tiles ---- */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 18px; }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .tile.hero { border-color: var(--series-1); background: var(--pin-glow); }
+  .tile-label { font-size: 10px; text-transform: uppercase; letter-spacing: .07em; color: var(--text-muted); margin-bottom: 6px; }
+  .tile-value { font-size: 24px; font-weight: 600; line-height: 1.1; }
+  .tile-sub { font-size: 12px; color: var(--text-secondary); margin-top: 5px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .chip { font-size: 11px; padding: 1px 7px; border-radius: 100px; border: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+  .chip.up { color: var(--good); border-color: currentColor; }
+  .chip.down { color: var(--critical); border-color: currentColor; }
+
+  /* ---- table ---- */
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th, td { text-align: right; padding: 6px 8px; font-variant-numeric: tabular-nums; white-space: nowrap; }
   th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
-  thead th { color: var(--text-muted); font-weight: 500; border-bottom: 1px solid var(--grid); font-size: 11px; text-transform: uppercase; letter-spacing: .03em; }
+  thead th {
+    color: var(--text-muted); font-weight: 500; border-bottom: 1px solid var(--grid);
+    font-size: 11px; text-transform: uppercase; letter-spacing: .03em;
+    cursor: pointer; user-select: none;
+  }
+  thead th:hover { color: var(--text-primary); }
+  thead th .sort-arrow { font-size: 9px; }
   tbody tr { border-bottom: 1px solid var(--grid); }
   tbody tr.pinned { background: var(--pin-glow); }
   tbody tr:hover { background: var(--border); }
   .team-name { font-weight: 500; cursor: pointer; }
+  .medal { font-size: 12px; margin-right: 2px; }
   .badge {
     display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 100px;
     border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap;
   }
+  .badge.win-live { color: var(--series-1); border-color: var(--series-1); }
   .delta { font-size: 12px; font-variant-numeric: tabular-nums; }
   .delta.up { color: var(--good); }
   .delta.down { color: var(--critical); }
   .status-badge { font-size: 11px; padding: 2px 7px; border-radius: 100px; }
   .status-completed { color: var(--good); }
-  .status-failed, .status-error { color: var(--critical); }
+  .status-failed, .status-error, .status-invalid { color: var(--critical); }
   .status-pending, .status-running { color: var(--warning); }
+
   .legend { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; font-size: 12px; }
-  .legend label { display: flex; align-items: center; gap: 5px; cursor: pointer; color: var(--text-secondary); }
+  .legend label { display: flex; align-items: center; gap: 5px; color: var(--text-secondary); }
   .legend .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
   .chart-wrap { position: relative; }
   svg.chart { width: 100%; height: 320px; display: block; overflow: visible; }
+  svg.chart.small { height: 140px; }
+  svg.chart.hist { height: 200px; }
   .gridline { stroke: var(--grid); stroke-width: 1; }
   .baseline { stroke: var(--baseline); stroke-width: 1; }
   .series-line { fill: none; stroke-width: 2; }
@@ -129,16 +176,24 @@
   .tooltip .t-title { color: var(--text-muted); font-size: 10px; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .03em; }
   .tooltip .t-row { display: flex; justify-content: space-between; gap: 12px; font-variant-numeric: tabular-nums; }
   .crosshair { stroke: var(--baseline); stroke-width: 1; stroke-dasharray: 3 3; }
-  .events-list { max-height: 360px; overflow-y: auto; font-size: 13px; }
+
+  .events-list { max-height: 420px; overflow-y: auto; font-size: 13px; }
   .event-row { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--grid); }
   .event-row:last-child { border-bottom: none; }
   .event-main { display: flex; flex-direction: column; gap: 2px; }
   .event-time { color: var(--text-muted); font-size: 11px; white-space: nowrap; text-align: right; }
-  .windows-list { display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
-  .window-row { display: flex; justify-content: space-between; gap: 10px; }
+  .event-tag { font-size: 10px; padding: 1px 6px; border-radius: 100px; border: 1px solid var(--border); color: var(--text-muted); }
+  .event-tag.new-sub { color: var(--series-1); border-color: var(--series-1); }
+
+  .windows-list, .movers-list { display: flex; flex-direction: column; gap: 7px; font-size: 13px; }
+  .window-row, .mover-row { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .mover-row .team-name { cursor: default; }
+
   .two-col { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; align-items: start; }
-  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; align-items: start; }
+  @media (max-width: 1000px) { .two-col, .three-col { grid-template-columns: 1fr; } }
   .empty { color: var(--text-muted); font-size: 13px; padding: 20px 0; text-align: center; }
+
   .expand-toggle {
     background: none; border: none; cursor: pointer; color: var(--text-muted);
     font-size: 11px; padding: 0 4px 0 0; width: 16px;
@@ -155,46 +210,51 @@
   .detail-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   @media (max-width: 700px) { .detail-charts { grid-template-columns: 1fr; } }
   .detail-chart-title { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
-  svg.chart.small { height: 140px; }
 </style>
 </head>
 <body>
 
+<div id="gate">
+  <div class="gate-card">
+    <div class="kicker">Algothon 2026</div>
+    <h1>DC KB Tracker</h1>
+    <p class="sub">Enter the team password</p>
+    <input type="password" id="gateInput" placeholder="Password" autocomplete="current-password" />
+    <button id="gateBtn">Unlock</button>
+    <div class="gate-error" id="gateError"></div>
+  </div>
+</div>
+
+<div id="app">
+
 <div class="top-row">
   <div>
-    <h1>Algothon Leaderboard Tracker</h1>
+    <div class="kicker">Algothon 2026 · Susquehanna</div>
+    <h1>DC KB Leaderboard Tracker</h1>
     <div class="status-line">
       <span class="dot" id="statusDot"></span>
       <span class="sub" id="statusText">connecting…</span>
     </div>
   </div>
-  <button class="toggle" id="themeToggle">Toggle theme</button>
+  <div style="display:flex; gap:8px;">
+    <button class="toggle" id="themeToggle">Toggle theme</button>
+    <button class="toggle" id="lockBtn" title="Lock the dashboard">Lock</button>
+  </div>
 </div>
+
+<div class="tiles" id="tiles"></div>
 
 <div class="card">
   <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px;">
     <h2 style="margin:0;">Leaderboard</h2>
     <div style="display:flex; align-items:center; gap:10px;">
-      <span class="muted" style="font-size:12px;">click ▸ to expand a team's details · click a team name to add/remove it from the chart above</span>
+      <span class="muted" style="font-size:12px;">▸ expands a team · clicking a name charts it · click headers to sort</span>
       <input type="text" id="searchBox" placeholder="Filter teams…" />
     </div>
   </div>
   <div style="overflow-x:auto;">
     <table id="leaderboardTable">
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Team</th>
-          <th>Score</th>
-          <th>Δ Score</th>
-          <th>Mean P&amp;L</th>
-          <th>Std P&amp;L</th>
-          <th>Trades</th>
-          <th>Window</th>
-          <th>Submitted</th>
-          <th>Status</th>
-        </tr>
-      </thead>
+      <thead><tr id="headerRow"></tr></thead>
       <tbody id="leaderboardBody"></tbody>
     </table>
   </div>
@@ -209,38 +269,91 @@
       <div class="tooltip" id="chartTooltip"></div>
     </div>
   </div>
-
-  <div class="card">
-    <h2>Evaluation windows seen</h2>
-    <div class="windows-list" id="windowsList"></div>
+  <div>
+    <div class="card">
+      <h2>Score distribution (all teams)</h2>
+      <div class="chart-wrap">
+        <svg class="chart hist" id="histSvg"></svg>
+        <div class="tooltip" id="histTooltip"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Evaluation windows</h2>
+      <div class="windows-list" id="windowsList"></div>
+    </div>
   </div>
 </div>
 
-<div class="card">
-  <h2>Recent submission activity</h2>
-  <div class="events-list" id="eventsList"></div>
+<div class="two-col">
+  <div class="card">
+    <h2>Recent activity</h2>
+    <div class="events-list" id="eventsList"></div>
+  </div>
+  <div class="card">
+    <h2>Biggest movers (tracked history)</h2>
+    <div class="movers-list" id="moversList"></div>
+  </div>
 </div>
+
+</div><!-- /app -->
 
 <script>
 const PINNED_TEAM = "DC KB";
+const PASS_HASH = "487e7f51373d18d71128d4cf7838125cc854816f34b26ab887aa5878d49619d3";
 const SERIES_COLORS = ["--series-1","--series-2","--series-3","--series-4","--series-5","--series-6","--series-7","--series-8"];
 const MAX_SELECTED = 8;
-// Data is committed by a GitHub Actions workflow every ~15 minutes, not
-// served live - polling the static file more often than that just adds
-// requests for no new information.
+// Data is committed by a GitHub Actions workflow every ~15 minutes; polling
+// the static file faster than that adds requests for no new information.
 const REFRESH_MS = 60000;
-
+const GENERAL_ROUND_CLOSE = new Date("2026-07-30T23:59:59+10:00");
 const CHART_NS = "http://www.w3.org/2000/svg";
-let state = { teams: [], recentEvents: [], selected: new Set(), expanded: new Set(), search: "" };
 
+let state = {
+  teams: [], recentEvents: [], selected: new Set(), expanded: new Set(),
+  search: "", sortKey: "rank", sortDir: 1,
+};
+
+/* ---------- password gate (client-side courtesy lock) ---------- */
+async function sha256hex(s) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
+}
+function unlock() {
+  document.getElementById("gate").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  fetchData();
+  if (!state._pollTimer) state._pollTimer = setInterval(fetchData, REFRESH_MS);
+}
+async function tryUnlock() {
+  const input = document.getElementById("gateInput");
+  const hash = await sha256hex(input.value);
+  if (hash === PASS_HASH) {
+    localStorage.setItem("dckb_auth", hash);
+    unlock();
+  } else {
+    document.getElementById("gateError").textContent = "Wrong password";
+    input.value = "";
+  }
+}
+document.getElementById("gateBtn").addEventListener("click", tryUnlock);
+document.getElementById("gateInput").addEventListener("keydown", e => { if (e.key === "Enter") tryUnlock(); });
+document.getElementById("lockBtn").addEventListener("click", () => {
+  localStorage.removeItem("dckb_auth");
+  location.reload();
+});
+if (localStorage.getItem("dckb_auth") === PASS_HASH) unlock();
+else document.getElementById("gateInput").focus();
+
+/* ---------- theme ---------- */
 const root = document.documentElement;
-const themeToggle = document.getElementById("themeToggle");
-themeToggle.addEventListener("click", () => {
+document.getElementById("themeToggle").addEventListener("click", () => {
   if (root.classList.contains("dark")) { root.classList.remove("dark"); root.classList.add("light"); }
   else if (root.classList.contains("light")) { root.classList.remove("light"); root.classList.add("dark"); }
   else { root.classList.add("dark"); }
+  renderAll();
 });
 
+/* ---------- formatting helpers ---------- */
 function fmtNum(n, digits=2) {
   if (n === null || n === undefined || Number.isNaN(n)) return "–";
   return Number(n).toLocaleString(undefined, { minimumFractionDigits: digits, maximumFractionDigits: digits });
@@ -251,23 +364,30 @@ function fmtInt(n) {
 }
 function relTime(iso) {
   if (!iso) return "–";
-  const d = new Date(iso);
-  const diffMs = Date.now() - d.getTime();
-  const s = Math.floor(diffMs / 1000);
+  const s = Math.floor((Date.now() - new Date(iso).getTime()) / 1000);
   if (s < 60) return `${s}s ago`;
   const m = Math.floor(s / 60);
   if (m < 60) return `${m}m ago`;
   const h = Math.floor(m / 60);
   if (h < 24) return `${h}h ago`;
-  const days = Math.floor(h / 24);
-  return `${days}d ago`;
+  return `${Math.floor(h / 24)}d ago`;
 }
 function windowLabel(w) {
   if (!w || !w.window_name) return "";
   const range = (w.window_start != null && w.window_end != null) ? ` (${w.window_start}-${w.window_end})` : "";
   return `${w.window_name}${range}`;
 }
+function shortWindow(w) {
+  if (!w || !w.window_name) return "";
+  if (w.window_start != null && w.window_end != null) return `days ${w.window_start}–${w.window_end}`;
+  return w.window_name;
+}
+function escapeHtml(s) {
+  if (s === null || s === undefined) return "";
+  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
 
+/* ---------- data ---------- */
 async function fetchData() {
   try {
     const res = await fetch(`./data/latest.json?t=${Date.now()}`, { cache: "no-store" });
@@ -276,7 +396,7 @@ async function fetchData() {
     onData(data);
     document.getElementById("statusDot").className = "dot";
     document.getElementById("statusText").textContent =
-      `${data.teams.length} teams · data updated ${data.lastPoll ? relTime(data.lastPoll.poll_ts) : "never"} (polls every ~15 min)`;
+      `${data.teams.length} teams · data updated ${data.lastPoll ? relTime(data.lastPoll.poll_ts) : "never"} · auto-polls every ~15 min`;
   } catch (err) {
     document.getElementById("statusDot").className = "dot stale";
     document.getElementById("statusText").textContent = "couldn't load data/latest.json: " + err.message;
@@ -287,6 +407,17 @@ function onData(data) {
   state.teams = data.teams || [];
   state.recentEvents = data.recentEvents || [];
 
+  // classify each history row: did it come from a NEW submission or a passive rank/score shuffle?
+  state.eventType = new Map();
+  state.teams.forEach(t => {
+    const hist = t.history || [];
+    hist.forEach((h, i) => {
+      const type = (i === 0) ? "first-seen"
+        : (h.submission_code !== hist[i-1].submission_code) ? "new-sub" : "shuffle";
+      state.eventType.set(`${t.team_id}|${h.poll_ts}`, type);
+    });
+  });
+
   if (state.selected.size === 0) {
     const byRank = [...state.teams].sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
     const defaults = new Set(byRank.slice(0, 5).map(t => t.team_id));
@@ -294,53 +425,182 @@ function onData(data) {
     if (pinned) defaults.add(pinned.team_id);
     state.selected = defaults;
   }
+  renderAll();
+}
 
+function renderAll() {
+  if (state.teams.length === 0) return;
+  renderTiles();
   renderTable();
   renderExpandedDetails();
   renderLegend();
   renderChart();
+  renderHistogram();
   renderEvents();
   renderWindows();
+  renderMovers();
+}
+
+/* ---------- stat tiles ---------- */
+function prevOf(t) {
+  const h = t.history || [];
+  return h.length > 1 ? h[h.length - 2] : null;
+}
+function deltaChip(delta, fmt, invert=false) {
+  if (delta === null || delta === undefined || delta === 0) return "";
+  const good = invert ? delta < 0 : delta > 0;
+  const arrow = delta > 0 ? "▲" : "▼";
+  return `<span class="chip ${good ? "up" : "down"}">${arrow} ${fmt(Math.abs(delta))}</span>`;
+}
+
+function renderTiles() {
+  const el = document.getElementById("tiles");
+  const byRank = [...state.teams].sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
+  const me = state.teams.find(t => t.team_name === PINNED_TEAM);
+  const leader = byRank[0];
+  const now = Date.now();
+  const subs24h = state.teams.filter(t => t.submitted_at && (now - new Date(t.submitted_at).getTime()) < 86400e3).length;
+  const daysLeft = Math.max(0, Math.ceil((GENERAL_ROUND_CLOSE - now) / 86400e3));
+
+  let tiles = "";
+  if (me) {
+    const prev = prevOf(me);
+    const rankDelta = prev && prev.rank != null ? prev.rank - me.rank : null;       // + = climbed
+    const scoreDelta = prev && prev.score != null ? me.score - prev.score : null;
+    const above = byRank.find(t => t.rank === me.rank - 1);
+    const below = byRank.find(t => t.rank === me.rank + 1);
+    const pct = Math.max(1, Math.ceil(me.rank / state.teams.length * 100));
+
+    tiles += `
+      <div class="tile hero">
+        <div class="tile-label">${escapeHtml(PINNED_TEAM)} · rank</div>
+        <div class="tile-value">#${fmtInt(me.rank)}</div>
+        <div class="tile-sub">top ${pct}% of ${fmtInt(state.teams.length)} ${deltaChip(rankDelta, fmtInt)}</div>
+      </div>
+      <div class="tile hero">
+        <div class="tile-label">${escapeHtml(PINNED_TEAM)} · score</div>
+        <div class="tile-value">${fmtNum(me.score)}</div>
+        <div class="tile-sub">${shortWindow(me.evaluationWindow) || "–"} ${deltaChip(scoreDelta, v => fmtNum(v))}</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">Gap to rank above</div>
+        <div class="tile-value">${above ? fmtNum(above.score - me.score) : "–"}</div>
+        <div class="tile-sub">${above ? "#" + fmtInt(above.rank) + " " + escapeHtml(above.team_name) : "you're the leader"}</div>
+      </div>
+      <div class="tile">
+        <div class="tile-label">Lead over rank below</div>
+        <div class="tile-value">${below ? fmtNum(me.score - below.score) : "–"}</div>
+        <div class="tile-sub">${below ? "#" + fmtInt(below.rank) + " " + escapeHtml(below.team_name) : "–"}</div>
+      </div>`;
+  }
+  tiles += `
+    <div class="tile">
+      <div class="tile-label">Leader</div>
+      <div class="tile-value">${leader ? fmtNum(leader.score) : "–"}</div>
+      <div class="tile-sub">${leader ? escapeHtml(leader.team_name) : "–"}</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label">Submissions · last 24h</div>
+      <div class="tile-value">${fmtInt(subs24h)}</div>
+      <div class="tile-sub">across all teams</div>
+    </div>
+    <div class="tile">
+      <div class="tile-label">General round closes</div>
+      <div class="tile-value">${daysLeft}d</div>
+      <div class="tile-sub">Thu 30 July</div>
+    </div>`;
+  el.innerHTML = tiles;
+}
+
+/* ---------- leaderboard table ---------- */
+const COLUMNS = [
+  { key: "rank",        label: "Rank" },
+  { key: "team_name",   label: "Team" },
+  { key: "score",       label: "Score" },
+  { key: "_scoreDelta", label: "Δ Score" },
+  { key: "_rankDelta",  label: "Δ Rank" },
+  { key: "mean_pl",     label: "Mean P&L" },
+  { key: "std_pl",      label: "Std P&L" },
+  { key: "trade_count", label: "Trades" },
+  { key: "_window",     label: "Window" },
+  { key: "submitted_at",label: "Submitted" },
+  { key: "status",      label: "Status" },
+];
+
+function derived(t) {
+  const prev = prevOf(t);
+  return {
+    _scoreDelta: prev && prev.score != null && t.score != null ? t.score - prev.score : null,
+    _rankDelta: prev && prev.rank != null && t.rank != null ? prev.rank - t.rank : null,
+    _window: t.evaluationWindow ? (t.evaluationWindow.window_start ?? -1) : -1,
+  };
+}
+
+function renderHeader() {
+  const tr = document.getElementById("headerRow");
+  tr.innerHTML = COLUMNS.map(c => {
+    const active = state.sortKey === c.key;
+    const arrow = active ? `<span class="sort-arrow">${state.sortDir === 1 ? "▲" : "▼"}</span>` : "";
+    return `<th data-key="${c.key}">${c.label} ${arrow}</th>`;
+  }).join("");
 }
 
 function renderTable() {
+  renderHeader();
   const body = document.getElementById("leaderboardBody");
   const q = state.search.trim().toLowerCase();
-  const rows = [...state.teams]
-    .filter(t => !q || t.team_name.toLowerCase().includes(q))
-    .sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
+  let rows = state.teams.filter(t => !q || t.team_name.toLowerCase().includes(q));
+
+  rows = rows.map(t => ({ t, d: derived(t) }));
+  const key = state.sortKey, dir = state.sortDir;
+  rows.sort((a, b) => {
+    let va = key.startsWith("_") ? a.d[key] : a.t[key];
+    let vb = key.startsWith("_") ? b.d[key] : b.t[key];
+    if (key === "submitted_at") { va = va ? new Date(va).getTime() : 0; vb = vb ? new Date(vb).getTime() : 0; }
+    if (typeof va === "string") return dir * va.localeCompare(vb ?? "");
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    return dir * (va - vb);
+  });
 
   if (rows.length === 0) {
-    body.innerHTML = `<tr><td colspan="10"><div class="empty">No teams match.</div></td></tr>`;
+    body.innerHTML = `<tr><td colspan="${COLUMNS.length}"><div class="empty">No teams match.</div></td></tr>`;
     return;
   }
 
-  body.innerHTML = rows.map(t => {
-    const hist = t.history || [];
-    const prev = hist.length > 1 ? hist[hist.length - 2] : null;
-    let deltaHtml = `<span class="delta">–</span>`;
-    if (prev && prev.score !== null && t.score !== null) {
-      const d = t.score - prev.score;
-      const cls = d > 0 ? "up" : (d < 0 ? "down" : "");
-      const arrow = d > 0 ? "▲" : (d < 0 ? "▼" : "•");
-      deltaHtml = `<span class="delta ${cls}">${arrow} ${fmtNum(Math.abs(d))}</span>`;
+  const medals = { 1: "🥇", 2: "🥈", 3: "🥉" };
+  body.innerHTML = rows.map(({ t, d }) => {
+    let scoreDeltaHtml = `<span class="delta">–</span>`;
+    if (d._scoreDelta !== null) {
+      const cls = d._scoreDelta > 0 ? "up" : (d._scoreDelta < 0 ? "down" : "");
+      const arrow = d._scoreDelta > 0 ? "▲" : (d._scoreDelta < 0 ? "▼" : "•");
+      scoreDeltaHtml = `<span class="delta ${cls}">${arrow} ${fmtNum(Math.abs(d._scoreDelta))}</span>`;
+    }
+    let rankDeltaHtml = `<span class="delta">–</span>`;
+    if (d._rankDelta !== null && d._rankDelta !== 0) {
+      const cls = d._rankDelta > 0 ? "up" : "down";
+      const arrow = d._rankDelta > 0 ? "▲" : "▼";
+      rankDeltaHtml = `<span class="delta ${cls}">${arrow} ${fmtInt(Math.abs(d._rankDelta))}</span>`;
     }
     const statusCls = "status-" + (t.status || "").toLowerCase();
     const pinnedCls = t.team_name === PINNED_TEAM ? "pinned" : "";
     const isOpen = state.expanded.has(t.team_id);
+    const isLive = t.evaluationWindow && /live/i.test(t.evaluationWindow.window_name || "");
+    const medal = medals[t.rank] ? `<span class="medal">${medals[t.rank]}</span>` : "";
     const mainRow = `<tr class="${pinnedCls}">
-      <td>${fmtInt(t.rank)}</td>
+      <td>${medal}${fmtInt(t.rank)}</td>
       <td>
         <button class="expand-toggle ${isOpen ? 'open' : ''}" data-team-id="${t.team_id}" aria-label="Toggle details" aria-expanded="${isOpen}">${isOpen ? '▾' : '▸'}</button>
         <span class="team-name" data-team-id="${t.team_id}">${escapeHtml(t.team_name)}</span>
       </td>
       <td>${fmtNum(t.score)}</td>
-      <td>${deltaHtml}</td>
+      <td>${scoreDeltaHtml}</td>
+      <td>${rankDeltaHtml}</td>
       <td>${fmtNum(t.mean_pl)}</td>
       <td>${fmtNum(t.std_pl)}</td>
       <td>${fmtInt(t.trade_count)}</td>
-      <td><span class="badge">${escapeHtml(windowLabel(t.evaluationWindow)) || "–"}</span></td>
-      <td>${relTime(t.submitted_at)}</td>
+      <td><span class="badge ${isLive ? "win-live" : ""}">${escapeHtml(shortWindow(t.evaluationWindow)) || "–"}</span></td>
+      <td title="${escapeHtml(t.submitted_at || "")}">${relTime(t.submitted_at)}</td>
       <td><span class="status-badge ${statusCls}">${escapeHtml(t.status || "–")}</span></td>
     </tr>`;
     return isOpen ? mainRow + renderDetailRow(t) : mainRow;
@@ -364,19 +624,19 @@ function renderDetailRow(t) {
     ["Evaluated At", t.evaluated_at ? `${new Date(t.evaluated_at).toLocaleString()} (${relTime(t.evaluated_at)})` : "–"],
   ];
   return `<tr class="detail-row" data-team-id="${t.team_id}">
-    <td colspan="10">
+    <td colspan="${COLUMNS.length}">
       <div class="detail-grid">
         ${fields.map(([label, val]) => `<div class="detail-field"><span class="detail-label">${escapeHtml(label)}</span><span>${escapeHtml(val)}</span></div>`).join("")}
       </div>
       <div class="detail-charts">
-        <div class="detail-chart-block">
+        <div>
           <div class="detail-chart-title">Score over time</div>
           <div class="chart-wrap">
             <svg class="chart small" id="score-chart-${t.team_id}"></svg>
             <div class="tooltip" id="score-tooltip-${t.team_id}"></div>
           </div>
         </div>
-        <div class="detail-chart-block">
+        <div>
           <div class="detail-chart-title">Rank over time (lower is better)</div>
           <div class="chart-wrap">
             <svg class="chart small" id="rank-chart-${t.team_id}"></svg>
@@ -400,8 +660,7 @@ function renderExpandedDetails() {
       svg: scoreSvg,
       tooltip: document.getElementById(`score-tooltip-${teamId}`),
       series: [{ name: t.team_name, color: "var(--series-1)",
-        points: hist.filter(h => h.score !== null && h.score !== undefined)
-          .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.score })) }],
+        points: hist.filter(h => h.score != null).map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.score })) }],
       invertY: false, height: 140, marginRight: 16, directLabels: false,
       valueFormatter: v => fmtNum(v, 0),
     });
@@ -409,19 +668,14 @@ function renderExpandedDetails() {
       svg: rankSvg,
       tooltip: document.getElementById(`rank-tooltip-${teamId}`),
       series: [{ name: t.team_name, color: "var(--series-6)",
-        points: hist.filter(h => h.rank !== null && h.rank !== undefined)
-          .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.rank })) }],
+        points: hist.filter(h => h.rank != null).map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.rank })) }],
       invertY: true, height: 140, marginRight: 16, directLabels: false,
       valueFormatter: v => fmtInt(v),
     });
   });
 }
 
-function escapeHtml(s) {
-  if (s === null || s === undefined) return "";
-  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-}
-
+/* ---------- selection + main chart ---------- */
 function selectedTeams() {
   return state.teams.filter(t => state.selected.has(t.team_id))
     .sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9))
@@ -437,7 +691,7 @@ function renderLegend() {
       ${escapeHtml(t.team_name)}
     </label>`).join("") + `
     <label style="margin-left:auto; color:var(--text-muted);">
-      pick from search below · pinned: ${escapeHtml(PINNED_TEAM)}
+      pinned: ${escapeHtml(PINNED_TEAM)}
     </label>`;
 }
 
@@ -448,8 +702,7 @@ function renderChart() {
   const series = teams.map((t, i) => ({
     name: t.team_name,
     color: `var(${SERIES_COLORS[i % SERIES_COLORS.length]})`,
-    points: (t.history || [])
-      .filter(h => h.score !== null && h.score !== undefined)
+    points: (t.history || []).filter(h => h.score != null)
       .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.score })),
   }));
   drawLineChart({
@@ -459,9 +712,105 @@ function renderChart() {
   });
 }
 
-// Generic SVG line chart: one or more series of {ts, value} points, with
-// gridlines, a hover crosshair + tooltip, and direct end-of-line labels
-// when there are few enough series for them to stay legible.
+/* ---------- score distribution histogram ---------- */
+function renderHistogram() {
+  const svg = document.getElementById("histSvg");
+  const tooltip = document.getElementById("histTooltip");
+  svg.innerHTML = "";
+  const scores = state.teams.filter(t => t.score != null).map(t => t.score);
+  if (scores.length === 0) return;
+
+  const me = state.teams.find(t => t.team_name === PINNED_TEAM);
+  const W = svg.clientWidth || 400, H = 200;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const margin = { top: 12, right: 10, bottom: 24, left: 34 };
+  const innerW = W - margin.left - margin.right;
+  const innerH = H - margin.top - margin.bottom;
+
+  const min = Math.min(...scores), max = Math.max(...scores);
+  const binCount = 14;
+  const binW = (max - min) / binCount || 1;
+  const bins = Array.from({ length: binCount }, (_, i) => ({
+    lo: min + i * binW, hi: min + (i + 1) * binW, n: 0,
+  }));
+  scores.forEach(s => {
+    const idx = Math.min(binCount - 1, Math.floor((s - min) / binW));
+    bins[idx].n++;
+  });
+  const meBin = me && me.score != null ? Math.min(binCount - 1, Math.floor((me.score - min) / binW)) : -1;
+  const maxN = Math.max(...bins.map(b => b.n));
+
+  const g = document.createElementNS(CHART_NS, "g");
+  svg.appendChild(g);
+
+  // y gridlines
+  const gridCount = 3;
+  for (let i = 0; i <= gridCount; i++) {
+    const v = Math.round((i / gridCount) * maxN);
+    const y = margin.top + innerH - (v / maxN) * innerH;
+    const line = document.createElementNS(CHART_NS, "line");
+    line.setAttribute("x1", margin.left); line.setAttribute("x2", W - margin.right);
+    line.setAttribute("y1", y); line.setAttribute("y2", y);
+    line.setAttribute("class", "gridline");
+    g.appendChild(line);
+    const label = document.createElementNS(CHART_NS, "text");
+    label.setAttribute("x", margin.left - 6); label.setAttribute("y", y + 3);
+    label.setAttribute("text-anchor", "end"); label.setAttribute("class", "axis-label");
+    label.textContent = v;
+    g.appendChild(label);
+  }
+
+  const gap = 2;
+  const barW = innerW / binCount - gap;
+  const style = getComputedStyle(root);
+  bins.forEach((b, i) => {
+    const h = (b.n / maxN) * innerH;
+    const x = margin.left + i * (innerW / binCount) + gap / 2;
+    const y = margin.top + innerH - h;
+    const rect = document.createElementNS(CHART_NS, "rect");
+    rect.setAttribute("x", x); rect.setAttribute("y", y);
+    rect.setAttribute("width", Math.max(1, barW)); rect.setAttribute("height", Math.max(0, h));
+    rect.setAttribute("rx", 3);
+    rect.setAttribute("fill", i === meBin ? style.getPropertyValue("--series-3").trim() : style.getPropertyValue("--seq-mid").trim());
+    rect.addEventListener("mousemove", (evt) => {
+      const rectBox = svg.getBoundingClientRect();
+      tooltip.style.display = "block";
+      tooltip.style.left = Math.min(evt.clientX - rectBox.left + 10, W - 160) + "px";
+      tooltip.style.top = "4px";
+      tooltip.innerHTML = `<div class="t-title">${fmtNum(b.lo,0)} to ${fmtNum(b.hi,0)}</div>
+        <div class="t-row"><span>Teams</span><span>${b.n}</span></div>
+        ${i === meBin ? `<div class="t-row"><span style="color:${style.getPropertyValue("--series-3").trim()}">${escapeHtml(PINNED_TEAM)} is here</span></div>` : ""}`;
+    });
+    rect.addEventListener("mouseleave", () => { tooltip.style.display = "none"; });
+    g.appendChild(rect);
+    if (i === meBin) {
+      const label = document.createElementNS(CHART_NS, "text");
+      label.setAttribute("x", x + barW / 2); label.setAttribute("y", y - 4);
+      label.setAttribute("text-anchor", "middle"); label.setAttribute("class", "direct-label");
+      label.setAttribute("fill", style.getPropertyValue("--series-3").trim());
+      label.textContent = PINNED_TEAM;
+      g.appendChild(label);
+    }
+  });
+
+  const baseline = document.createElementNS(CHART_NS, "line");
+  baseline.setAttribute("x1", margin.left); baseline.setAttribute("x2", W - margin.right);
+  baseline.setAttribute("y1", margin.top + innerH); baseline.setAttribute("y2", margin.top + innerH);
+  baseline.setAttribute("class", "baseline");
+  g.appendChild(baseline);
+
+  [min, max].forEach((v, idx) => {
+    const label = document.createElementNS(CHART_NS, "text");
+    label.setAttribute("x", idx === 0 ? margin.left : W - margin.right);
+    label.setAttribute("y", H - 6);
+    label.setAttribute("text-anchor", idx === 0 ? "start" : "end");
+    label.setAttribute("class", "axis-label");
+    label.textContent = fmtNum(v, 0);
+    g.appendChild(label);
+  });
+}
+
+/* ---------- generic line chart ---------- */
 function drawLineChart(opts) {
   const {
     svg, tooltip, series, invertY = false, height = 320, marginRight = 90,
@@ -645,43 +994,97 @@ function drawLineChart(opts) {
   });
 }
 
+/* ---------- activity feed ---------- */
 function renderEvents() {
   const list = document.getElementById("eventsList");
-  if (state.recentEvents.length === 0) {
-    list.innerHTML = `<div class="empty">No submission activity logged yet.</div>`;
+  // hide the initial bulk "first seen" rows: they're tracker bootstrap noise, not real activity
+  const events = state.recentEvents.filter(ev =>
+    state.eventType.get(`${ev.team_id}|${ev.poll_ts}`) !== "first-seen");
+  if (events.length === 0) {
+    list.innerHTML = `<div class="empty">No submission activity since tracking began — new submissions and rank changes will appear here.</div>`;
     return;
   }
-  list.innerHTML = state.recentEvents.map(ev => `
+  list.innerHTML = events.map(ev => {
+    const type = state.eventType.get(`${ev.team_id}|${ev.poll_ts}`);
+    const tag = type === "new-sub"
+      ? `<span class="event-tag new-sub">new submission</span>`
+      : `<span class="event-tag">rank change</span>`;
+    return `
     <div class="event-row">
       <div class="event-main">
-        <span class="team-name">${escapeHtml(ev.team_name)}</span>
-        <span class="sub">rank ${fmtInt(ev.rank)} · score ${fmtNum(ev.score)} ${ev.evaluationWindow ? "· " + escapeHtml(windowLabel(ev.evaluationWindow)) : ""}</span>
+        <span class="team-name" style="cursor:default;">${escapeHtml(ev.team_name)} ${tag}</span>
+        <span class="sub">rank ${fmtInt(ev.rank)} · score ${fmtNum(ev.score)} ${ev.evaluationWindow ? "· " + escapeHtml(shortWindow(ev.evaluationWindow)) : ""}</span>
       </div>
       <span class="event-time">${relTime(ev.poll_ts)}</span>
-    </div>`).join("");
+    </div>`;
+  }).join("");
 }
 
+/* ---------- evaluation windows ---------- */
 function renderWindows() {
   const list = document.getElementById("windowsList");
   const seen = new Map();
   state.teams.forEach(t => {
     const w = t.evaluationWindow;
-    if (w && w.window_name && !seen.has(w.window_name)) seen.set(w.window_name, w);
+    if (!w || !w.window_name) return;
+    if (!seen.has(w.window_name)) seen.set(w.window_name, { w, n: 0 });
+    seen.get(w.window_name).n++;
   });
   if (seen.size === 0) {
     list.innerHTML = `<div class="empty">No evaluation window data yet.</div>`;
     return;
   }
-  list.innerHTML = [...seen.values()].map(w => `
+  const total = [...seen.values()].reduce((a, x) => a + x.n, 0);
+  list.innerHTML = [...seen.values()]
+    .sort((a, b) => (b.w.window_start ?? 0) - (a.w.window_start ?? 0))
+    .map(({ w, n }) => `
     <div class="window-row">
-      <span>${escapeHtml(w.window_name)}</span>
-      <span class="muted">days ${fmtInt(w.window_start)}–${fmtInt(w.window_end)}</span>
+      <span>${escapeHtml(w.window_name)} <span class="muted">· days ${fmtInt(w.window_start)}–${fmtInt(w.window_end)}</span></span>
+      <span class="muted">${n} teams (${Math.round(n / total * 100)}%)</span>
     </div>`).join("");
 }
 
+/* ---------- movers ---------- */
+function renderMovers() {
+  const list = document.getElementById("moversList");
+  const movers = state.teams
+    .map(t => {
+      const h = (t.history || []).filter(x => x.score != null);
+      if (h.length < 2) return null;
+      return { t, delta: h[h.length - 1].score - h[0].score, rankDelta: (h[0].rank ?? 0) - (h[h.length - 1].rank ?? 0) };
+    })
+    .filter(x => x && x.delta !== 0)
+    .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta))
+    .slice(0, 8);
+  if (movers.length === 0) {
+    list.innerHTML = `<div class="empty">No score changes tracked yet — teams appear here once they resubmit.</div>`;
+    return;
+  }
+  list.innerHTML = movers.map(({ t, delta, rankDelta }) => `
+    <div class="mover-row">
+      <span class="team-name">${escapeHtml(t.team_name)}</span>
+      <span>
+        <span class="delta ${delta > 0 ? "up" : "down"}">${delta > 0 ? "▲" : "▼"} ${fmtNum(Math.abs(delta))}</span>
+        ${rankDelta ? `<span class="muted" style="font-size:11px;"> · ${rankDelta > 0 ? "climbed" : "fell"} ${Math.abs(rankDelta)}</span>` : ""}
+      </span>
+    </div>`).join("");
+}
+
+/* ---------- interactions ---------- */
 document.getElementById("searchBox").addEventListener("input", (e) => {
   state.search = e.target.value;
   renderTable();
+  renderExpandedDetails();
+});
+
+document.getElementById("headerRow").addEventListener("click", (e) => {
+  const th = e.target.closest("th");
+  if (!th) return;
+  const key = th.dataset.key;
+  if (state.sortKey === key) state.sortDir *= -1;
+  else { state.sortKey = key; state.sortDir = key === "team_name" ? 1 : (key === "rank" ? 1 : -1); }
+  renderTable();
+  renderExpandedDetails();
 });
 
 document.getElementById("leaderboardBody").addEventListener("click", (e) => {
@@ -694,20 +1097,16 @@ document.getElementById("leaderboardBody").addEventListener("click", (e) => {
     renderExpandedDetails();
     return;
   }
-  const nameEl = e.target.closest(".team-name");
-  if (nameEl) {
+  const nameEl = e.target.closest("#leaderboardBody .team-name");
+  if (nameEl && nameEl.dataset.teamId) {
     const teamId = nameEl.dataset.teamId;
-    if (!teamId) return;
     if (state.selected.has(teamId)) state.selected.delete(teamId);
     else state.selected.add(teamId);
     renderLegend(); renderChart();
   }
 });
 
-window.addEventListener("resize", renderChart);
-
-fetchData();
-setInterval(fetchData, REFRESH_MS);
+window.addEventListener("resize", () => { renderChart(); renderHistogram(); });
 </script>
 </body>
 </html>
