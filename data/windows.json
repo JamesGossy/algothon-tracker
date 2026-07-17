@@ -1331,6 +1331,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-800A11B4": {
+"fetched_at": "2026-07-17T23:44:21.215052+00:00",
+"submission_code": "SUB-800A11B4",
+"team_id": "15b933c0-75b1-4fb7-82fa-e139a3f6af27",
+"team_name": "Hammer Time",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-8199EFE6": {
 "fetched_at": "2026-07-17T02:58:08.201487+00:00",
 "submission_code": "SUB-8199EFE6",
