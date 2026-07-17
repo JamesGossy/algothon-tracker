@@ -2006,6 +2006,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-B9FB1E70": {
+"fetched_at": "2026-07-17T23:59:26.519355+00:00",
+"submission_code": "SUB-B9FB1E70",
+"team_id": "7cb57579-845a-462e-bbf5-f62ddd0bdbaf",
+"team_name": "Team Classic",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-BA96F59E": {
 "fetched_at": "2026-07-17T02:57:54.018269+00:00",
 "submission_code": "SUB-BA96F59E",
