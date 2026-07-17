@@ -1,10 +1,11 @@
 name: Poll Algothon leaderboard
 
+# GitHub's shared cron scheduler delays and drops ticks unpredictably, so
+# instead of one poll per tick we start hourly and poll 4 times inside the
+# job (at ~0/15/30/45 min). One successful start per hour = full coverage.
 on:
   schedule:
-    # Off the :00/:15/:30/:45 marks - those slots are the most contended on
-    # GitHub's shared cron scheduler and get delayed/dropped the most.
-    - cron: "7,22,37,52 * * * *"
+    - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -17,6 +18,7 @@ concurrency:
 jobs:
   poll:
     runs-on: ubuntu-latest
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
 
@@ -24,16 +26,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: python poll_once.py
-
-      - name: Commit and push if data changed
+      - name: Poll every 15 minutes for the hour
         run: |
           git config user.name "algothon-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
-          if ! git diff --cached --quiet; then
-            git commit -m "Poll leaderboard $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          for i in 1 2 3 4; do
+            echo "=== poll $i of 4 at $(date -u +%H:%M:%SZ) ==="
+            python poll_once.py
+            git add data/
+            if ! git diff --cached --quiet; then
+              git commit -m "Poll leaderboard $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+              git pull --rebase origin main
+              git push
+            else
+              echo "No changes to commit"
+            fi
+            if [ "$i" -lt 4 ]; then sleep 900; fi
+          done
