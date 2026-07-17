@@ -179,6 +179,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-1A2A7A09": {
+"fetched_at": "2026-07-17T14:23:06.227856+00:00",
+"submission_code": "SUB-1A2A7A09",
+"team_id": "089219cf-5785-4f56-8bb9-a6c3c13b3303",
+"team_name": "Exit Liquidity",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-1A481AA8": {
 "fetched_at": "2026-07-17T02:57:59.240260+00:00",
 "submission_code": "SUB-1A481AA8",
@@ -367,6 +376,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-2F132C50": {
+"fetched_at": "2026-07-17T14:23:06.324897+00:00",
+"submission_code": "SUB-2F132C50",
+"team_id": "d3b7aac0-33af-472e-8627-0ee7234598d7",
+"team_name": "Jame Street",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-2F4F2422": {
 "fetched_at": "2026-07-17T02:57:55.570362+00:00",
