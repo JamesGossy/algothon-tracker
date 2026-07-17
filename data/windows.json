@@ -134,6 +134,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-17838947": {
+"fetched_at": "2026-07-17T06:33:22.588868+00:00",
+"submission_code": "SUB-17838947",
+"team_id": "15b933c0-75b1-4fb7-82fa-e139a3f6af27",
+"team_name": "Hammer Time",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-1A481AA8": {
 "fetched_at": "2026-07-17T02:57:59.240260+00:00",
 "submission_code": "SUB-1A481AA8",
@@ -2113,6 +2122,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-FDFB716D": {
+"fetched_at": "2026-07-17T06:33:21.743582+00:00",
+"submission_code": "SUB-FDFB716D",
+"team_id": "8930b987-84d9-454f-8886-44e58eaf3955",
+"team_name": "KANS",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
 },
 "SUB-FE9BC9F9": {
 "fetched_at": "2026-07-17T02:58:09.694097+00:00",
