@@ -881,6 +881,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-58C25D09": {
+"fetched_at": "2026-07-17T15:08:28.769713+00:00",
+"submission_code": "SUB-58C25D09",
+"team_id": "8557104f-5e32-40b3-89d8-48e79f377f9f",
+"team_name": "Los Algos Hermanos",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-5C63BAD5": {
 "fetched_at": "2026-07-17T14:08:00.440617+00:00",
 "submission_code": "SUB-5C63BAD5",
