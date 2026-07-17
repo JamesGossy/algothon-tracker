@@ -1025,6 +1025,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-64C44B69": {
+"fetched_at": "2026-07-17T19:41:36.589277+00:00",
+"submission_code": "SUB-64C44B69",
+"team_id": "06e80c1b-ad2f-4c5e-94da-e7a332293a00",
+"team_name": "Wingspan",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-64E9DF44": {
 "fetched_at": "2026-07-17T02:57:58.043510+00:00",
 "submission_code": "SUB-64E9DF44",
