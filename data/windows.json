@@ -1358,6 +1358,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A053C170": {
+"fetched_at": "2026-07-17T07:03:46.150165+00:00",
+"submission_code": "SUB-A053C170",
+"team_id": "e0c94410-e217-4794-89f4-ceca306235ba",
+"team_name": "CanDid",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-A19BC071": {
 "fetched_at": "2026-07-17T02:58:08.701152+00:00",
 "submission_code": "SUB-A19BC071",
