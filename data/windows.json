@@ -602,6 +602,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-461D9580": {
+"fetched_at": "2026-07-17T11:36:26.575746+00:00",
+"submission_code": "SUB-461D9580",
+"team_id": "b89fb826-629d-4986-9953-b74c43bbb662",
+"team_name": "3musketeers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-46DCE649": {
 "fetched_at": "2026-07-17T02:58:02.418384+00:00",
 "submission_code": "SUB-46DCE649",
@@ -1318,6 +1327,15 @@
 "submission_code": "SUB-909070CB",
 "team_id": "d46c9af9-85ad-4b55-aaa4-e902a1b65b48",
 "team_name": "Puts and Pints",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-910A020D": {
+"fetched_at": "2026-07-17T11:36:28.063624+00:00",
+"submission_code": "SUB-910A020D",
+"team_id": "211b92dd-5c3f-4110-beba-029eb1b81628",
+"team_name": "ANVI Traders",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
