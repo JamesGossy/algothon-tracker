@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: poll
@@ -43,3 +44,15 @@ jobs:
             fi
             if [ "$i" -lt 4 ]; then sleep 900; fi
           done
+
+      # GitHub's cron scheduler has proven unreliable for this repo (zero
+      # scheduled fires in its first 90 minutes), so each successful run
+      # chains the next one via workflow_dispatch - which is exempt from the
+      # GITHUB_TOKEN recursion block. The hourly cron stays as a restart
+      # mechanism if a run ever fails before chaining, and the concurrency
+      # group dedupes if both fire.
+      - name: Chain next run
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run poll.yml --ref main --repo "$GITHUB_REPOSITORY"
