@@ -395,6 +395,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3437E36C": {
+"fetched_at": "2026-07-17T11:21:10.644868+00:00",
+"submission_code": "SUB-3437E36C",
+"team_id": "d762208f-e1c0-4b65-8e71-24ee26019695",
+"team_name": "Alpha Hunters",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-34D66B6A": {
 "fetched_at": "2026-07-17T02:57:56.264176+00:00",
 "submission_code": "SUB-34D66B6A",
@@ -1304,6 +1313,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-909070CB": {
+"fetched_at": "2026-07-17T11:21:10.856105+00:00",
+"submission_code": "SUB-909070CB",
+"team_id": "d46c9af9-85ad-4b55-aaa4-e902a1b65b48",
+"team_name": "Puts and Pints",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-9240CD9D": {
 "fetched_at": "2026-07-17T02:58:08.565935+00:00",
 "submission_code": "SUB-9240CD9D",
@@ -2083,6 +2101,15 @@
 "submission_code": "SUB-E76E1455",
 "team_id": "28d870df-5e6e-4a06-bd4f-ac957f928ed7",
 "team_name": "Ace",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E7E003EF": {
+"fetched_at": "2026-07-17T11:21:10.276799+00:00",
+"submission_code": "SUB-E7E003EF",
+"team_id": "b69a4910-a8a3-4e16-9bd0-af4f165507ec",
+"team_name": "the alpha",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
