@@ -1952,6 +1952,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-FA17FAF0": {
+"fetched_at": "2026-07-17T02:39:16.077725+00:00",
+"submission_code": "SUB-FA17FAF0",
+"team_id": "5370d618-027a-4c90-b4ab-9d75c7724969",
+"team_name": "Pigeon Power",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
 "SUB-FB18D85D": {
 "fetched_at": "2026-07-17T02:58:03.749808+00:00",
 "submission_code": "SUB-FB18D85D",
