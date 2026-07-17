@@ -1907,6 +1907,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-BAEB676E": {
+"fetched_at": "2026-07-17T15:23:48.963788+00:00",
+"submission_code": "SUB-BAEB676E",
+"team_id": "e92ef1d1-dd28-4ef9-8077-6d0a19d34364",
+"team_name": "Rush Hour",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-BAF6709E": {
 "fetched_at": "2026-07-17T02:58:04.770673+00:00",
 "submission_code": "SUB-BAF6709E",
