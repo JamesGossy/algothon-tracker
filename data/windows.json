@@ -1106,6 +1106,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-8697366E": {
+"fetched_at": "2026-07-17T08:04:19.023192+00:00",
+"submission_code": "SUB-8697366E",
+"team_id": "55f1e493-9c6b-4e78-bdd2-a77fb4ab83af",
+"team_name": "abc123",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-87AB4987": {
 "fetched_at": "2026-07-17T02:58:09.226658+00:00",
 "submission_code": "SUB-87AB4987",
