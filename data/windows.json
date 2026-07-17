@@ -287,6 +287,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-2BB00791": {
+"fetched_at": "2026-07-17T12:06:40.425643+00:00",
+"submission_code": "SUB-2BB00791",
+"team_id": "c3d0357b-3453-4c2a-ac95-722d744180ae",
+"team_name": "Clankers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-2BE53D9B": {
 "fetched_at": "2026-07-17T02:57:57.508242+00:00",
 "submission_code": "SUB-2BE53D9B",
@@ -1354,6 +1363,15 @@
 "submission_code": "SUB-910A020D",
 "team_id": "211b92dd-5c3f-4110-beba-029eb1b81628",
 "team_name": "ANVI Traders",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9228F8EB": {
+"fetched_at": "2026-07-17T12:06:39.216981+00:00",
+"submission_code": "SUB-9228F8EB",
+"team_id": "dd604c87-bfbe-4d5f-81a5-44cad6edb19a",
+"team_name": "The Lord of the Returns",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
