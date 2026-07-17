@@ -1430,6 +1430,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-936ECA9B": {
+"fetched_at": "2026-07-17T13:07:29.366832+00:00",
+"submission_code": "SUB-936ECA9B",
+"team_id": "b4aab663-e796-45fc-9aa7-b3fa58c4576e",
+"team_name": "A Solid C++",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-9451D0B4": {
 "fetched_at": "2026-07-17T02:58:02.833220+00:00",
 "submission_code": "SUB-9451D0B4",
