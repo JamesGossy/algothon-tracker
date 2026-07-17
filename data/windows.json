@@ -953,6 +953,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-7331F534": {
+"fetched_at": "2026-07-17T08:19:23.927466+00:00",
+"submission_code": "SUB-7331F534",
+"team_id": "c57909fc-812b-40a7-a4bb-53e397db6108",
+"team_name": "Three Big Guys",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-73A01F24": {
 "fetched_at": "2026-07-17T02:58:01.813329+00:00",
 "submission_code": "SUB-73A01F24",
