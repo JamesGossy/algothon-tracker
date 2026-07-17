@@ -1,0 +1,2009 @@
+{
+"SUB-01235CDB": {
+"fetched_at": "2026-07-17T02:58:00.597891+00:00",
+"submission_code": "SUB-01235CDB",
+"team_id": "2eb973b2-9db3-4769-80b2-70e5daa72015",
+"team_name": "Big A",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-01C1D983": {
+"fetched_at": "2026-07-17T02:58:04.861112+00:00",
+"submission_code": "SUB-01C1D983",
+"team_id": "12ceeeb0-cedb-4524-b6ea-4f20e700f397",
+"team_name": "Great Court Gains",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-03C24174": {
+"fetched_at": "2026-07-17T02:58:06.798802+00:00",
+"submission_code": "SUB-03C24174",
+"team_id": "55fb9ade-fd94-4014-927c-800957a4c603",
+"team_name": "Sydney Quant Traders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-06073EE8": {
+"fetched_at": "2026-07-17T02:58:06.449430+00:00",
+"submission_code": "SUB-06073EE8",
+"team_id": "06be41a1-2580-41c5-87ef-3bfeace8516d",
+"team_name": "Mingimum Risk",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-0787EF0F": {
+"fetched_at": "2026-07-17T02:57:53.656825+00:00",
+"submission_code": "SUB-0787EF0F",
+"team_id": "8557104f-5e32-40b3-89d8-48e79f377f9f",
+"team_name": "Los Algos Hermanos",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-09B13B35": {
+"fetched_at": "2026-07-17T02:58:05.087649+00:00",
+"submission_code": "SUB-09B13B35",
+"team_id": "23674fa4-f1cc-451b-86e8-60ad0ce5dd68",
+"team_name": "sorrywilson",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-0A19D80A": {
+"fetched_at": "2026-07-17T02:58:00.391950+00:00",
+"submission_code": "SUB-0A19D80A",
+"team_id": "c0d27f62-68cb-4c33-a9eb-61c4e592c095",
+"team_name": "Pokies",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-0E25456E": {
+"fetched_at": "2026-07-17T02:57:59.702763+00:00",
+"submission_code": "SUB-0E25456E",
+"team_id": "b6271555-c556-4d1a-b77d-085f0fd5a87c",
+"team_name": "Markov Monkeys",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-0E3C64DB": {
+"fetched_at": "2026-07-17T02:57:58.911293+00:00",
+"submission_code": "SUB-0E3C64DB",
+"team_id": "211b92dd-5c3f-4110-beba-029eb1b81628",
+"team_name": "ANVI Traders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-10DF4BEF": {
+"fetched_at": "2026-07-17T02:58:08.085205+00:00",
+"submission_code": "SUB-10DF4BEF",
+"team_id": "231f7e82-23b0-4b7c-8c17-8eb3a6fae3b3",
+"team_name": "Dream Times",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-112E8DE1": {
+"fetched_at": "2026-07-17T02:58:00.396617+00:00",
+"submission_code": "SUB-112E8DE1",
+"team_id": "3be66365-242b-44e3-b968-54586f5f6d0c",
+"team_name": "Monopoly",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-14862D19": {
+"fetched_at": "2026-07-17T02:58:06.318407+00:00",
+"submission_code": "SUB-14862D19",
+"team_id": "f74512ff-2951-46e5-aac5-13c282011824",
+"team_name": "mathlarpers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-15039D7A": {
+"fetched_at": "2026-07-17T02:58:00.801488+00:00",
+"submission_code": "SUB-15039D7A",
+"team_id": "28333ef4-76f6-4369-943f-70df09d2d312",
+"team_name": "Tundra-wawa",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-1A481AA8": {
+"fetched_at": "2026-07-17T02:57:59.240260+00:00",
+"submission_code": "SUB-1A481AA8",
+"team_id": "c4b9d83c-1016-4e71-86c5-28f45f903647",
+"team_name": "Rocks",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-1B362A37": {
+"fetched_at": "2026-07-17T02:57:56.609531+00:00",
+"submission_code": "SUB-1B362A37",
+"team_id": "aaf37404-4682-4fa8-88b4-986d7f3cb56b",
+"team_name": "Hecs Debt Collectors",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-1CD05261": {
+"fetched_at": "2026-07-17T02:58:02.212901+00:00",
+"submission_code": "SUB-1CD05261",
+"team_id": "ec5916e3-1c60-4bad-a02f-9a34e0dc0546",
+"team_name": "emaN maeT",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-1DBACA37": {
+"fetched_at": "2026-07-17T02:57:55.111741+00:00",
+"submission_code": "SUB-1DBACA37",
+"team_id": "23d83370-ed6e-47b8-a8d4-ba91b54b3a0b",
+"team_name": "OJ Trading",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-1FBB8925": {
+"fetched_at": "2026-07-17T02:58:07.295972+00:00",
+"submission_code": "SUB-1FBB8925",
+"team_id": "df125088-866e-4213-8406-73787d2bf8e8",
+"team_name": "Risk Mismanagers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2066CC9B": {
+"fetched_at": "2026-07-17T02:58:01.510050+00:00",
+"submission_code": "SUB-2066CC9B",
+"team_id": "e1fb2ed0-dc6f-4244-b43a-87f8194164e9",
+"team_name": "chatgpt warriors",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2196701B": {
+"fetched_at": "2026-07-17T02:58:04.148444+00:00",
+"submission_code": "SUB-2196701B",
+"team_id": "dcf9ec89-a2e0-477b-916d-586a8f2b2af5",
+"team_name": "CQS O(NaN)",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-21E755A0": {
+"fetched_at": "2026-07-17T02:58:06.208412+00:00",
+"submission_code": "SUB-21E755A0",
+"team_id": "8548d486-210d-4176-8147-3567aad258d0",
+"team_name": "YCR",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-2480E3A9": {
+"fetched_at": "2026-07-17T02:58:06.132080+00:00",
+"submission_code": "SUB-2480E3A9",
+"team_id": "875544f0-f851-4c68-80bb-16f6f840e8d3",
+"team_name": "Overfit Anonymous",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-255401A5": {
+"fetched_at": "2026-07-17T02:58:04.300002+00:00",
+"submission_code": "SUB-255401A5",
+"team_id": "2d70a0c8-3d25-4060-be52-e3ad1279308e",
+"team_name": "The Dutch",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-277C9562": {
+"fetched_at": "2026-07-17T02:58:06.697828+00:00",
+"submission_code": "SUB-277C9562",
+"team_id": "8db37742-d81b-420f-bdb9-1d95320f26b2",
+"team_name": "Hindsight Advisory",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2B71D164": {
+"fetched_at": "2026-07-17T02:58:02.729139+00:00",
+"submission_code": "SUB-2B71D164",
+"team_id": "598d1aa4-8555-47cf-b499-3414934ebdab",
+"team_name": "Citadel 2.0",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-2BE53D9B": {
+"fetched_at": "2026-07-17T02:57:57.508242+00:00",
+"submission_code": "SUB-2BE53D9B",
+"team_id": "f43c0431-aa11-4284-8365-51a8e8b345aa",
+"team_name": "RegardedTraders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2C9AB24A": {
+"fetched_at": "2026-07-17T02:57:56.919299+00:00",
+"submission_code": "SUB-2C9AB24A",
+"team_id": "06e80c1b-ad2f-4c5e-94da-e7a332293a00",
+"team_name": "Wingspan",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-2D7E3D71": {
+"fetched_at": "2026-07-17T02:57:56.835787+00:00",
+"submission_code": "SUB-2D7E3D71",
+"team_id": "f9a279aa-1de5-409e-bb86-7b94174ec72b",
+"team_name": "SSS",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2E60B8B0": {
+"fetched_at": "2026-07-17T02:57:55.876971+00:00",
+"submission_code": "SUB-2E60B8B0",
+"team_id": "8ede41dc-347c-4cc8-89b3-771bf1e9cf42",
+"team_name": "jaiden hanwool",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2ECD0B15": {
+"fetched_at": "2026-07-17T02:57:56.638561+00:00",
+"submission_code": "SUB-2ECD0B15",
+"team_id": "d3b7aac0-33af-472e-8627-0ee7234598d7",
+"team_name": "Jame Street",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-2EE1EED6": {
+"fetched_at": "2026-07-17T02:58:00.905882+00:00",
+"submission_code": "SUB-2EE1EED6",
+"team_id": "0cf1be42-5382-4d0d-8fa1-a4e06df62cc5",
+"team_name": "Queen Street Bets",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2F4F2422": {
+"fetched_at": "2026-07-17T02:57:55.570362+00:00",
+"submission_code": "SUB-2F4F2422",
+"team_id": "9e6641aa-d53d-4cca-b57a-f01b2e4d4efa",
+"team_name": "larp larp larp sahur",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2F5D6812": {
+"fetched_at": "2026-07-17T02:58:07.642403+00:00",
+"submission_code": "SUB-2F5D6812",
+"team_id": "36e0dc46-4ee5-48fb-af2e-a7483c22390b",
+"team_name": "Nikkei Traders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-2FE7737A": {
+"fetched_at": "2026-07-17T02:57:59.965984+00:00",
+"submission_code": "SUB-2FE7737A",
+"team_id": "2aae3b84-608b-41b0-8dbc-24c5d616dfc7",
+"team_name": "Monte Claudo",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-313157BE": {
+"fetched_at": "2026-07-17T02:58:01.017188+00:00",
+"submission_code": "SUB-313157BE",
+"team_id": "c3a55c38-92fb-434d-ad73-8e27ec93927e",
+"team_name": "NoTouchGrass",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-32F582AA": {
+"fetched_at": "2026-07-17T02:57:58.862668+00:00",
+"submission_code": "SUB-32F582AA",
+"team_id": "cf1c6d91-8c95-41f4-80cb-b9a65d6cc449",
+"team_name": "USUK",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-3318C0A1": {
+"fetched_at": "2026-07-17T02:58:03.143935+00:00",
+"submission_code": "SUB-3318C0A1",
+"team_id": "5370d618-027a-4c90-b4ab-9d75c7724969",
+"team_name": "Pigeon Power",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-34D66B6A": {
+"fetched_at": "2026-07-17T02:57:56.264176+00:00",
+"submission_code": "SUB-34D66B6A",
+"team_id": "01d08239-712f-454d-a2cd-cd45af08527c",
+"team_name": "TokenMaxers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-35E7F641": {
+"fetched_at": "2026-07-17T02:58:08.479988+00:00",
+"submission_code": "SUB-35E7F641",
+"team_id": "aa61d23d-753d-4ec6-b9a2-1c80121c9bcb",
+"team_name": "ball knowers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-35F0BB64": {
+"fetched_at": "2026-07-17T02:58:03.759123+00:00",
+"submission_code": "SUB-35F0BB64",
+"team_id": "42f0fe3d-c807-4e92-b784-1902c000ccd1",
+"team_name": "jgdiff",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-37653A98": {
+"fetched_at": "2026-07-17T02:58:05.151464+00:00",
+"submission_code": "SUB-37653A98",
+"team_id": "809cf6b5-1692-4c22-97d6-cb2a9c2cf50f",
+"team_name": "The Financiers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-39F6FAC4": {
+"fetched_at": "2026-07-17T02:57:56.631192+00:00",
+"submission_code": "SUB-39F6FAC4",
+"team_id": "494778d9-d58c-47fd-ab18-63028e6681a3",
+"team_name": "Blackboard",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-3A14FA67": {
+"fetched_at": "2026-07-17T02:58:00.025311+00:00",
+"submission_code": "SUB-3A14FA67",
+"team_id": "ddf4c430-6edc-4587-a844-abbd761b1c94",
+"team_name": "Sharpe Shooters",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-3A763BA1": {
+"fetched_at": "2026-07-17T02:58:03.409992+00:00",
+"submission_code": "SUB-3A763BA1",
+"team_id": "0fd6d927-4086-48dd-9287-2355b1ea3796",
+"team_name": "Sig Seven",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-3AD7DD5C": {
+"fetched_at": "2026-07-17T02:57:56.176975+00:00",
+"submission_code": "SUB-3AD7DD5C",
+"team_id": "d698ef11-55d9-43aa-8ff2-101b6de006bf",
+"team_name": "AlgoAlgo",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-3ADF76B3": {
+"fetched_at": "2026-07-17T02:57:54.212873+00:00",
+"submission_code": "SUB-3ADF76B3",
+"team_id": "8930b987-84d9-454f-8886-44e58eaf3955",
+"team_name": "KANS",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-3C0DA5DD": {
+"fetched_at": "2026-07-17T02:58:09.407474+00:00",
+"submission_code": "SUB-3C0DA5DD",
+"team_id": "42f61e8e-0f61-45d2-9f24-fb61501bacf8",
+"team_name": "Optimus Prime",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-40B8D4E7": {
+"fetched_at": "2026-07-17T02:58:06.804318+00:00",
+"submission_code": "SUB-40B8D4E7",
+"team_id": "6178ede8-7ade-45d2-aca7-23dc5d7dda2e",
+"team_name": "SkibiLarpers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-40C6C948": {
+"fetched_at": "2026-07-17T02:58:05.573016+00:00",
+"submission_code": "SUB-40C6C948",
+"team_id": "e9749390-6187-47dd-8c5f-babf9cbee0bb",
+"team_name": "Guers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-40F76A49": {
+"fetched_at": "2026-07-17T02:58:09.659425+00:00",
+"submission_code": "SUB-40F76A49",
+"team_id": "edfbc65a-fc49-4a9c-89cb-a869d9eb0df3",
+"team_name": "#1 uni larp",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-410CBE3F": {
+"fetched_at": "2026-07-17T02:58:05.121623+00:00",
+"submission_code": "SUB-410CBE3F",
+"team_id": "34a12949-c8dc-445d-961e-9e52b67b34ef",
+"team_name": "Curry & Rice",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-4179BA66": {
+"fetched_at": "2026-07-17T02:58:03.880133+00:00",
+"submission_code": "SUB-4179BA66",
+"team_id": "f179c019-8fe9-4021-b8f1-c611d6e5e4f7",
+"team_name": "XOR",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-42EED968": {
+"fetched_at": "2026-07-17T02:58:01.939160+00:00",
+"submission_code": "SUB-42EED968",
+"team_id": "7eefb374-0756-410a-9a93-b0ec25ec9519",
+"team_name": "no limit to the larp",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-43ED7957": {
+"fetched_at": "2026-07-17T02:58:09.558835+00:00",
+"submission_code": "SUB-43ED7957",
+"team_id": "a3a8a023-e92b-4933-83b3-2b6600de31b1",
+"team_name": "The Quant Knights",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-43FECCB6": {
+"fetched_at": "2026-07-17T02:57:56.808204+00:00",
+"submission_code": "SUB-43FECCB6",
+"team_id": "9c52e094-e5fb-4450-a113-2ae071de940a",
+"team_name": "Eric Allen Le",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-442E0F33": {
+"fetched_at": "2026-07-17T02:58:03.718667+00:00",
+"submission_code": "SUB-442E0F33",
+"team_id": "158af8be-bad6-48dc-b809-98dc5b1b2e47",
+"team_name": "Halliday",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-46DCE649": {
+"fetched_at": "2026-07-17T02:58:02.418384+00:00",
+"submission_code": "SUB-46DCE649",
+"team_id": "4d9f7d89-5ec4-4d97-a731-e712dfcf7c2d",
+"team_name": "Noyakka",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-4703CE06": {
+"fetched_at": "2026-07-17T02:57:57.868859+00:00",
+"submission_code": "SUB-4703CE06",
+"team_id": "68cc2de0-069d-41b5-b612-b262ed6c961a",
+"team_name": "King's Gambit",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-483BDA47": {
+"fetched_at": "2026-07-17T02:57:55.244175+00:00",
+"submission_code": "SUB-483BDA47",
+"team_id": "887aaacc-2e63-4a6d-9c7c-39bd25ae3f15",
+"team_name": "Capital Gains",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-48638EBE": {
+"fetched_at": "2026-07-17T02:58:05.424829+00:00",
+"submission_code": "SUB-48638EBE",
+"team_id": "65f91483-b812-411d-add0-a81f9a841c7c",
+"team_name": "setwithfriends",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-4AC60848": {
+"fetched_at": "2026-07-17T02:57:55.955784+00:00",
+"submission_code": "SUB-4AC60848",
+"team_id": "75190571-1a41-446d-9176-67f78758074f",
+"team_name": "Ping Capital",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-4BC7A484": {
+"fetched_at": "2026-07-17T02:58:01.722151+00:00",
+"submission_code": "SUB-4BC7A484",
+"team_id": "dfbe2719-e9c0-42aa-a63a-2816ca646030",
+"team_name": "Algoholics",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-4DCB04D1": {
+"fetched_at": "2026-07-17T02:57:55.503834+00:00",
+"submission_code": "SUB-4DCB04D1",
+"team_id": "0a445daf-55df-4068-9f3e-7886ba11667c",
+"team_name": "Arbitrage Victims",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-4E1DBDAA": {
+"fetched_at": "2026-07-17T02:57:59.872097+00:00",
+"submission_code": "SUB-4E1DBDAA",
+"team_id": "60227a2d-97f2-435c-bd9f-74d4bcabc924",
+"team_name": "Big YUAN",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-4E6E8380": {
+"fetched_at": "2026-07-17T02:58:02.203978+00:00",
+"submission_code": "SUB-4E6E8380",
+"team_id": "089219cf-5785-4f56-8bb9-a6c3c13b3303",
+"team_name": "Exit Liquidity",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-518D279E": {
+"fetched_at": "2026-07-17T02:58:09.185315+00:00",
+"submission_code": "SUB-518D279E",
+"team_id": "82f8a67a-6489-4c20-b562-208359265e3c",
+"team_name": "ADHKWTYO",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-5231C850": {
+"fetched_at": "2026-07-17T02:57:59.199783+00:00",
+"submission_code": "SUB-5231C850",
+"team_id": "e5b60bc3-e343-496c-86fd-95a8e7c9ff2f",
+"team_name": "Waystar capital",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-53192111": {
+"fetched_at": "2026-07-17T02:57:55.260805+00:00",
+"submission_code": "SUB-53192111",
+"team_id": "7980c9ca-620b-4643-817e-0d848f811d3a",
+"team_name": "Knights Templar",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-536274A7": {
+"fetched_at": "2026-07-17T02:58:03.747404+00:00",
+"submission_code": "SUB-536274A7",
+"team_id": "9266a393-ab85-4711-ac19-25ef66016961",
+"team_name": "they call me bud cus im wiser",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-55EA4E3F": {
+"fetched_at": "2026-07-17T02:58:07.531760+00:00",
+"submission_code": "SUB-55EA4E3F",
+"team_id": "079a6e0a-b321-4e9a-8790-c20290824e0a",
+"team_name": "SNK",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-5844175F": {
+"fetched_at": "2026-07-17T02:58:07.849944+00:00",
+"submission_code": "SUB-5844175F",
+"team_id": "d2ed7ccc-9da7-45f6-9219-13dddaa4e502",
+"team_name": "sudo pacman -S opsec",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-584BA252": {
+"fetched_at": "2026-07-17T02:57:58.970334+00:00",
+"submission_code": "SUB-584BA252",
+"team_id": "4921eb70-4145-4f78-b83a-18c24bca9f20",
+"team_name": "FPGA Engineers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-588C0FED": {
+"fetched_at": "2026-07-17T02:58:07.606360+00:00",
+"submission_code": "SUB-588C0FED",
+"team_id": "0e82075c-e475-438c-a8b2-198479b34594",
+"team_name": "TMHS",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-5D555797": {
+"fetched_at": "2026-07-17T02:57:54.869584+00:00",
+"submission_code": "SUB-5D555797",
+"team_id": "e8a4ffdd-7645-472d-8cff-1b12b6cc115a",
+"team_name": "DC KB",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-5ED7C4D9": {
+"fetched_at": "2026-07-17T02:58:07.179332+00:00",
+"submission_code": "SUB-5ED7C4D9",
+"team_id": "d27ce9e3-9867-4c9c-beca-4da374e0f8a4",
+"team_name": "Team 7",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-5F66FB01": {
+"fetched_at": "2026-07-17T02:58:07.141746+00:00",
+"submission_code": "SUB-5F66FB01",
+"team_id": "b2740d0c-ef5b-4fe5-86fe-4fc07240c677",
+"team_name": "Coup",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-5FD4993F": {
+"fetched_at": "2026-07-17T02:58:09.675032+00:00",
+"submission_code": "SUB-5FD4993F",
+"team_id": "dd604c87-bfbe-4d5f-81a5-44cad6edb19a",
+"team_name": "The Lord of the Returns",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-60EA4EE8": {
+"fetched_at": "2026-07-17T02:57:54.744748+00:00",
+"submission_code": "SUB-60EA4EE8",
+"team_id": "6710fbcc-6625-4722-989f-5e6f5d8ffc3f",
+"team_name": "Duo Dual Function",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-6351474F": {
+"fetched_at": "2026-07-17T02:58:09.513818+00:00",
+"submission_code": "SUB-6351474F",
+"team_id": "fbb5faa4-36a8-4632-8aa1-aedd84d8caaa",
+"team_name": "Jerome Powell is our saviour",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-638DFF82": {
+"fetched_at": "2026-07-17T02:58:04.561956+00:00",
+"submission_code": "SUB-638DFF82",
+"team_id": "d1c741c1-7471-4819-aae1-e139515c115b",
+"team_name": "gainzalgo v3 edge",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-6486ADA2": {
+"fetched_at": "2026-07-17T02:58:07.935258+00:00",
+"submission_code": "SUB-6486ADA2",
+"team_id": "ff5515a4-6213-4b2e-a71e-e5badd4423d4",
+"team_name": "Triple T",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-64E9DF44": {
+"fetched_at": "2026-07-17T02:57:58.043510+00:00",
+"submission_code": "SUB-64E9DF44",
+"team_id": "7e1813f9-45ca-4149-b700-05dbde7d4065",
+"team_name": "njz please comeback",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-666489A2": {
+"fetched_at": "2026-07-17T02:58:04.433040+00:00",
+"submission_code": "SUB-666489A2",
+"team_id": "12429a60-cb62-4140-9071-25912b4070e0",
+"team_name": "KingTonka",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-66BB24D7": {
+"fetched_at": "2026-07-17T02:57:56.063220+00:00",
+"submission_code": "SUB-66BB24D7",
+"team_id": "dc211ce6-ec4e-4455-8af6-2bb4b8f0c74d",
+"team_name": "DHMS Trading Inc",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-66BB548B": {
+"fetched_at": "2026-07-17T02:58:07.422091+00:00",
+"submission_code": "SUB-66BB548B",
+"team_id": "dad07739-1b9d-4f22-82b2-5c909f11e59f",
+"team_name": "Quant Larpers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-6726A31B": {
+"fetched_at": "2026-07-17T02:58:01.807463+00:00",
+"submission_code": "SUB-6726A31B",
+"team_id": "7797219b-db49-4832-baee-24a9056825cf",
+"team_name": "TraderHabibs",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-6757EFB8": {
+"fetched_at": "2026-07-17T02:58:03.821197+00:00",
+"submission_code": "SUB-6757EFB8",
+"team_id": "075cec4b-9c63-4d4a-a4d3-c89eeb924169",
+"team_name": "Mara Sov's Twilight Gap",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-675D6187": {
+"fetched_at": "2026-07-17T02:58:08.619238+00:00",
+"submission_code": "SUB-675D6187",
+"team_id": "a2f8545f-41c9-40f7-b150-0766eac849b7",
+"team_name": "squirrels",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-6760BAAA": {
+"fetched_at": "2026-07-17T02:58:04.206725+00:00",
+"submission_code": "SUB-6760BAAA",
+"team_id": "08d4f959-3747-4578-b962-e5d3cad16c4f",
+"team_name": "Walking Devs",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-68112B37": {
+"fetched_at": "2026-07-17T02:57:57.322243+00:00",
+"submission_code": "SUB-68112B37",
+"team_id": "5606986c-7d01-4512-bbb1-1be620ff3683",
+"team_name": "Wolf of George Street",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-6BB82BCB": {
+"fetched_at": "2026-07-17T02:57:57.183101+00:00",
+"submission_code": "SUB-6BB82BCB",
+"team_id": "aba1f33a-ae09-4717-8308-70520a7a39bf",
+"team_name": "Three Sigma",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-6C308385": {
+"fetched_at": "2026-07-17T02:58:00.679658+00:00",
+"submission_code": "SUB-6C308385",
+"team_id": "15b933c0-75b1-4fb7-82fa-e139a3f6af27",
+"team_name": "Hammer Time",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-710C4B08": {
+"fetched_at": "2026-07-17T02:57:58.715517+00:00",
+"submission_code": "SUB-710C4B08",
+"team_id": "4b857a04-29f4-42db-a7a4-5efbc80c3c61",
+"team_name": "Django Unchained (2012)",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-71DC51BC": {
+"fetched_at": "2026-07-17T02:57:54.627024+00:00",
+"submission_code": "SUB-71DC51BC",
+"team_id": "d8d21c8a-6c7f-44f9-aa98-3c87dad4ffae",
+"team_name": "Axion Labs",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7206BB0D": {
+"fetched_at": "2026-07-17T02:58:04.145042+00:00",
+"submission_code": "SUB-7206BB0D",
+"team_id": "99962af7-a1e1-4cea-9f42-7f3eabe704e7",
+"team_name": "MARJinal Gains",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-73A01F24": {
+"fetched_at": "2026-07-17T02:58:01.813329+00:00",
+"submission_code": "SUB-73A01F24",
+"team_id": "b69a4910-a8a3-4e16-9bd0-af4f165507ec",
+"team_name": "the alpha",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-74BCDF3C": {
+"fetched_at": "2026-07-17T02:58:01.735321+00:00",
+"submission_code": "SUB-74BCDF3C",
+"team_id": "b5372b35-ef37-4bf2-bda8-6b4bc2449c4a",
+"team_name": "Taleous",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-75026FEB": {
+"fetched_at": "2026-07-17T02:58:03.380237+00:00",
+"submission_code": "SUB-75026FEB",
+"team_id": "ead254b4-1205-420f-8217-5d4782a68c63",
+"team_name": "Granuki",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-76D7FDF6": {
+"fetched_at": "2026-07-17T02:58:00.885498+00:00",
+"submission_code": "SUB-76D7FDF6",
+"team_id": "a5a90afb-b65d-412f-a1fa-15ac9137dd74",
+"team_name": "cheah",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-77FBF74D": {
+"fetched_at": "2026-07-17T02:58:06.125422+00:00",
+"submission_code": "SUB-77FBF74D",
+"team_id": "ea1568e4-1853-48be-a871-216e7b9fe8dd",
+"team_name": "Dynamic Duo",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-795379E2": {
+"fetched_at": "2026-07-17T02:57:56.530314+00:00",
+"submission_code": "SUB-795379E2",
+"team_id": "e3b7309f-1712-482d-b707-3321cdc3a4e4",
+"team_name": "Hearts",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7A1F3592": {
+"fetched_at": "2026-07-17T02:58:01.345886+00:00",
+"submission_code": "SUB-7A1F3592",
+"team_id": "c16c60ad-1a80-4525-b994-0d5895500d7a",
+"team_name": "vibecode warriors",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7B101705": {
+"fetched_at": "2026-07-17T02:57:57.656148+00:00",
+"submission_code": "SUB-7B101705",
+"team_id": "4f1624f3-824f-49dc-b09f-d3f4cf1d8042",
+"team_name": "SIG Janitors",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-7B899F31": {
+"fetched_at": "2026-07-17T02:57:59.176158+00:00",
+"submission_code": "SUB-7B899F31",
+"team_id": "c32ebeef-7b85-4eec-bfc2-d20827929bf2",
+"team_name": "Julian.McKenzie95",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-7D03B4B0": {
+"fetched_at": "2026-07-17T02:57:57.654321+00:00",
+"submission_code": "SUB-7D03B4B0",
+"team_id": "1531aca8-6f3c-4166-8e3c-64e96997940c",
+"team_name": "+xp",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7F5CE348": {
+"fetched_at": "2026-07-17T02:58:06.889450+00:00",
+"submission_code": "SUB-7F5CE348",
+"team_id": "b6e0328a-010a-452d-b967-2933c60eb4a1",
+"team_name": "ShadowDonkeyKong",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-8199EFE6": {
+"fetched_at": "2026-07-17T02:58:08.201487+00:00",
+"submission_code": "SUB-8199EFE6",
+"team_id": "2df23a1e-146a-4dd3-80e9-82b618e5b022",
+"team_name": "KN",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-824E27FE": {
+"fetched_at": "2026-07-17T02:58:07.489193+00:00",
+"submission_code": "SUB-824E27FE",
+"team_id": "3b5ead06-0534-4a81-bffa-702bb602a87a",
+"team_name": "Band of the Hawk",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-82C25AD1": {
+"fetched_at": "2026-07-17T02:57:59.607703+00:00",
+"submission_code": "SUB-82C25AD1",
+"team_id": "e1547a0b-c3ec-40da-9c70-d7874cfe099d",
+"team_name": "The Three Musketeers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-836A94F2": {
+"fetched_at": "2026-07-17T02:58:08.588230+00:00",
+"submission_code": "SUB-836A94F2",
+"team_id": "63f5ddbf-72cb-4b82-a78d-f423e1d00d4b",
+"team_name": "Scrabble",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-86209988": {
+"fetched_at": "2026-07-17T02:57:58.992315+00:00",
+"submission_code": "SUB-86209988",
+"team_id": "2922a905-1afd-4e0f-9684-de10363abe6f",
+"team_name": "four sigmas",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-87AB4987": {
+"fetched_at": "2026-07-17T02:58:09.226658+00:00",
+"submission_code": "SUB-87AB4987",
+"team_id": "b4ea4651-3ec0-486b-aeb9-a266a38293e5",
+"team_name": "GO ALL IN",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8945CC3F": {
+"fetched_at": "2026-07-17T02:58:02.336593+00:00",
+"submission_code": "SUB-8945CC3F",
+"team_id": "22b95abc-bada-4ffc-af3c-19268bf67abd",
+"team_name": "Baseline",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-8A06E548": {
+"fetched_at": "2026-07-17T02:57:59.381194+00:00",
+"submission_code": "SUB-8A06E548",
+"team_id": "e0c94410-e217-4794-89f4-ceca306235ba",
+"team_name": "CanDid",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8A573F65": {
+"fetched_at": "2026-07-17T02:58:05.124767+00:00",
+"submission_code": "SUB-8A573F65",
+"team_id": "d76a2aba-6450-45b4-85d8-2093e2371ded",
+"team_name": "Larp Sharpe",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8A9ECDB6": {
+"fetched_at": "2026-07-17T02:58:06.539023+00:00",
+"submission_code": "SUB-8A9ECDB6",
+"team_id": "d289b968-d1a2-4b2a-b7a4-f1e204a6dd00",
+"team_name": "All In",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-8B3E3195": {
+"fetched_at": "2026-07-17T02:58:03.469311+00:00",
+"submission_code": "SUB-8B3E3195",
+"team_id": "89dae99e-bcbe-4145-ad86-9db5e99af82d",
+"team_name": "7^3",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-8B51AA18": {
+"fetched_at": "2026-07-17T02:57:59.394992+00:00",
+"submission_code": "SUB-8B51AA18",
+"team_id": "144ace6e-727e-4e4e-b698-4faaf51a1827",
+"team_name": "MDJ",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8BABBEB1": {
+"fetched_at": "2026-07-17T02:58:06.562572+00:00",
+"submission_code": "SUB-8BABBEB1",
+"team_id": "002b33f3-93a1-495b-bd85-abfc285bdb56",
+"team_name": "finding_sigma",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8CFC7896": {
+"fetched_at": "2026-07-17T02:58:06.704412+00:00",
+"submission_code": "SUB-8CFC7896",
+"team_id": "9397db1c-ce41-489b-936c-342a70d2ae34",
+"team_name": "Citadel Securities",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8DEB2F11": {
+"fetched_at": "2026-07-17T02:57:54.115119+00:00",
+"submission_code": "SUB-8DEB2F11",
+"team_id": "f99dc6e2-561f-4fdb-afd8-63e615d507c4",
+"team_name": "Zero Alpha",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8E492C21": {
+"fetched_at": "2026-07-17T02:57:58.403115+00:00",
+"submission_code": "SUB-8E492C21",
+"team_id": "2e2f41e0-6819-46d9-a59d-22a0951afd37",
+"team_name": "67",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-8E78D97A": {
+"fetched_at": "2026-07-17T02:58:08.728919+00:00",
+"submission_code": "SUB-8E78D97A",
+"team_id": "05a45d10-dee2-4bba-9cfe-8a5457d4c8f2",
+"team_name": "kimsclub",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8EADE5E2": {
+"fetched_at": "2026-07-17T02:58:09.545372+00:00",
+"submission_code": "SUB-8EADE5E2",
+"team_id": "ae74cff1-3dd6-4635-a3db-c3089ba4d5ca",
+"team_name": "Beta breakers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-8FAE4A84": {
+"fetched_at": "2026-07-17T02:58:05.770138+00:00",
+"submission_code": "SUB-8FAE4A84",
+"team_id": "ef31ac1b-4225-4793-9e33-d1d6c5a1ebba",
+"team_name": "SIG",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-9240CD9D": {
+"fetched_at": "2026-07-17T02:58:08.565935+00:00",
+"submission_code": "SUB-9240CD9D",
+"team_id": "97929762-4634-4149-86f0-e8383fc8e137",
+"team_name": "cloudplayer",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-928EA984": {
+"fetched_at": "2026-07-17T02:58:07.666634+00:00",
+"submission_code": "SUB-928EA984",
+"team_id": "b17099f3-3919-4411-84db-8613ca02b11f",
+"team_name": "Alpha Leak",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9451D0B4": {
+"fetched_at": "2026-07-17T02:58:02.833220+00:00",
+"submission_code": "SUB-9451D0B4",
+"team_id": "9cf93b75-08d0-444f-83ab-a28e84a60c30",
+"team_name": "Nexus Destroyers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-95876242": {
+"fetched_at": "2026-07-17T02:57:57.417572+00:00",
+"submission_code": "SUB-95876242",
+"team_id": "71515d42-dd39-471d-ad19-78b598a10ec5",
+"team_name": "TeamColombo",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-98272EB1": {
+"fetched_at": "2026-07-17T02:58:05.689159+00:00",
+"submission_code": "SUB-98272EB1",
+"team_id": "8c46076d-5d48-4ebe-b90c-bb7525153bfc",
+"team_name": "Fig Tree Capital",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-99C81237": {
+"fetched_at": "2026-07-17T02:57:58.657309+00:00",
+"submission_code": "SUB-99C81237",
+"team_id": "3e79e967-bb43-4069-aba1-2f240cc42e27",
+"team_name": "Epic Blenders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-9AB69BCA": {
+"fetched_at": "2026-07-17T02:58:04.126874+00:00",
+"submission_code": "SUB-9AB69BCA",
+"team_id": "82b4cf2b-3ea2-41d4-a351-690a19938f73",
+"team_name": "OverfitMaxxed",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-9ACB0367": {
+"fetched_at": "2026-07-17T02:57:58.235040+00:00",
+"submission_code": "SUB-9ACB0367",
+"team_id": "360b2685-12bf-41d1-a3cb-2f403e53bfe2",
+"team_name": "Bluff",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9B408E6B": {
+"fetched_at": "2026-07-17T02:58:05.477274+00:00",
+"submission_code": "SUB-9B408E6B",
+"team_id": "929a7316-c49b-44f8-89e7-fc9a283e62b3",
+"team_name": "Lean Mean Algo Machine",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-9BBA7984": {
+"fetched_at": "2026-07-17T02:58:04.728744+00:00",
+"submission_code": "SUB-9BBA7984",
+"team_id": "4d4e1859-f204-4377-949f-75c7840e1040",
+"team_name": "Codeblooded",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9C7FBF13": {
+"fetched_at": "2026-07-17T02:57:58.190878+00:00",
+"submission_code": "SUB-9C7FBF13",
+"team_id": "67b57c63-04e9-4cc0-b137-92f063eadb6d",
+"team_name": "The miners",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9E036F5B": {
+"fetched_at": "2026-07-17T02:57:58.142101+00:00",
+"submission_code": "SUB-9E036F5B",
+"team_id": "d762208f-e1c0-4b65-8e71-24ee26019695",
+"team_name": "Alpha Hunters",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9FDE7866": {
+"fetched_at": "2026-07-17T02:58:05.117114+00:00",
+"submission_code": "SUB-9FDE7866",
+"team_id": "6ec8679a-bd3c-4eb1-a0c9-827d9ff40cd1",
+"team_name": "Stack Overflowers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-A033E811": {
+"fetched_at": "2026-07-17T02:57:58.479684+00:00",
+"submission_code": "SUB-A033E811",
+"team_id": "01f73c43-b136-46eb-badf-f3a3ea956cb2",
+"team_name": "Tiya",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A19BC071": {
+"fetched_at": "2026-07-17T02:58:08.701152+00:00",
+"submission_code": "SUB-A19BC071",
+"team_id": "78020047-dfa7-423b-b7ec-e8abdcbe19d1",
+"team_name": "Coding Crackheads",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A20973B7": {
+"fetched_at": "2026-07-17T02:58:01.203140+00:00",
+"submission_code": "SUB-A20973B7",
+"team_id": "7cb57579-845a-462e-bbf5-f62ddd0bdbaf",
+"team_name": "Team Classic",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A2DE5ACF": {
+"fetched_at": "2026-07-17T02:58:01.433015+00:00",
+"submission_code": "SUB-A2DE5ACF",
+"team_id": "74210303-d929-4f1d-8de7-873dfcee328f",
+"team_name": "Kumar Dhananjaya Shivanna",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-A3524478": {
+"fetched_at": "2026-07-17T02:58:08.823033+00:00",
+"submission_code": "SUB-A3524478",
+"team_id": "f5f72aa6-1204-4fd6-9b70-1e5ddfb025a0",
+"team_name": "UNSW Tea and Coffee Society",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A400CB6C": {
+"fetched_at": "2026-07-17T02:58:00.232545+00:00",
+"submission_code": "SUB-A400CB6C",
+"team_id": "c57909fc-812b-40a7-a4bb-53e397db6108",
+"team_name": "Three Big Guys",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A553C26D": {
+"fetched_at": "2026-07-17T02:57:56.521454+00:00",
+"submission_code": "SUB-A553C26D",
+"team_id": "54d9cc82-2223-4816-8ad9-ee5ace91baff",
+"team_name": "Frontier Markets",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A73BAF77": {
+"fetched_at": "2026-07-17T02:58:03.301765+00:00",
+"submission_code": "SUB-A73BAF77",
+"team_id": "2a62175b-a225-4b8a-a729-bf8e9edd41e4",
+"team_name": "Fuhuhluhtoogan",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A741828D": {
+"fetched_at": "2026-07-17T02:58:01.846125+00:00",
+"submission_code": "SUB-A741828D",
+"team_id": "45e35ed7-3a23-4205-a3fc-6588baca980c",
+"team_name": "Texas Hold'em",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A88182EE": {
+"fetched_at": "2026-07-17T02:58:05.265233+00:00",
+"submission_code": "SUB-A88182EE",
+"team_id": "a5487454-e86e-4586-aaba-e662e1143d01",
+"team_name": "kanye's disciples",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A92903DF": {
+"fetched_at": "2026-07-17T02:58:09.835341+00:00",
+"submission_code": "SUB-A92903DF",
+"team_id": "76e76842-e0b5-4878-9648-a135118ba44d",
+"team_name": "raveenfanclub",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-A9CE7328": {
+"fetched_at": "2026-07-17T02:58:05.833731+00:00",
+"submission_code": "SUB-A9CE7328",
+"team_id": "bf6f4c03-8fd0-4c3f-8932-c14c43e4346b",
+"team_name": "E = mc^2 + ai",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-AAE16A85": {
+"fetched_at": "2026-07-17T02:57:59.456385+00:00",
+"submission_code": "SUB-AAE16A85",
+"team_id": "d7ebbc54-bee6-48a5-859d-a2e333ccdc32",
+"team_name": "caringbah quant traders",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-AC512D39": {
+"fetched_at": "2026-07-17T02:58:04.367620+00:00",
+"submission_code": "SUB-AC512D39",
+"team_id": "c77c0160-a7ad-4bf1-9c2c-3528856e52ad",
+"team_name": "QuantOrDie",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-AD818755": {
+"fetched_at": "2026-07-17T02:58:07.175193+00:00",
+"submission_code": "SUB-AD818755",
+"team_id": "481a0d93-d516-4b8b-a458-48681230f8ec",
+"team_name": "AlgoHack",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-ADAE9B8C": {
+"fetched_at": "2026-07-17T02:57:59.909205+00:00",
+"submission_code": "SUB-ADAE9B8C",
+"team_id": "afff46a7-8f71-4f9f-86a2-1abb3eaf9c69",
+"team_name": "EKTV",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-ADCD6F94": {
+"fetched_at": "2026-07-17T02:58:04.466155+00:00",
+"submission_code": "SUB-ADCD6F94",
+"team_id": "b4aab663-e796-45fc-9aa7-b3fa58c4576e",
+"team_name": "A Solid C++",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-AE7581B9": {
+"fetched_at": "2026-07-17T02:58:09.778519+00:00",
+"submission_code": "SUB-AE7581B9",
+"team_id": "b73fce42-d4fd-4aa8-aac2-9c7dffb93bf4",
+"team_name": "newbie",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-AF1CAE8F": {
+"fetched_at": "2026-07-17T02:58:08.128964+00:00",
+"submission_code": "SUB-AF1CAE8F",
+"team_id": "b173d673-41f9-4681-bbdb-57968c58638a",
+"team_name": "PURESIGMA",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-AFB869B8": {
+"fetched_at": "2026-07-17T02:57:54.040007+00:00",
+"submission_code": "SUB-AFB869B8",
+"team_id": "2020465f-1755-4a0f-a12d-83a27fdab11f",
+"team_name": "Linkedin Larpers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-AFEFEE1C": {
+"fetched_at": "2026-07-17T02:58:02.923078+00:00",
+"submission_code": "SUB-AFEFEE1C",
+"team_id": "f9d7232a-dbc9-4075-a14c-7929c14e49b7",
+"team_name": "SilverFlag",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-B242A168": {
+"fetched_at": "2026-07-17T02:58:08.503321+00:00",
+"submission_code": "SUB-B242A168",
+"team_id": "d8ab6024-d815-4703-b7d0-2c9b1896ee2c",
+"team_name": "Guess Who?",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-B2FE14DE": {
+"fetched_at": "2026-07-17T02:58:02.505234+00:00",
+"submission_code": "SUB-B2FE14DE",
+"team_id": "ceb75468-3270-4c3b-b2e6-b1eff64df87e",
+"team_name": "cycling",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-B33CB7AE": {
+"fetched_at": "2026-07-17T02:58:03.230394+00:00",
+"submission_code": "SUB-B33CB7AE",
+"team_id": "927b4351-05d5-4c3f-9559-9c6692a184bb",
+"team_name": "Sigmoid",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-B4268921": {
+"fetched_at": "2026-07-17T02:58:06.068005+00:00",
+"submission_code": "SUB-B4268921",
+"team_id": "fea35a35-9dc2-44f0-941f-ad1bdf9ed244",
+"team_name": "Pink Fluffy Dumplings",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-B550B83F": {
+"fetched_at": "2026-07-17T02:57:58.032207+00:00",
+"submission_code": "SUB-B550B83F",
+"team_id": "f32861c7-8d70-4867-afee-996eaed69ee7",
+"team_name": "print[\"how to code\"]",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-B57B2FD1": {
+"fetched_at": "2026-07-17T02:58:06.395628+00:00",
+"submission_code": "SUB-B57B2FD1",
+"team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
+"team_name": "the DESTination",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-BA96F59E": {
+"fetched_at": "2026-07-17T02:57:54.018269+00:00",
+"submission_code": "SUB-BA96F59E",
+"team_id": "e92ef1d1-dd28-4ef9-8077-6d0a19d34364",
+"team_name": "Rush Hour",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-BAF6709E": {
+"fetched_at": "2026-07-17T02:58:04.770673+00:00",
+"submission_code": "SUB-BAF6709E",
+"team_id": "db13b291-3e9f-439e-87d4-ac62803d8fb3",
+"team_name": "GitRichQuick",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-BB2472D4": {
+"fetched_at": "2026-07-17T02:57:54.473954+00:00",
+"submission_code": "SUB-BB2472D4",
+"team_id": "3251bf5b-ab00-47d3-a7ff-c8965c0b312f",
+"team_name": "Disciples of Claude",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-BCB0C9DE": {
+"fetched_at": "2026-07-17T02:58:06.677739+00:00",
+"submission_code": "SUB-BCB0C9DE",
+"team_id": "972d1320-7508-4e04-a4f1-cfe55939a777",
+"team_name": "Three Stooges",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-BCF921E4": {
+"fetched_at": "2026-07-17T02:57:54.017851+00:00",
+"submission_code": "SUB-BCF921E4",
+"team_id": "81dec5b9-5c08-4a0d-8980-8ab9d3eb0183",
+"team_name": "Ivan & Haowen",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-BDB2FEC4": {
+"fetched_at": "2026-07-17T02:58:02.285703+00:00",
+"submission_code": "SUB-BDB2FEC4",
+"team_id": "424a4af3-5018-4e91-9417-77d00321189c",
+"team_name": "Buy Low Sell High",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-BDE653ED": {
+"fetched_at": "2026-07-17T02:57:58.036118+00:00",
+"submission_code": "SUB-BDE653ED",
+"team_id": "d46c9af9-85ad-4b55-aaa4-e902a1b65b48",
+"team_name": "Puts and Pints",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C0274115": {
+"fetched_at": "2026-07-17T02:57:57.048162+00:00",
+"submission_code": "SUB-C0274115",
+"team_id": "f25455fc-daee-4c04-9616-0d71c5537e17",
+"team_name": "MSAM",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C0BF21A2": {
+"fetched_at": "2026-07-17T02:57:54.744461+00:00",
+"submission_code": "SUB-C0BF21A2",
+"team_id": "51036c65-61e7-4ee0-89d5-f8e510f5ecb2",
+"team_name": "Print(money)",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C2A1CA52": {
+"fetched_at": "2026-07-17T02:58:02.425122+00:00",
+"submission_code": "SUB-C2A1CA52",
+"team_id": "b89fb826-629d-4986-9953-b74c43bbb662",
+"team_name": "3musketeers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-C3798500": {
+"fetched_at": "2026-07-17T02:58:02.781350+00:00",
+"submission_code": "SUB-C3798500",
+"team_id": "0653a73b-e467-4673-80e0-087cc2f4528d",
+"team_name": "The Market Makers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C3BC30F5": {
+"fetched_at": "2026-07-17T02:58:01.251255+00:00",
+"submission_code": "SUB-C3BC30F5",
+"team_id": "817bbd4a-6561-46b7-a9ff-c34cf153909c",
+"team_name": "vibing voltures",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C3D8777D": {
+"fetched_at": "2026-07-17T02:58:00.365275+00:00",
+"submission_code": "SUB-C3D8777D",
+"team_id": "0b7fa7da-2138-48d9-ba15-538c5cde7aae",
+"team_name": "Four of A Kind",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-C41EBC99": {
+"fetched_at": "2026-07-17T02:57:58.879026+00:00",
+"submission_code": "SUB-C41EBC99",
+"team_id": "399908c9-4a67-4430-8f28-3028c77b0825",
+"team_name": "Overfitters",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C572730D": {
+"fetched_at": "2026-07-17T02:58:09.282219+00:00",
+"submission_code": "SUB-C572730D",
+"team_id": "924770c2-b910-4e8f-89f5-7cf2f39f5fda",
+"team_name": "Schuylkill Captial",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C82E007A": {
+"fetched_at": "2026-07-17T02:57:57.676843+00:00",
+"submission_code": "SUB-C82E007A",
+"team_id": "d0115864-0e80-4f9b-acb5-d0a873424622",
+"team_name": "Sigma0",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-CA308C84": {
+"fetched_at": "2026-07-17T02:58:08.190656+00:00",
+"submission_code": "SUB-CA308C84",
+"team_id": "c638819d-2997-4390-917d-6731ba3c43c5",
+"team_name": "The Dark Knights",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-CBFE8DE6": {
+"fetched_at": "2026-07-17T02:58:09.456906+00:00",
+"submission_code": "SUB-CBFE8DE6",
+"team_id": "bddd0ea6-1d78-43ea-8e05-a4bc5f2cb589",
+"team_name": "The Silliest Cat",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-CD770227": {
+"fetched_at": "2026-07-17T02:58:00.344508+00:00",
+"submission_code": "SUB-CD770227",
+"team_id": "7a959f1b-abb7-4b69-be5d-56bfe7111860",
+"team_name": "Table Trading",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-CDE176E7": {
+"fetched_at": "2026-07-17T02:58:03.583709+00:00",
+"submission_code": "SUB-CDE176E7",
+"team_id": "6549b525-f9d4-458f-8872-e244c4a4c062",
+"team_name": "Diamonds",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-CE5C604C": {
+"fetched_at": "2026-07-17T02:57:59.408603+00:00",
+"submission_code": "SUB-CE5C604C",
+"team_id": "5292dc9e-bbd0-4fc3-9ad5-1887d445b04f",
+"team_name": "Negative Alpha",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-CE80786C": {
+"fetched_at": "2026-07-17T02:57:54.475157+00:00",
+"submission_code": "SUB-CE80786C",
+"team_id": "c02291f8-c134-4802-a2f9-07eccaf86093",
+"team_name": "Jatt Street",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-CEF1073F": {
+"fetched_at": "2026-07-17T02:58:07.777856+00:00",
+"submission_code": "SUB-CEF1073F",
+"team_id": "57d1223d-78c1-4eef-8ae7-3b87fea2a430",
+"team_name": "JADL Funds",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D1ADA9E1": {
+"fetched_at": "2026-07-17T02:58:00.420260+00:00",
+"submission_code": "SUB-D1ADA9E1",
+"team_id": "8318bcbd-838f-44eb-902f-32b7e673a644",
+"team_name": "Quantify",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D27E3B36": {
+"fetched_at": "2026-07-17T02:57:59.433769+00:00",
+"submission_code": "SUB-D27E3B36",
+"team_id": "d2cf32e9-ba0c-4266-8b3e-9eface7341cd",
+"team_name": "Lebnan",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D2A5DECD": {
+"fetched_at": "2026-07-17T02:58:08.686635+00:00",
+"submission_code": "SUB-D2A5DECD",
+"team_id": "97d5a725-4a7c-42b0-8b1a-f148f458b65d",
+"team_name": "cao_frequency_trading",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-D2DF9842": {
+"fetched_at": "2026-07-17T02:57:56.496390+00:00",
+"submission_code": "SUB-D2DF9842",
+"team_id": "217e1ce6-53a0-481c-ac09-fcd673fd33c6",
+"team_name": "Claude Opus 4.8",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-D31795EE": {
+"fetched_at": "2026-07-17T02:58:09.472578+00:00",
+"submission_code": "SUB-D31795EE",
+"team_id": "daeccf61-c1cf-4f88-a889-377b7c9a4189",
+"team_name": "MLEbourne",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-D374028D": {
+"fetched_at": "2026-07-17T02:58:07.488925+00:00",
+"submission_code": "SUB-D374028D",
+"team_id": "41703f92-a576-425d-b8c4-0f48ca5c7e5c",
+"team_name": "Knicks in 5",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D3CCC7D6": {
+"fetched_at": "2026-07-17T02:58:05.748604+00:00",
+"submission_code": "SUB-D3CCC7D6",
+"team_id": "b52c119f-a37f-4690-85f8-452b2bca3d0d",
+"team_name": "Team NCR",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D570FEAB": {
+"fetched_at": "2026-07-17T02:58:03.200081+00:00",
+"submission_code": "SUB-D570FEAB",
+"team_id": "6c4d4475-99e8-4463-9d7c-f4be65b05fb1",
+"team_name": "Seven Deuce Brownies",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-D6C438B8": {
+"fetched_at": "2026-07-17T02:58:01.173055+00:00",
+"submission_code": "SUB-D6C438B8",
+"team_id": "65d37cd5-4e1c-4555-9115-b4f7ed5547c3",
+"team_name": "Significant Losses v2",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-D90082F3": {
+"fetched_at": "2026-07-17T02:57:57.996829+00:00",
+"submission_code": "SUB-D90082F3",
+"team_id": "44401cda-f157-4c5d-8076-a2f66031d0bf",
+"team_name": "I'm going to quit",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-DA314977": {
+"fetched_at": "2026-07-17T02:58:08.430600+00:00",
+"submission_code": "SUB-DA314977",
+"team_id": "af5acc76-3232-470d-ad19-b764cb9671be",
+"team_name": "FortniteLegendz",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-DE9B0AB8": {
+"fetched_at": "2026-07-17T02:58:05.817845+00:00",
+"submission_code": "SUB-DE9B0AB8",
+"team_id": "f08238a6-0009-4043-9927-7fa4272168d0",
+"team_name": "SigAlgoteam",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-DF059B3C": {
+"fetched_at": "2026-07-17T02:58:05.701703+00:00",
+"submission_code": "SUB-DF059B3C",
+"team_id": "5c2ba76b-8665-48af-8c4c-4818e30c5d6d",
+"team_name": "Big Boys",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-DFFBD626": {
+"fetched_at": "2026-07-17T02:57:55.589331+00:00",
+"submission_code": "SUB-DFFBD626",
+"team_id": "55f1e493-9c6b-4e78-bdd2-a77fb4ab83af",
+"team_name": "abc123",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-E1BA4733": {
+"fetched_at": "2026-07-17T02:57:55.854538+00:00",
+"submission_code": "SUB-E1BA4733",
+"team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
+"team_name": "SYD2AKL",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E76E1455": {
+"fetched_at": "2026-07-17T02:58:04.780695+00:00",
+"submission_code": "SUB-E76E1455",
+"team_id": "28d870df-5e6e-4a06-bd4f-ac957f928ed7",
+"team_name": "Ace",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E854DB2B": {
+"fetched_at": "2026-07-17T02:57:54.025586+00:00",
+"submission_code": "SUB-E854DB2B",
+"team_id": "f933d72a-b86c-46fa-a817-62a149f13bf4",
+"team_name": "JAF",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-E8A67B23": {
+"fetched_at": "2026-07-17T02:58:01.370135+00:00",
+"submission_code": "SUB-E8A67B23",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E94FF13F": {
+"fetched_at": "2026-07-17T02:57:55.813692+00:00",
+"submission_code": "SUB-E94FF13F",
+"team_id": "3b454400-370b-4b63-8fd2-23cb447ed539",
+"team_name": "Inertia",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-EBEA12BE": {
+"fetched_at": "2026-07-17T02:58:00.199868+00:00",
+"submission_code": "SUB-EBEA12BE",
+"team_id": "85b9de46-201d-4d00-b901-dfac612c2391",
+"team_name": "2much alpha",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-ED7A08DD": {
+"fetched_at": "2026-07-17T02:57:57.502035+00:00",
+"submission_code": "SUB-ED7A08DD",
+"team_id": "9f7578a5-c648-4928-872a-b03abe0a79c5",
+"team_name": "The overfitters",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F15D1DBD": {
+"fetched_at": "2026-07-17T02:58:02.521305+00:00",
+"submission_code": "SUB-F15D1DBD",
+"team_id": "4cdae5fb-92a4-47c0-90dc-e9ee963332e6",
+"team_name": "ATC",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F2DEED0D": {
+"fetched_at": "2026-07-17T02:57:57.905900+00:00",
+"submission_code": "SUB-F2DEED0D",
+"team_id": "33899ce5-d6c1-4456-8889-f7cb8b2b0a5c",
+"team_name": "Crank the Money Machine",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-F2FB3BAD": {
+"fetched_at": "2026-07-17T02:58:04.780417+00:00",
+"submission_code": "SUB-F2FB3BAD",
+"team_id": "b53273b1-6c34-40bf-8607-c95108f34748",
+"team_name": "Double or Nothing",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F520ABDA": {
+"fetched_at": "2026-07-17T02:58:03.484449+00:00",
+"submission_code": "SUB-F520ABDA",
+"team_id": "dfc7b655-67fe-445a-8dbc-91b9d55662d9",
+"team_name": "Sudoku",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F7399CBF": {
+"fetched_at": "2026-07-17T02:58:00.754455+00:00",
+"submission_code": "SUB-F7399CBF",
+"team_id": "f8b923a7-fec9-4089-b8f3-50c7477d67e7",
+"team_name": "HGG",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F7D5246A": {
+"fetched_at": "2026-07-17T02:58:02.794739+00:00",
+"submission_code": "SUB-F7D5246A",
+"team_id": "81cb1da9-f168-4abc-b1f7-ff2c28c4786e",
+"team_name": "Minick",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F94D51A3": {
+"fetched_at": "2026-07-17T02:58:01.385397+00:00",
+"submission_code": "SUB-F94D51A3",
+"team_id": "b734a68b-39ba-4cff-83df-379ee418bc56",
+"team_name": "i Friends",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-F9FC6FEB": {
+"fetched_at": "2026-07-17T02:57:55.135515+00:00",
+"submission_code": "SUB-F9FC6FEB",
+"team_id": "08da4296-9056-44d8-8468-365f75882536",
+"team_name": "PathwayToPR",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-FB18D85D": {
+"fetched_at": "2026-07-17T02:58:03.749808+00:00",
+"submission_code": "SUB-FB18D85D",
+"team_id": "c3d0357b-3453-4c2a-ac95-722d744180ae",
+"team_name": "Clankers",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-FC7F1ED1": {
+"fetched_at": "2026-07-17T02:58:05.535139+00:00",
+"submission_code": "SUB-FC7F1ED1",
+"team_id": "a4e89a50-d222-48bb-8356-9340adc05f31",
+"team_name": "Chuot co Tui",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-FCEAF0CF": {
+"fetched_at": "2026-07-17T02:58:03.164002+00:00",
+"submission_code": "SUB-FCEAF0CF",
+"team_id": "aac259dc-bb28-4b0d-9c17-324f2d83b610",
+"team_name": "Med Students",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-FDDFB995": {
+"fetched_at": "2026-07-17T02:58:09.134609+00:00",
+"submission_code": "SUB-FDDFB995",
+"team_id": "72f8781c-8367-4dd1-b705-f04c1a4e7623",
+"team_name": "SJAI",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-FE9BC9F9": {
+"fetched_at": "2026-07-17T02:58:09.694097+00:00",
+"submission_code": "SUB-FE9BC9F9",
+"team_id": "8aee7d81-3a4b-4044-9087-3ec236eb30a9",
+"team_name": "sqrt(Hargun)",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+},
+"SUB-FFC755ED": {
+"fetched_at": "2026-07-17T02:58:08.784989+00:00",
+"submission_code": "SUB-FFC755ED",
+"team_id": "f4e5d5eb-35f6-490f-9660-42b897ae9763",
+"team_name": "Tom's Team",
+"window_end": 749,
+"window_name": "training_round",
+"window_start": 500
+}
+}

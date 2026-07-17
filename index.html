@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Algothon Leaderboard Tracker</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --grid:           #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --good:           #006300;
+    --critical:       #d03b3b;
+    --warning:        #fab219;
+    --series-1: #2a78d6; --series-2: #1baf7a; --series-3: #eda100; --series-4: #008300;
+    --series-5: #4a3aa7; --series-6: #e34948; --series-7: #e87ba4; --series-8: #eb6834;
+    --pin-glow: rgba(42,120,214,0.12);
+  }
+  html.dark {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --grid:           #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --good:           #0ca30c;
+    --critical:       #e66767;
+    --warning:        #fab219;
+    --series-1: #3987e5; --series-2: #199e70; --series-3: #c98500; --series-4: #008300;
+    --series-5: #9085e9; --series-6: #e66767; --series-7: #d55181; --series-8: #d95926;
+    --pin-glow: rgba(57,135,229,0.16);
+  }
+  @media (prefers-color-scheme: dark) {
+    html:not(.light):not(.dark) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --grid:           #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --good:           #0ca30c;
+      --critical:       #e66767;
+      --warning:        #fab219;
+      --series-1: #3987e5; --series-2: #199e70; --series-3: #c98500; --series-4: #008300;
+      --series-5: #9085e9; --series-6: #e66767; --series-7: #d55181; --series-8: #d95926;
+      --pin-glow: rgba(57,135,229,0.16);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--page);
+    color: var(--text-primary);
+    padding: 20px 24px 60px;
+  }
+  a { color: inherit; }
+  h1 { font-size: 20px; margin: 0; }
+  h2 { font-size: 15px; margin: 0 0 12px; color: var(--text-primary); }
+  .sub { color: var(--text-secondary); font-size: 13px; }
+  .muted { color: var(--text-muted); }
+  .top-row {
+    display: flex; align-items: flex-start; justify-content: space-between;
+    gap: 16px; margin-bottom: 18px; flex-wrap: wrap;
+  }
+  .status-line { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-top: 4px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); display: inline-block; }
+  .dot.stale { background: var(--warning); }
+  .dot.down { background: var(--critical); }
+  button.toggle {
+    border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+    border-radius: 6px; padding: 6px 10px; font-size: 12px; cursor: pointer;
+  }
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 18px; margin-bottom: 18px;
+  }
+  input[type="text"] {
+    background: var(--surface-1); border: 1px solid var(--border); color: var(--text-primary);
+    border-radius: 6px; padding: 6px 10px; font-size: 13px; width: 220px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: right; padding: 6px 8px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+  thead th { color: var(--text-muted); font-weight: 500; border-bottom: 1px solid var(--grid); font-size: 11px; text-transform: uppercase; letter-spacing: .03em; }
+  tbody tr { border-bottom: 1px solid var(--grid); }
+  tbody tr.pinned { background: var(--pin-glow); }
+  tbody tr:hover { background: var(--border); }
+  .team-name { font-weight: 500; cursor: pointer; }
+  .badge {
+    display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 100px;
+    border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap;
+  }
+  .delta { font-size: 12px; font-variant-numeric: tabular-nums; }
+  .delta.up { color: var(--good); }
+  .delta.down { color: var(--critical); }
+  .status-badge { font-size: 11px; padding: 2px 7px; border-radius: 100px; }
+  .status-completed { color: var(--good); }
+  .status-failed, .status-error { color: var(--critical); }
+  .status-pending, .status-running { color: var(--warning); }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; font-size: 12px; }
+  .legend label { display: flex; align-items: center; gap: 5px; cursor: pointer; color: var(--text-secondary); }
+  .legend .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .chart-wrap { position: relative; }
+  svg.chart { width: 100%; height: 320px; display: block; overflow: visible; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .baseline { stroke: var(--baseline); stroke-width: 1; }
+  .series-line { fill: none; stroke-width: 2; }
+  .series-dot { stroke: var(--surface-1); stroke-width: 2; }
+  .axis-label { fill: var(--text-muted); font-size: 10px; }
+  .direct-label { font-size: 11px; font-weight: 500; }
+  .tooltip {
+    position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    display: none; z-index: 10; min-width: 140px;
+  }
+  .tooltip .t-title { color: var(--text-muted); font-size: 10px; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .03em; }
+  .tooltip .t-row { display: flex; justify-content: space-between; gap: 12px; font-variant-numeric: tabular-nums; }
+  .crosshair { stroke: var(--baseline); stroke-width: 1; stroke-dasharray: 3 3; }
+  .events-list { max-height: 360px; overflow-y: auto; font-size: 13px; }
+  .event-row { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--grid); }
+  .event-row:last-child { border-bottom: none; }
+  .event-main { display: flex; flex-direction: column; gap: 2px; }
+  .event-time { color: var(--text-muted); font-size: 11px; white-space: nowrap; text-align: right; }
+  .windows-list { display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+  .window-row { display: flex; justify-content: space-between; gap: 10px; }
+  .two-col { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; align-items: start; }
+  @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+  .empty { color: var(--text-muted); font-size: 13px; padding: 20px 0; text-align: center; }
+  .expand-toggle {
+    background: none; border: none; cursor: pointer; color: var(--text-muted);
+    font-size: 11px; padding: 0 4px 0 0; width: 16px;
+  }
+  .expand-toggle.open { color: var(--text-primary); }
+  .detail-row td { background: var(--page); padding: 16px 18px; white-space: normal; }
+  .detail-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px 20px; margin-bottom: 18px;
+  }
+  .detail-field { display: flex; flex-direction: column; gap: 2px; }
+  .detail-label { font-size: 10px; text-transform: uppercase; letter-spacing: .03em; color: var(--text-muted); }
+  .detail-field span:last-child { font-variant-numeric: tabular-nums; font-size: 13px; }
+  .detail-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 700px) { .detail-charts { grid-template-columns: 1fr; } }
+  .detail-chart-title { font-size: 12px; color: var(--text-secondary); margin-bottom: 6px; }
+  svg.chart.small { height: 140px; }
+</style>
+</head>
+<body>
+
+<div class="top-row">
+  <div>
+    <h1>Algothon Leaderboard Tracker</h1>
+    <div class="status-line">
+      <span class="dot" id="statusDot"></span>
+      <span class="sub" id="statusText">connecting…</span>
+    </div>
+  </div>
+  <button class="toggle" id="themeToggle">Toggle theme</button>
+</div>
+
+<div class="card">
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px;">
+    <h2 style="margin:0;">Leaderboard</h2>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <span class="muted" style="font-size:12px;">click ▸ to expand a team's details · click a team name to add/remove it from the chart above</span>
+      <input type="text" id="searchBox" placeholder="Filter teams…" />
+    </div>
+  </div>
+  <div style="overflow-x:auto;">
+    <table id="leaderboardTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team</th>
+          <th>Score</th>
+          <th>Δ Score</th>
+          <th>Mean P&amp;L</th>
+          <th>Std P&amp;L</th>
+          <th>Trades</th>
+          <th>Window</th>
+          <th>Submitted</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="leaderboardBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="card">
+    <h2>Score over time</h2>
+    <div class="legend" id="chartLegend"></div>
+    <div class="chart-wrap">
+      <svg class="chart" id="chartSvg"></svg>
+      <div class="tooltip" id="chartTooltip"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Evaluation windows seen</h2>
+    <div class="windows-list" id="windowsList"></div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Recent submission activity</h2>
+  <div class="events-list" id="eventsList"></div>
+</div>
+
+<script>
+const PINNED_TEAM = "DC KB";
+const SERIES_COLORS = ["--series-1","--series-2","--series-3","--series-4","--series-5","--series-6","--series-7","--series-8"];
+const MAX_SELECTED = 8;
+// Data is committed by a GitHub Actions workflow every ~15 minutes, not
+// served live - polling the static file more often than that just adds
+// requests for no new information.
+const REFRESH_MS = 60000;
+
+const CHART_NS = "http://www.w3.org/2000/svg";
+let state = { teams: [], recentEvents: [], selected: new Set(), expanded: new Set(), search: "" };
+
+const root = document.documentElement;
+const themeToggle = document.getElementById("themeToggle");
+themeToggle.addEventListener("click", () => {
+  if (root.classList.contains("dark")) { root.classList.remove("dark"); root.classList.add("light"); }
+  else if (root.classList.contains("light")) { root.classList.remove("light"); root.classList.add("dark"); }
+  else { root.classList.add("dark"); }
+});
+
+function fmtNum(n, digits=2) {
+  if (n === null || n === undefined || Number.isNaN(n)) return "–";
+  return Number(n).toLocaleString(undefined, { minimumFractionDigits: digits, maximumFractionDigits: digits });
+}
+function fmtInt(n) {
+  if (n === null || n === undefined) return "–";
+  return Math.round(Number(n)).toLocaleString();
+}
+function relTime(iso) {
+  if (!iso) return "–";
+  const d = new Date(iso);
+  const diffMs = Date.now() - d.getTime();
+  const s = Math.floor(diffMs / 1000);
+  if (s < 60) return `${s}s ago`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}h ago`;
+  const days = Math.floor(h / 24);
+  return `${days}d ago`;
+}
+function windowLabel(w) {
+  if (!w || !w.window_name) return "";
+  const range = (w.window_start != null && w.window_end != null) ? ` (${w.window_start}-${w.window_end})` : "";
+  return `${w.window_name}${range}`;
+}
+
+async function fetchData() {
+  try {
+    const res = await fetch(`./data/latest.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    onData(data);
+    document.getElementById("statusDot").className = "dot";
+    document.getElementById("statusText").textContent =
+      `${data.teams.length} teams · data updated ${data.lastPoll ? relTime(data.lastPoll.poll_ts) : "never"} (polls every ~15 min)`;
+  } catch (err) {
+    document.getElementById("statusDot").className = "dot stale";
+    document.getElementById("statusText").textContent = "couldn't load data/latest.json: " + err.message;
+  }
+}
+
+function onData(data) {
+  state.teams = data.teams || [];
+  state.recentEvents = data.recentEvents || [];
+
+  if (state.selected.size === 0) {
+    const byRank = [...state.teams].sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
+    const defaults = new Set(byRank.slice(0, 5).map(t => t.team_id));
+    const pinned = state.teams.find(t => t.team_name === PINNED_TEAM);
+    if (pinned) defaults.add(pinned.team_id);
+    state.selected = defaults;
+  }
+
+  renderTable();
+  renderExpandedDetails();
+  renderLegend();
+  renderChart();
+  renderEvents();
+  renderWindows();
+}
+
+function renderTable() {
+  const body = document.getElementById("leaderboardBody");
+  const q = state.search.trim().toLowerCase();
+  const rows = [...state.teams]
+    .filter(t => !q || t.team_name.toLowerCase().includes(q))
+    .sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
+
+  if (rows.length === 0) {
+    body.innerHTML = `<tr><td colspan="10"><div class="empty">No teams match.</div></td></tr>`;
+    return;
+  }
+
+  body.innerHTML = rows.map(t => {
+    const hist = t.history || [];
+    const prev = hist.length > 1 ? hist[hist.length - 2] : null;
+    let deltaHtml = `<span class="delta">–</span>`;
+    if (prev && prev.score !== null && t.score !== null) {
+      const d = t.score - prev.score;
+      const cls = d > 0 ? "up" : (d < 0 ? "down" : "");
+      const arrow = d > 0 ? "▲" : (d < 0 ? "▼" : "•");
+      deltaHtml = `<span class="delta ${cls}">${arrow} ${fmtNum(Math.abs(d))}</span>`;
+    }
+    const statusCls = "status-" + (t.status || "").toLowerCase();
+    const pinnedCls = t.team_name === PINNED_TEAM ? "pinned" : "";
+    const isOpen = state.expanded.has(t.team_id);
+    const mainRow = `<tr class="${pinnedCls}">
+      <td>${fmtInt(t.rank)}</td>
+      <td>
+        <button class="expand-toggle ${isOpen ? 'open' : ''}" data-team-id="${t.team_id}" aria-label="Toggle details" aria-expanded="${isOpen}">${isOpen ? '▾' : '▸'}</button>
+        <span class="team-name" data-team-id="${t.team_id}">${escapeHtml(t.team_name)}</span>
+      </td>
+      <td>${fmtNum(t.score)}</td>
+      <td>${deltaHtml}</td>
+      <td>${fmtNum(t.mean_pl)}</td>
+      <td>${fmtNum(t.std_pl)}</td>
+      <td>${fmtInt(t.trade_count)}</td>
+      <td><span class="badge">${escapeHtml(windowLabel(t.evaluationWindow)) || "–"}</span></td>
+      <td>${relTime(t.submitted_at)}</td>
+      <td><span class="status-badge ${statusCls}">${escapeHtml(t.status || "–")}</span></td>
+    </tr>`;
+    return isOpen ? mainRow + renderDetailRow(t) : mainRow;
+  }).join("");
+}
+
+function renderDetailRow(t) {
+  const w = t.evaluationWindow;
+  const fields = [
+    ["Rank", fmtInt(t.rank)],
+    ["Score", fmtNum(t.score)],
+    ["Mean P&L", fmtNum(t.mean_pl)],
+    ["Std P&L", fmtNum(t.std_pl)],
+    ["Trade Count", fmtInt(t.trade_count)],
+    ["Runtime (ms)", fmtInt(t.runtime_ms)],
+    ["Status", t.status || "–"],
+    ["Submission Status", t.submission_status || "–"],
+    ["Submission Code", t.submission_code || "–"],
+    ["Evaluation Window", windowLabel(w) || "–"],
+    ["Submitted At", t.submitted_at ? `${new Date(t.submitted_at).toLocaleString()} (${relTime(t.submitted_at)})` : "–"],
+    ["Evaluated At", t.evaluated_at ? `${new Date(t.evaluated_at).toLocaleString()} (${relTime(t.evaluated_at)})` : "–"],
+  ];
+  return `<tr class="detail-row" data-team-id="${t.team_id}">
+    <td colspan="10">
+      <div class="detail-grid">
+        ${fields.map(([label, val]) => `<div class="detail-field"><span class="detail-label">${escapeHtml(label)}</span><span>${escapeHtml(val)}</span></div>`).join("")}
+      </div>
+      <div class="detail-charts">
+        <div class="detail-chart-block">
+          <div class="detail-chart-title">Score over time</div>
+          <div class="chart-wrap">
+            <svg class="chart small" id="score-chart-${t.team_id}"></svg>
+            <div class="tooltip" id="score-tooltip-${t.team_id}"></div>
+          </div>
+        </div>
+        <div class="detail-chart-block">
+          <div class="detail-chart-title">Rank over time (lower is better)</div>
+          <div class="chart-wrap">
+            <svg class="chart small" id="rank-chart-${t.team_id}"></svg>
+            <div class="tooltip" id="rank-tooltip-${t.team_id}"></div>
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>`;
+}
+
+function renderExpandedDetails() {
+  state.expanded.forEach(teamId => {
+    const t = state.teams.find(x => x.team_id === teamId);
+    if (!t) return;
+    const scoreSvg = document.getElementById(`score-chart-${teamId}`);
+    const rankSvg = document.getElementById(`rank-chart-${teamId}`);
+    if (!scoreSvg || !rankSvg) return;
+    const hist = t.history || [];
+    drawLineChart({
+      svg: scoreSvg,
+      tooltip: document.getElementById(`score-tooltip-${teamId}`),
+      series: [{ name: t.team_name, color: "var(--series-1)",
+        points: hist.filter(h => h.score !== null && h.score !== undefined)
+          .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.score })) }],
+      invertY: false, height: 140, marginRight: 16, directLabels: false,
+      valueFormatter: v => fmtNum(v, 0),
+    });
+    drawLineChart({
+      svg: rankSvg,
+      tooltip: document.getElementById(`rank-tooltip-${teamId}`),
+      series: [{ name: t.team_name, color: "var(--series-6)",
+        points: hist.filter(h => h.rank !== null && h.rank !== undefined)
+          .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.rank })) }],
+      invertY: true, height: 140, marginRight: 16, directLabels: false,
+      valueFormatter: v => fmtInt(v),
+    });
+  });
+}
+
+function escapeHtml(s) {
+  if (s === null || s === undefined) return "";
+  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+
+function selectedTeams() {
+  return state.teams.filter(t => state.selected.has(t.team_id))
+    .sort((a,b) => (a.rank ?? 9e9) - (b.rank ?? 9e9))
+    .slice(0, MAX_SELECTED);
+}
+
+function renderLegend() {
+  const legend = document.getElementById("chartLegend");
+  const teams = selectedTeams();
+  legend.innerHTML = teams.map((t, i) => `
+    <label>
+      <span class="swatch" style="background:var(${SERIES_COLORS[i % SERIES_COLORS.length]})"></span>
+      ${escapeHtml(t.team_name)}
+    </label>`).join("") + `
+    <label style="margin-left:auto; color:var(--text-muted);">
+      pick from search below · pinned: ${escapeHtml(PINNED_TEAM)}
+    </label>`;
+}
+
+function renderChart() {
+  const svg = document.getElementById("chartSvg");
+  const tooltip = document.getElementById("chartTooltip");
+  const teams = selectedTeams();
+  const series = teams.map((t, i) => ({
+    name: t.team_name,
+    color: `var(${SERIES_COLORS[i % SERIES_COLORS.length]})`,
+    points: (t.history || [])
+      .filter(h => h.score !== null && h.score !== undefined)
+      .map(h => ({ ts: new Date(h.poll_ts).getTime(), value: h.score })),
+  }));
+  drawLineChart({
+    svg, tooltip, series, invertY: false, height: 320, marginRight: 90,
+    valueFormatter: v => fmtNum(v, 0),
+    emptyMessage: "No history yet — waiting for the first score change.",
+  });
+}
+
+// Generic SVG line chart: one or more series of {ts, value} points, with
+// gridlines, a hover crosshair + tooltip, and direct end-of-line labels
+// when there are few enough series for them to stay legible.
+function drawLineChart(opts) {
+  const {
+    svg, tooltip, series, invertY = false, height = 320, marginRight = 90,
+    directLabels = null, valueFormatter = v => fmtNum(v), emptyMessage = "No history yet.",
+  } = opts;
+
+  svg.innerHTML = "";
+  const W = svg.clientWidth || 800, H = height;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const margin = { top: 14, right: marginRight, bottom: 24, left: 52 };
+  const innerW = Math.max(10, W - margin.left - margin.right);
+  const innerH = Math.max(10, H - margin.top - margin.bottom);
+
+  const activeSeries = series.filter(s => s.points.length > 0);
+  const allPoints = activeSeries.flatMap(s => s.points);
+  if (allPoints.length === 0) {
+    const empty = document.createElementNS(CHART_NS, "text");
+    empty.setAttribute("x", W / 2); empty.setAttribute("y", H / 2);
+    empty.setAttribute("text-anchor", "middle"); empty.setAttribute("class", "axis-label");
+    empty.textContent = emptyMessage;
+    svg.appendChild(empty);
+    return;
+  }
+  // A single point (or all series sharing one timestamp) has no real range to
+  // plot against - a padded fake axis just produces meaningless/duplicate
+  // tick labels, so show the value plainly instead.
+  const uniqueTs = new Set(allPoints.map(p => p.ts)).size;
+  if (uniqueTs <= 1) {
+    const label = document.createElementNS(CHART_NS, "text");
+    label.setAttribute("x", W / 2); label.setAttribute("y", H / 2 - 6);
+    label.setAttribute("text-anchor", "middle"); label.setAttribute("class", "axis-label");
+    label.textContent = activeSeries.length === 1
+      ? `${valueFormatter(activeSeries[0].points[0].value)} so far`
+      : activeSeries.map(s => `${s.name}: ${valueFormatter(s.points[0].value)}`).join("   ");
+    svg.appendChild(label);
+    const sub = document.createElementNS(CHART_NS, "text");
+    sub.setAttribute("x", W / 2); sub.setAttribute("y", H / 2 + 14);
+    sub.setAttribute("text-anchor", "middle"); sub.setAttribute("class", "axis-label");
+    sub.textContent = "only one data point so far — chart fills in as scores change";
+    svg.appendChild(sub);
+    return;
+  }
+
+  const xMin = Math.min(...allPoints.map(p => p.ts));
+  const xMax = Math.max(...allPoints.map(p => p.ts));
+  const yMinRaw = Math.min(...allPoints.map(p => p.value));
+  const yMaxRaw = Math.max(...allPoints.map(p => p.value));
+  const yPad = (yMaxRaw - yMinRaw) * 0.12 || Math.max(1, Math.abs(yMinRaw) * 0.05) || 1;
+  const yLo = yMinRaw - yPad, yHi = yMaxRaw + yPad;
+  const xSpan = (xMax - xMin) || 1;
+
+  const xScale = ts => margin.left + ((ts - xMin) / xSpan) * innerW;
+  const yScale = v => {
+    const frac = (v - yLo) / ((yHi - yLo) || 1);
+    return invertY ? margin.top + frac * innerH : margin.top + innerH - frac * innerH;
+  };
+
+  const g = document.createElementNS(CHART_NS, "g");
+  svg.appendChild(g);
+
+  const gridCount = height >= 250 ? 4 : 3;
+  let lastLabelText = null;
+  for (let i = 0; i <= gridCount; i++) {
+    const v = yLo + (i / gridCount) * (yHi - yLo);
+    const y = yScale(v);
+    const line = document.createElementNS(CHART_NS, "line");
+    line.setAttribute("x1", margin.left); line.setAttribute("x2", W - margin.right);
+    line.setAttribute("y1", y); line.setAttribute("y2", y);
+    line.setAttribute("class", "gridline");
+    g.appendChild(line);
+    const text = valueFormatter(v);
+    if (text !== lastLabelText) {
+      const label = document.createElementNS(CHART_NS, "text");
+      label.setAttribute("x", margin.left - 8); label.setAttribute("y", y + 3);
+      label.setAttribute("text-anchor", "end"); label.setAttribute("class", "axis-label");
+      label.textContent = text;
+      g.appendChild(label);
+      lastLabelText = text;
+    }
+  }
+  const baseline = document.createElementNS(CHART_NS, "line");
+  const baseY = invertY ? margin.top : margin.top + innerH;
+  baseline.setAttribute("x1", margin.left); baseline.setAttribute("x2", W - margin.right);
+  baseline.setAttribute("y1", baseY); baseline.setAttribute("y2", baseY);
+  baseline.setAttribute("class", "baseline");
+  g.appendChild(baseline);
+
+  const drawn = [];
+  activeSeries.forEach(s => {
+    const pts = [...s.points].sort((a, b) => a.ts - b.ts);
+    drawn.push({ series: s, pts, color: s.color });
+
+    let d = "";
+    pts.forEach((p, idx) => {
+      const x = xScale(p.ts), y = yScale(p.value);
+      d += (idx === 0 ? "M" : "L") + x.toFixed(1) + "," + y.toFixed(1) + " ";
+    });
+    const path = document.createElementNS(CHART_NS, "path");
+    path.setAttribute("d", d.trim());
+    path.setAttribute("class", "series-line");
+    path.setAttribute("stroke", s.color);
+    g.appendChild(path);
+
+    pts.forEach(p => {
+      const dot = document.createElementNS(CHART_NS, "circle");
+      dot.setAttribute("cx", xScale(p.ts)); dot.setAttribute("cy", yScale(p.value));
+      dot.setAttribute("r", pts.length === 1 ? 4 : 3); dot.setAttribute("fill", s.color);
+      dot.setAttribute("class", "series-dot");
+      g.appendChild(dot);
+    });
+
+    const wantLabels = directLabels === null ? (activeSeries.length > 1 && activeSeries.length <= 4) : directLabels;
+    if (wantLabels) {
+      const last = pts[pts.length - 1];
+      const label = document.createElementNS(CHART_NS, "text");
+      label.setAttribute("x", xScale(last.ts) + 6);
+      label.setAttribute("y", yScale(last.value) + 4);
+      label.setAttribute("class", "direct-label");
+      label.setAttribute("fill", s.color);
+      label.textContent = s.name;
+      g.appendChild(label);
+    }
+  });
+
+  if (tooltip) {
+    const overlay = document.createElementNS(CHART_NS, "rect");
+    overlay.setAttribute("x", margin.left); overlay.setAttribute("y", margin.top);
+    overlay.setAttribute("width", innerW); overlay.setAttribute("height", innerH);
+    overlay.setAttribute("fill", "transparent");
+    g.appendChild(overlay);
+
+    const crosshair = document.createElementNS(CHART_NS, "line");
+    crosshair.setAttribute("class", "crosshair");
+    crosshair.setAttribute("y1", margin.top); crosshair.setAttribute("y2", margin.top + innerH);
+    crosshair.style.display = "none";
+    g.appendChild(crosshair);
+
+    overlay.addEventListener("mousemove", (evt) => {
+      const rect = svg.getBoundingClientRect();
+      const scaleX = W / rect.width;
+      const mouseX = (evt.clientX - rect.left) * scaleX;
+      const targetTs = xMin + ((mouseX - margin.left) / innerW) * xSpan;
+
+      let rowsHtml = "";
+      let anyX = null;
+      drawn.forEach(s => {
+        let closest = s.pts[0];
+        let bestDiff = Infinity;
+        s.pts.forEach(p => {
+          const diff = Math.abs(p.ts - targetTs);
+          if (diff < bestDiff) { bestDiff = diff; closest = p; }
+        });
+        if (anyX === null) anyX = closest.ts;
+        rowsHtml += `<div class="t-row"><span style="color:${s.color}">${escapeHtml(s.series.name)}</span><span>${valueFormatter(closest.value)}</span></div>`;
+      });
+
+      if (anyX !== null) {
+        const x = xScale(anyX);
+        crosshair.setAttribute("x1", x); crosshair.setAttribute("x2", x);
+        crosshair.style.display = "block";
+        tooltip.style.display = "block";
+        tooltip.style.left = Math.min(x + 12, innerW + margin.left - 150) + "px";
+        tooltip.style.top = "6px";
+        tooltip.innerHTML = `<div class="t-title">${new Date(anyX).toLocaleString()}</div>${rowsHtml}`;
+      }
+    });
+    overlay.addEventListener("mouseleave", () => {
+      crosshair.style.display = "none";
+      tooltip.style.display = "none";
+    });
+  }
+
+  [xMin, xMax].forEach((ts, idx) => {
+    const label = document.createElementNS(CHART_NS, "text");
+    label.setAttribute("x", xScale(ts));
+    label.setAttribute("y", H - 6);
+    label.setAttribute("text-anchor", idx === 0 ? "start" : "end");
+    label.setAttribute("class", "axis-label");
+    label.textContent = new Date(ts).toLocaleString(undefined, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" });
+    g.appendChild(label);
+  });
+}
+
+function renderEvents() {
+  const list = document.getElementById("eventsList");
+  if (state.recentEvents.length === 0) {
+    list.innerHTML = `<div class="empty">No submission activity logged yet.</div>`;
+    return;
+  }
+  list.innerHTML = state.recentEvents.map(ev => `
+    <div class="event-row">
+      <div class="event-main">
+        <span class="team-name">${escapeHtml(ev.team_name)}</span>
+        <span class="sub">rank ${fmtInt(ev.rank)} · score ${fmtNum(ev.score)} ${ev.evaluationWindow ? "· " + escapeHtml(windowLabel(ev.evaluationWindow)) : ""}</span>
+      </div>
+      <span class="event-time">${relTime(ev.poll_ts)}</span>
+    </div>`).join("");
+}
+
+function renderWindows() {
+  const list = document.getElementById("windowsList");
+  const seen = new Map();
+  state.teams.forEach(t => {
+    const w = t.evaluationWindow;
+    if (w && w.window_name && !seen.has(w.window_name)) seen.set(w.window_name, w);
+  });
+  if (seen.size === 0) {
+    list.innerHTML = `<div class="empty">No evaluation window data yet.</div>`;
+    return;
+  }
+  list.innerHTML = [...seen.values()].map(w => `
+    <div class="window-row">
+      <span>${escapeHtml(w.window_name)}</span>
+      <span class="muted">days ${fmtInt(w.window_start)}–${fmtInt(w.window_end)}</span>
+    </div>`).join("");
+}
+
+document.getElementById("searchBox").addEventListener("input", (e) => {
+  state.search = e.target.value;
+  renderTable();
+});
+
+document.getElementById("leaderboardBody").addEventListener("click", (e) => {
+  const toggleBtn = e.target.closest(".expand-toggle");
+  if (toggleBtn) {
+    const teamId = toggleBtn.dataset.teamId;
+    if (state.expanded.has(teamId)) state.expanded.delete(teamId);
+    else state.expanded.add(teamId);
+    renderTable();
+    renderExpandedDetails();
+    return;
+  }
+  const nameEl = e.target.closest(".team-name");
+  if (nameEl) {
+    const teamId = nameEl.dataset.teamId;
+    if (!teamId) return;
+    if (state.selected.has(teamId)) state.selected.delete(teamId);
+    else state.selected.add(teamId);
+    renderLegend(); renderChart();
+  }
+});
+
+window.addEventListener("resize", renderChart);
+
+fetchData();
+setInterval(fetchData, REFRESH_MS);
+</script>
+</body>
+</html>
