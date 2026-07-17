@@ -1016,6 +1016,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-782FEE3D": {
+"fetched_at": "2026-07-17T09:04:49.574048+00:00",
+"submission_code": "SUB-782FEE3D",
+"team_id": "5292dc9e-bbd0-4fc3-9ad5-1887d445b04f",
+"team_name": "Negative Alpha",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-795379E2": {
 "fetched_at": "2026-07-17T02:57:56.530314+00:00",
 "submission_code": "SUB-795379E2",
