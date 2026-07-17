@@ -539,6 +539,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3FA59CBB": {
+"fetched_at": "2026-07-17T14:08:00.607819+00:00",
+"submission_code": "SUB-3FA59CBB",
+"team_id": "60227a2d-97f2-435c-bd9f-74d4bcabc924",
+"team_name": "Big YUAN",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-40B8D4E7": {
 "fetched_at": "2026-07-17T02:58:06.804318+00:00",
 "submission_code": "SUB-40B8D4E7",
@@ -852,6 +861,15 @@
 "team_name": "TMHS",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-5C63BAD5": {
+"fetched_at": "2026-07-17T14:08:00.440617+00:00",
+"submission_code": "SUB-5C63BAD5",
+"team_id": "d8a8d30d-88d5-4588-8186-16f55aa82314",
+"team_name": "Dynamic Dumplings",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-5D555797": {
@@ -1556,6 +1574,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-9EACA621": {
+"fetched_at": "2026-07-17T14:08:01.707285+00:00",
+"submission_code": "SUB-9EACA621",
+"team_id": "06be41a1-2580-41c5-87ef-3bfeace8516d",
+"team_name": "Mingimum Risk",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-9FDE7866": {
 "fetched_at": "2026-07-17T02:58:05.117114+00:00",
 "submission_code": "SUB-9FDE7866",
@@ -2078,6 +2105,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-CF8C3332": {
+"fetched_at": "2026-07-17T14:08:00.606164+00:00",
+"submission_code": "SUB-CF8C3332",
+"team_id": "d1c741c1-7471-4819-aae1-e139515c115b",
+"team_name": "gainzalgo v3 edge",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-D1ADA9E1": {
 "fetched_at": "2026-07-17T02:58:00.420260+00:00",
 "submission_code": "SUB-D1ADA9E1",
@@ -2229,6 +2265,15 @@
 "team_name": "Algoholics",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E7071E0A": {
+"fetched_at": "2026-07-17T14:08:00.630910+00:00",
+"submission_code": "SUB-E7071E0A",
+"team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
+"team_name": "the DESTination",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-E76E1455": {
