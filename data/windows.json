@@ -584,6 +584,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-51240E99": {
+"fetched_at": "2026-07-17T03:40:34.500696+00:00",
+"submission_code": "SUB-51240E99",
+"team_id": "217e1ce6-53a0-481c-ac09-fcd673fd33c6",
+"team_name": "Claude Opus 4.8",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-518D279E": {
 "fetched_at": "2026-07-17T02:58:09.185315+00:00",
 "submission_code": "SUB-518D279E",
@@ -799,6 +808,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-67DE6995": {
+"fetched_at": "2026-07-17T03:40:34.083716+00:00",
+"submission_code": "SUB-67DE6995",
+"team_id": "f9d7232a-dbc9-4075-a14c-7929c14e49b7",
+"team_name": "SilverFlag",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
 },
 "SUB-68112B37": {
 "fetched_at": "2026-07-17T02:57:57.322243+00:00",
@@ -1672,6 +1690,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-CE303479": {
+"fetched_at": "2026-07-17T03:40:33.708750+00:00",
+"submission_code": "SUB-CE303479",
+"team_id": "887aaacc-2e63-4a6d-9c7c-39bd25ae3f15",
+"team_name": "Capital Gains",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
 },
 "SUB-CE5C604C": {
 "fetched_at": "2026-07-17T02:57:59.408603+00:00",
