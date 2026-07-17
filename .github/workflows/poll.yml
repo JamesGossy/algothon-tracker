@@ -2,7 +2,9 @@ name: Poll Algothon leaderboard
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # Off the :00/:15/:30/:45 marks - those slots are the most contended on
+    # GitHub's shared cron scheduler and get delayed/dropped the most.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {}
 
 permissions:
