@@ -126,6 +126,28 @@
   .chip.up { color: var(--good); border-color: currentColor; }
   .chip.down { color: var(--critical); border-color: currentColor; }
 
+  /* ---- team focus ---- */
+  .focus-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  #focusInput { width: 240px; }
+  .focus-grid { display: grid; grid-template-columns: 170px 1fr 1.3fr; gap: 24px; align-items: center; margin-bottom: 18px; }
+  @media (max-width: 1000px) { .focus-grid { grid-template-columns: 1fr; } }
+  .donut-wrap { text-align: center; }
+  .donut-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .06em; margin-top: 6px; }
+  .facts { display: flex; flex-direction: column; gap: 8px; font-size: 13px; }
+  .fact { display: flex; justify-content: space-between; gap: 12px; }
+  .fact .k { color: var(--text-muted); white-space: nowrap; }
+  .fact .v { font-variant-numeric: tabular-nums; text-align: right; }
+  .beat-bars { display: flex; flex-direction: column; gap: 8px; }
+  .beat-row { display: grid; grid-template-columns: 88px 1fr 44px; gap: 10px; align-items: center; font-size: 12px; }
+  .beat-row .lbl { color: var(--text-secondary); white-space: nowrap; }
+  .beat-row .bar-track { height: 12px; background: var(--grid); border-radius: 6px; overflow: hidden; }
+  .beat-row .bar-fill { height: 100%; background: var(--series-1); border-radius: 6px; }
+  .beat-row .pct { text-align: right; font-variant-numeric: tabular-nums; }
+  .mini-hists { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  @media (max-width: 1000px) { .mini-hists { grid-template-columns: 1fr 1fr; } }
+  .mini-hist-title { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; display: flex; justify-content: space-between; gap: 8px; }
+  svg.chart.mini { height: 110px; }
+
   /* ---- table ---- */
   table { width: 100%; border-collapse: collapse; font-size: 13px; }
   th, td { text-align: right; padding: 6px 8px; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -244,6 +266,29 @@
 
 <div class="tiles" id="tiles"></div>
 
+<div class="card" id="focusCard">
+  <div class="focus-head">
+    <h2 style="margin:0;">Team insights</h2>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <span class="muted" style="font-size:12px;">type any team name to switch focus</span>
+      <input type="text" id="focusInput" list="teamsList" placeholder="Focus a team…" />
+      <datalist id="teamsList"></datalist>
+    </div>
+  </div>
+  <div class="focus-grid">
+    <div class="donut-wrap">
+      <svg id="donutSvg" width="130" height="130" viewBox="0 0 130 130"></svg>
+      <div class="donut-label">score beats % of field</div>
+    </div>
+    <div class="facts" id="focusFacts"></div>
+    <div>
+      <div class="mini-hist-title"><span>Beats % of field</span><span class="muted">direction-adjusted — higher is always better</span></div>
+      <div class="beat-bars" id="beatBars"></div>
+    </div>
+  </div>
+  <div class="mini-hists" id="miniHists"></div>
+</div>
+
 <div class="card">
   <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:10px;">
     <h2 style="margin:0;">Leaderboard</h2>
@@ -271,28 +316,19 @@
   </div>
   <div>
     <div class="card">
-      <h2>Score distribution (all teams)</h2>
-      <div class="chart-wrap">
-        <svg class="chart hist" id="histSvg"></svg>
-        <div class="tooltip" id="histTooltip"></div>
-      </div>
-    </div>
-    <div class="card">
       <h2>Evaluation windows</h2>
       <div class="windows-list" id="windowsList"></div>
+    </div>
+    <div class="card">
+      <h2>Biggest movers (tracked history)</h2>
+      <div class="movers-list" id="moversList"></div>
     </div>
   </div>
 </div>
 
-<div class="two-col">
-  <div class="card">
-    <h2>Recent activity</h2>
-    <div class="events-list" id="eventsList"></div>
-  </div>
-  <div class="card">
-    <h2>Biggest movers (tracked history)</h2>
-    <div class="movers-list" id="moversList"></div>
-  </div>
+<div class="card">
+  <h2>Recent activity</h2>
+  <div class="events-list" id="eventsList"></div>
 </div>
 
 </div><!-- /app -->
@@ -310,7 +346,7 @@ const CHART_NS = "http://www.w3.org/2000/svg";
 
 let state = {
   teams: [], recentEvents: [], selected: new Set(), expanded: new Set(),
-  search: "", sortKey: "rank", sortDir: 1,
+  search: "", sortKey: "rank", sortDir: 1, focusTeamId: null,
 };
 
 /* ---------- password gate (client-side courtesy lock) ---------- */
@@ -425,17 +461,21 @@ function onData(data) {
     if (pinned) defaults.add(pinned.team_id);
     state.selected = defaults;
   }
+
+  document.getElementById("teamsList").innerHTML =
+    state.teams.map(t => `<option value="${escapeHtml(t.team_name)}"></option>`).join("");
+
   renderAll();
 }
 
 function renderAll() {
   if (state.teams.length === 0) return;
   renderTiles();
+  renderFocus();
   renderTable();
   renderExpandedDetails();
   renderLegend();
   renderChart();
-  renderHistogram();
   renderEvents();
   renderWindows();
   renderMovers();
@@ -712,85 +752,96 @@ function renderChart() {
   });
 }
 
-/* ---------- score distribution histogram ---------- */
-function renderHistogram() {
-  const svg = document.getElementById("histSvg");
-  const tooltip = document.getElementById("histTooltip");
-  svg.innerHTML = "";
-  const scores = state.teams.filter(t => t.score != null).map(t => t.score);
-  if (scores.length === 0) return;
+/* ---------- team focus panel ---------- */
+// Share of the rest of the field this team beats on a metric. lowerBetter
+// flips the comparison so 100% always means "best in field".
+function pctBeats(values, mine, lowerBetter = false) {
+  const others = values.filter(v => v != null);
+  if (mine == null || others.length <= 1) return null;
+  const beaten = others.filter(v => lowerBetter ? v > mine : v < mine).length;
+  return Math.round(beaten / (others.length - 1) * 100);
+}
 
-  const me = state.teams.find(t => t.team_name === PINNED_TEAM);
-  const W = svg.clientWidth || 400, H = 200;
+function drawDonut(svg, pct) {
+  svg.innerHTML = "";
+  const c = 65, r = 48, circ = 2 * Math.PI * r;
+  const style = getComputedStyle(root);
+  const track = document.createElementNS(CHART_NS, "circle");
+  track.setAttribute("cx", c); track.setAttribute("cy", c); track.setAttribute("r", r);
+  track.setAttribute("fill", "none");
+  track.setAttribute("stroke", style.getPropertyValue("--grid").trim());
+  track.setAttribute("stroke-width", 16);
+  svg.appendChild(track);
+  if (pct != null) {
+    const arc = document.createElementNS(CHART_NS, "circle");
+    arc.setAttribute("cx", c); arc.setAttribute("cy", c); arc.setAttribute("r", r);
+    arc.setAttribute("fill", "none");
+    arc.setAttribute("stroke", style.getPropertyValue("--series-1").trim());
+    arc.setAttribute("stroke-width", 16);
+    arc.setAttribute("stroke-linecap", pct > 0 && pct < 100 ? "round" : "butt");
+    arc.setAttribute("stroke-dasharray", `${pct / 100 * circ} ${circ}`);
+    arc.setAttribute("transform", `rotate(-90 ${c} ${c})`);
+    svg.appendChild(arc);
+  }
+  const text = document.createElementNS(CHART_NS, "text");
+  text.setAttribute("x", c); text.setAttribute("y", c + 1);
+  text.setAttribute("text-anchor", "middle");
+  text.setAttribute("dominant-baseline", "middle");
+  text.setAttribute("fill", style.getPropertyValue("--text-primary").trim());
+  text.setAttribute("style", "font-size:26px; font-weight:600;");
+  text.textContent = pct != null ? `${pct}%` : "–";
+  svg.appendChild(text);
+}
+
+// Small histogram of a metric across all teams with the focus team's bin
+// highlighted: neutral field, blue = the focused team (matches pinned-row
+// semantics elsewhere on the page).
+function drawHistogram(opts) {
+  const { svg, tooltip, values, highlight, formatter = v => fmtNum(v, 0), binCount = 12 } = opts;
+  svg.innerHTML = "";
+  const vals = values.filter(v => v != null);
+  if (vals.length === 0) return;
+  const W = svg.clientWidth || 300, H = 110;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-  const margin = { top: 12, right: 10, bottom: 24, left: 34 };
+  const margin = { top: 6, right: 4, bottom: 16, left: 4 };
   const innerW = W - margin.left - margin.right;
   const innerH = H - margin.top - margin.bottom;
 
-  const min = Math.min(...scores), max = Math.max(...scores);
-  const binCount = 14;
+  const min = Math.min(...vals), max = Math.max(...vals);
   const binW = (max - min) / binCount || 1;
-  const bins = Array.from({ length: binCount }, (_, i) => ({
-    lo: min + i * binW, hi: min + (i + 1) * binW, n: 0,
-  }));
-  scores.forEach(s => {
-    const idx = Math.min(binCount - 1, Math.floor((s - min) / binW));
-    bins[idx].n++;
-  });
-  const meBin = me && me.score != null ? Math.min(binCount - 1, Math.floor((me.score - min) / binW)) : -1;
+  const bins = Array.from({ length: binCount }, (_, i) => ({ lo: min + i * binW, hi: min + (i + 1) * binW, n: 0 }));
+  vals.forEach(v => { bins[Math.min(binCount - 1, Math.floor((v - min) / binW))].n++; });
+  const hlBin = highlight != null ? Math.min(binCount - 1, Math.floor((highlight - min) / binW)) : -1;
   const maxN = Math.max(...bins.map(b => b.n));
 
+  const style = getComputedStyle(root);
+  const fieldColor = style.getPropertyValue("--baseline").trim();
+  const youColor = style.getPropertyValue("--series-1").trim();
   const g = document.createElementNS(CHART_NS, "g");
   svg.appendChild(g);
 
-  // y gridlines
-  const gridCount = 3;
-  for (let i = 0; i <= gridCount; i++) {
-    const v = Math.round((i / gridCount) * maxN);
-    const y = margin.top + innerH - (v / maxN) * innerH;
-    const line = document.createElementNS(CHART_NS, "line");
-    line.setAttribute("x1", margin.left); line.setAttribute("x2", W - margin.right);
-    line.setAttribute("y1", y); line.setAttribute("y2", y);
-    line.setAttribute("class", "gridline");
-    g.appendChild(line);
-    const label = document.createElementNS(CHART_NS, "text");
-    label.setAttribute("x", margin.left - 6); label.setAttribute("y", y + 3);
-    label.setAttribute("text-anchor", "end"); label.setAttribute("class", "axis-label");
-    label.textContent = v;
-    g.appendChild(label);
-  }
-
   const gap = 2;
-  const barW = innerW / binCount - gap;
-  const style = getComputedStyle(root);
+  const slotW = innerW / binCount;
   bins.forEach((b, i) => {
     const h = (b.n / maxN) * innerH;
-    const x = margin.left + i * (innerW / binCount) + gap / 2;
-    const y = margin.top + innerH - h;
     const rect = document.createElementNS(CHART_NS, "rect");
-    rect.setAttribute("x", x); rect.setAttribute("y", y);
-    rect.setAttribute("width", Math.max(1, barW)); rect.setAttribute("height", Math.max(0, h));
-    rect.setAttribute("rx", 3);
-    rect.setAttribute("fill", i === meBin ? style.getPropertyValue("--series-3").trim() : style.getPropertyValue("--seq-mid").trim());
+    rect.setAttribute("x", margin.left + i * slotW + gap / 2);
+    rect.setAttribute("y", margin.top + innerH - h);
+    rect.setAttribute("width", Math.max(1, slotW - gap));
+    rect.setAttribute("height", Math.max(b.n > 0 ? 2 : 0, h));
+    rect.setAttribute("rx", 2);
+    rect.setAttribute("fill", i === hlBin ? youColor : fieldColor);
     rect.addEventListener("mousemove", (evt) => {
-      const rectBox = svg.getBoundingClientRect();
+      const box = svg.getBoundingClientRect();
       tooltip.style.display = "block";
-      tooltip.style.left = Math.min(evt.clientX - rectBox.left + 10, W - 160) + "px";
-      tooltip.style.top = "4px";
-      tooltip.innerHTML = `<div class="t-title">${fmtNum(b.lo,0)} to ${fmtNum(b.hi,0)}</div>
+      tooltip.style.left = Math.min(evt.clientX - box.left + 10, W - 150) + "px";
+      tooltip.style.top = "0px";
+      tooltip.innerHTML = `<div class="t-title">${formatter(b.lo)} to ${formatter(b.hi)}</div>
         <div class="t-row"><span>Teams</span><span>${b.n}</span></div>
-        ${i === meBin ? `<div class="t-row"><span style="color:${style.getPropertyValue("--series-3").trim()}">${escapeHtml(PINNED_TEAM)} is here</span></div>` : ""}`;
+        ${i === hlBin ? `<div class="t-row"><span style="color:${youColor}">focused team is here</span></div>` : ""}`;
     });
     rect.addEventListener("mouseleave", () => { tooltip.style.display = "none"; });
     g.appendChild(rect);
-    if (i === meBin) {
-      const label = document.createElementNS(CHART_NS, "text");
-      label.setAttribute("x", x + barW / 2); label.setAttribute("y", y - 4);
-      label.setAttribute("text-anchor", "middle"); label.setAttribute("class", "direct-label");
-      label.setAttribute("fill", style.getPropertyValue("--series-3").trim());
-      label.textContent = PINNED_TEAM;
-      g.appendChild(label);
-    }
   });
 
   const baseline = document.createElementNS(CHART_NS, "line");
@@ -802,11 +853,81 @@ function renderHistogram() {
   [min, max].forEach((v, idx) => {
     const label = document.createElementNS(CHART_NS, "text");
     label.setAttribute("x", idx === 0 ? margin.left : W - margin.right);
-    label.setAttribute("y", H - 6);
+    label.setAttribute("y", H - 4);
     label.setAttribute("text-anchor", idx === 0 ? "start" : "end");
     label.setAttribute("class", "axis-label");
-    label.textContent = fmtNum(v, 0);
+    label.textContent = formatter(v);
     g.appendChild(label);
+  });
+}
+
+const FOCUS_METRICS = [
+  { key: "score",       label: "Score",     lowerBetter: false, fmt: v => fmtNum(v, 0) },
+  { key: "mean_pl",     label: "Mean P&L",  lowerBetter: false, fmt: v => fmtNum(v, 0) },
+  { key: "std_pl",      label: "Std P&L",   lowerBetter: true,  fmt: v => fmtNum(v, 0) },
+  { key: "runtime_ms",  label: "Runtime",   lowerBetter: true,  fmt: v => fmtInt(v) + "ms" },
+  { key: "trade_count", label: "Trades",    lowerBetter: false, fmt: v => fmtInt(v) },
+];
+
+function renderFocus() {
+  const t = state.teams.find(x => x.team_id === state.focusTeamId)
+    || state.teams.find(x => x.team_name === PINNED_TEAM)
+    || state.teams[0];
+  if (!t) return;
+  state.focusTeamId = t.team_id;
+  const input = document.getElementById("focusInput");
+  if (document.activeElement !== input) input.placeholder = t.team_name;
+
+  const all = state.teams;
+  drawDonut(document.getElementById("donutSvg"), pctBeats(all.map(x => x.score), t.score));
+
+  const byRank = [...all].sort((a, b) => (a.rank ?? 9e9) - (b.rank ?? 9e9));
+  const leader = byRank[0];
+  const above = byRank.find(x => x.rank === t.rank - 1);
+  const below = byRank.find(x => x.rank === t.rank + 1);
+  const facts = [
+    ["Team", `${escapeHtml(t.team_name)} (#${fmtInt(t.rank)})`],
+    ["Above", above ? `#${fmtInt(above.rank)} ${escapeHtml(above.team_name)} · +${fmtNum(above.score - t.score, 1)}` : "— leader —"],
+    ["Below", below ? `#${fmtInt(below.rank)} ${escapeHtml(below.team_name)} · −${fmtNum(t.score - below.score, 1)}` : "–"],
+    ["Gap to #1", leader && leader.team_id !== t.team_id ? `−${fmtNum(leader.score - t.score, 1)}` : "you are #1"],
+    ["Submission", escapeHtml(t.submission_code || "–")],
+    ["Submitted", t.submitted_at ? `${new Date(t.submitted_at).toLocaleString()} (${relTime(t.submitted_at)})` : "–"],
+    ["Window", escapeHtml(shortWindow(t.evaluationWindow)) || "–"],
+  ];
+  document.getElementById("focusFacts").innerHTML = facts.map(([k, v]) =>
+    `<div class="fact"><span class="k">${k}</span><span class="v">${v}</span></div>`).join("");
+
+  document.getElementById("beatBars").innerHTML = FOCUS_METRICS.map(m => {
+    const pct = pctBeats(all.map(x => x[m.key]), t[m.key], m.lowerBetter);
+    return `<div class="beat-row">
+      <span class="lbl">${m.label}${m.lowerBetter ? " ↓" : ""}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct ?? 0}%"></div></div>
+      <span class="pct">${pct != null ? pct + "%" : "–"}</span>
+    </div>`;
+  }).join("");
+
+  const hists = FOCUS_METRICS.filter(m => m.key !== "trade_count");
+  document.getElementById("miniHists").innerHTML = hists.map(m => {
+    const pct = pctBeats(all.map(x => x[m.key]), t[m.key], m.lowerBetter);
+    return `<div>
+      <div class="mini-hist-title">
+        <span>${m.label}${m.lowerBetter ? ` <span class="muted">· lower is better</span>` : ""}</span>
+        <span class="muted">beats ${pct != null ? pct + "%" : "–"}</span>
+      </div>
+      <div class="chart-wrap">
+        <svg class="chart mini" id="hist-${m.key}"></svg>
+        <div class="tooltip" id="hist-tt-${m.key}"></div>
+      </div>
+    </div>`;
+  }).join("");
+  hists.forEach(m => {
+    drawHistogram({
+      svg: document.getElementById(`hist-${m.key}`),
+      tooltip: document.getElementById(`hist-tt-${m.key}`),
+      values: all.map(x => x[m.key]),
+      highlight: t[m.key],
+      formatter: m.fmt,
+    });
   });
 }
 
@@ -1106,7 +1227,18 @@ document.getElementById("leaderboardBody").addEventListener("click", (e) => {
   }
 });
 
-window.addEventListener("resize", () => { renderChart(); renderHistogram(); });
+document.getElementById("focusInput").addEventListener("input", (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  const match = state.teams.find(t => t.team_name.toLowerCase() === q);
+  if (match) {
+    state.focusTeamId = match.team_id;
+    e.target.value = "";
+    e.target.blur();
+    renderFocus();
+  }
+});
+
+window.addEventListener("resize", () => { renderChart(); renderFocus(); });
 </script>
 </body>
 </html>
