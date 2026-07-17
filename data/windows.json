@@ -926,6 +926,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-60056A1E": {
+"fetched_at": "2026-07-17T14:38:21.401525+00:00",
+"submission_code": "SUB-60056A1E",
+"team_id": "8c46076d-5d48-4ebe-b90c-bb7525153bfc",
+"team_name": "Fig Tree Capital",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-6033A927": {
 "fetched_at": "2026-07-17T06:48:41.152533+00:00",
 "submission_code": "SUB-6033A927",
