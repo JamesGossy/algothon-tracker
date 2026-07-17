@@ -728,6 +728,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-51CAFF38": {
+"fetched_at": "2026-07-17T11:51:33.660934+00:00",
+"submission_code": "SUB-51CAFF38",
+"team_id": "aa61d23d-753d-4ec6-b9a2-1c80121c9bcb",
+"team_name": "ball knowers",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
 "SUB-5231C850": {
 "fetched_at": "2026-07-17T02:57:59.199783+00:00",
 "submission_code": "SUB-5231C850",
@@ -760,6 +769,15 @@
 "submission_code": "SUB-55EA4E3F",
 "team_id": "079a6e0a-b321-4e9a-8790-c20290824e0a",
 "team_name": "SNK",
+"window_end": 799,
+"window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-56AAD1A7": {
+"fetched_at": "2026-07-17T11:51:34.128710+00:00",
+"submission_code": "SUB-56AAD1A7",
+"team_id": "97d5a725-4a7c-42b0-8b1a-f148f458b65d",
+"team_name": "cao_frequency_trading",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
