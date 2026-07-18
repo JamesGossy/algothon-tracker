@@ -278,6 +278,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-2061EDF5": {
+"fetched_at": "2026-07-18T06:18:00.792452+00:00",
+"submission_code": "SUB-2061EDF5",
+"team_id": "755e04d5-d430-4417-8902-8cb3e53f1680",
+"team_name": "Hashi Warriors",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-2066CC9B": {
 "fetched_at": "2026-07-17T02:58:01.510050+00:00",
 "submission_code": "SUB-2066CC9B",
