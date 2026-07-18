@@ -2042,6 +2042,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A0412BF0": {
+"fetched_at": "2026-07-18T20:26:29.287678+00:00",
+"submission_code": "SUB-A0412BF0",
+"team_id": "079a6e0a-b321-4e9a-8790-c20290824e0a",
+"team_name": "SNK",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-A053C170": {
 "fetched_at": "2026-07-17T07:03:46.150165+00:00",
 "submission_code": "SUB-A053C170",
