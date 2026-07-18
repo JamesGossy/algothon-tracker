@@ -602,6 +602,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-37183B13": {
+"fetched_at": "2026-07-18T13:22:16.149080+00:00",
+"submission_code": "SUB-37183B13",
+"team_id": "2eb973b2-9db3-4769-80b2-70e5daa72015",
+"team_name": "Big A",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-37653A98": {
 "fetched_at": "2026-07-17T02:58:05.151464+00:00",
 "submission_code": "SUB-37653A98",
