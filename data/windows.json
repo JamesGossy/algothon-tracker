@@ -197,6 +197,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-14B6889D": {
+"fetched_at": "2026-07-18T15:23:16.899887+00:00",
+"submission_code": "SUB-14B6889D",
+"team_id": "aac259dc-bb28-4b0d-9c17-324f2d83b610",
+"team_name": "Med Students",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-15039D7A": {
 "fetched_at": "2026-07-17T02:58:00.801488+00:00",
 "submission_code": "SUB-15039D7A",
@@ -546,6 +555,15 @@
 "team_name": "Monte Claudo",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-311B504F": {
+"fetched_at": "2026-07-18T15:23:15.751375+00:00",
+"submission_code": "SUB-311B504F",
+"team_id": "f99dc6e2-561f-4fdb-afd8-63e615d507c4",
+"team_name": "Zero Alpha",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-313157BE": {
@@ -2806,6 +2824,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-ED0CCE20": {
+"fetched_at": "2026-07-18T15:23:16.685937+00:00",
+"submission_code": "SUB-ED0CCE20",
+"team_id": "34a12949-c8dc-445d-961e-9e52b67b34ef",
+"team_name": "Curry & Rice",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
 },
 "SUB-ED24D704": {
 "fetched_at": "2026-07-18T10:35:37.268804+00:00",
