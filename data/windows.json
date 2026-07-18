@@ -1475,6 +1475,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-764DE746": {
+"fetched_at": "2026-07-18T16:39:10.579005+00:00",
+"submission_code": "SUB-764DE746",
+"team_id": "4a09151a-64cf-47e2-b499-1b8b5baa57ee",
+"team_name": "BitAlgo",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-76D7FDF6": {
 "fetched_at": "2026-07-17T02:58:00.885498+00:00",
 "submission_code": "SUB-76D7FDF6",
@@ -1753,6 +1762,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-8DF9D47D": {
+"fetched_at": "2026-07-18T16:39:10.888590+00:00",
+"submission_code": "SUB-8DF9D47D",
+"team_id": "a9b01415-ac44-47f1-b36a-cc8cc2dd940a",
+"team_name": "dumb and dumber",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
 },
 "SUB-8E492C21": {
 "fetched_at": "2026-07-17T02:57:58.403115+00:00",
