@@ -80,6 +80,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-085902C5": {
+"fetched_at": "2026-07-18T15:38:34.044010+00:00",
+"submission_code": "SUB-085902C5",
+"team_id": "fd88d2fa-9190-47bd-84ab-67a998dc5f89",
+"team_name": "We Love Andy",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-09B13B35": {
 "fetched_at": "2026-07-17T02:58:05.087649+00:00",
 "submission_code": "SUB-09B13B35",
@@ -123,6 +132,15 @@
 "team_name": "Knicks in 5",
 "window_end": 849,
 "window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
+"SUB-0D0F1314": {
+"fetched_at": "2026-07-18T15:38:33.309952+00:00",
+"submission_code": "SUB-0D0F1314",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-0E0DDBD3": {
@@ -888,6 +906,15 @@
 "team_name": "Capital Gains",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-484F4C9D": {
+"fetched_at": "2026-07-18T15:38:33.239809+00:00",
+"submission_code": "SUB-484F4C9D",
+"team_id": "f25455fc-daee-4c04-9616-0d71c5537e17",
+"team_name": "MSAM",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-48638EBE": {
@@ -2474,6 +2501,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-C7BFCBBD": {
+"fetched_at": "2026-07-18T15:38:34.205139+00:00",
+"submission_code": "SUB-C7BFCBBD",
+"team_id": "23d83370-ed6e-47b8-a8d4-ba91b54b3a0b",
+"team_name": "OJ Trading",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-C82E007A": {
 "fetched_at": "2026-07-17T02:57:57.676843+00:00",
 "submission_code": "SUB-C82E007A",
@@ -2788,6 +2824,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-E88672EA": {
+"fetched_at": "2026-07-18T15:38:33.631681+00:00",
+"submission_code": "SUB-E88672EA",
+"team_id": "28d870df-5e6e-4a06-bd4f-ac957f928ed7",
+"team_name": "Ace",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
 },
 "SUB-E8A67B23": {
 "fetched_at": "2026-07-17T02:58:01.370135+00:00",
