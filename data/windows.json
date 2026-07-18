@@ -881,6 +881,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-46CDC292": {
+"fetched_at": "2026-07-18T19:41:01.019303+00:00",
+"submission_code": "SUB-46CDC292",
+"team_id": "3251bf5b-ab00-47d3-a7ff-c8965c0b312f",
+"team_name": "Disciples of Claude",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-46DCE649": {
 "fetched_at": "2026-07-17T02:58:02.418384+00:00",
 "submission_code": "SUB-46DCE649",
