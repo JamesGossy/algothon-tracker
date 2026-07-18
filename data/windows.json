@@ -449,6 +449,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-2EB71830": {
+"fetched_at": "2026-07-18T13:06:55.665980+00:00",
+"submission_code": "SUB-2EB71830",
+"team_id": "d2cf32e9-ba0c-4266-8b3e-9eface7341cd",
+"team_name": "Lebnan",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-2ECD0B15": {
 "fetched_at": "2026-07-17T02:57:56.638561+00:00",
 "submission_code": "SUB-2ECD0B15",
@@ -646,6 +655,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-3B2B214C": {
+"fetched_at": "2026-07-18T13:06:56.408458+00:00",
+"submission_code": "SUB-3B2B214C",
+"team_id": "d46c9af9-85ad-4b55-aaa4-e902a1b65b48",
+"team_name": "Puts and Pints",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-3C0DA5DD": {
 "fetched_at": "2026-07-17T02:58:09.407474+00:00",
@@ -1419,6 +1437,15 @@
 "team_name": "Buy Low Sell High",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-7DDCE4B3": {
+"fetched_at": "2026-07-18T13:06:55.704762+00:00",
+"submission_code": "SUB-7DDCE4B3",
+"team_id": "7a959f1b-abb7-4b69-be5d-56bfe7111860",
+"team_name": "Table Trading",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-7F5CE348": {
