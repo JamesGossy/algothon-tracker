@@ -134,6 +134,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-0CDFC865": {
+"fetched_at": "2026-07-18T23:58:39.124725+00:00",
+"submission_code": "SUB-0CDFC865",
+"team_id": "4b39605e-4b54-4ffc-8770-ed1ed1ae9b7c",
+"team_name": "Bourne to Backtest",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-0D0F1314": {
 "fetched_at": "2026-07-18T15:38:33.309952+00:00",
 "submission_code": "SUB-0D0F1314",
@@ -3039,6 +3048,15 @@
 "team_name": "kimsclub",
 "window_end": 849,
 "window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
+"SUB-F4ED242F": {
+"fetched_at": "2026-07-18T23:58:39.309753+00:00",
+"submission_code": "SUB-F4ED242F",
+"team_id": "809cf6b5-1692-4c22-97d6-cb2a9c2cf50f",
+"team_name": "The Financiers",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-F520ABDA": {
