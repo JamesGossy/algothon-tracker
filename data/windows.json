@@ -1997,6 +1997,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-B1598DDB": {
+"fetched_at": "2026-07-18T08:04:12.966705+00:00",
+"submission_code": "SUB-B1598DDB",
+"team_id": "8a20cf69-2f5b-4bfe-a7a2-4429a43980ef",
+"team_name": "JVJ",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-B242A168": {
 "fetched_at": "2026-07-17T02:58:08.503321+00:00",
 "submission_code": "SUB-B242A168",
