@@ -782,6 +782,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-4C21AF5D": {
+"fetched_at": "2026-07-18T04:32:01.224310+00:00",
+"submission_code": "SUB-4C21AF5D",
+"team_id": "af5acc76-3232-470d-ad19-b764cb9671be",
+"team_name": "FortniteLegendz",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-4C525AAE": {
 "fetched_at": "2026-07-17T20:27:03.340812+00:00",
 "submission_code": "SUB-4C525AAE",
