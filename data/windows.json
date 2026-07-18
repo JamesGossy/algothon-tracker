@@ -2276,6 +2276,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-B49EBDFC": {
+"fetched_at": "2026-07-18T16:24:04.798601+00:00",
+"submission_code": "SUB-B49EBDFC",
+"team_id": "f32861c7-8d70-4867-afee-996eaed69ee7",
+"team_name": "print[\"how to code\"]",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-B550B83F": {
 "fetched_at": "2026-07-17T02:57:58.032207+00:00",
 "submission_code": "SUB-B550B83F",
