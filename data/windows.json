@@ -377,6 +377,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-216F0866": {
+"fetched_at": "2026-07-18T20:41:33.655738+00:00",
+"submission_code": "SUB-216F0866",
+"team_id": "8c46076d-5d48-4ebe-b90c-bb7525153bfc",
+"team_name": "Fig Tree Capital",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-2196701B": {
 "fetched_at": "2026-07-17T02:58:04.148444+00:00",
 "submission_code": "SUB-2196701B",
@@ -474,6 +483,15 @@
 "team_name": "Wingspan",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-2CF8B7CE": {
+"fetched_at": "2026-07-18T20:41:34.258463+00:00",
+"submission_code": "SUB-2CF8B7CE",
+"team_id": "f933d72a-b86c-46fa-a817-62a149f13bf4",
+"team_name": "JAF",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-2D7E3D71": {
