@@ -1781,6 +1781,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-8F88CAA0": {
+"fetched_at": "2026-07-18T16:08:45.541928+00:00",
+"submission_code": "SUB-8F88CAA0",
+"team_id": "fbb5faa4-36a8-4632-8aa1-aedd84d8caaa",
+"team_name": "Jerome Powell is our saviour",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-8FAE4A84": {
 "fetched_at": "2026-07-17T02:58:05.770138+00:00",
 "submission_code": "SUB-8FAE4A84",
