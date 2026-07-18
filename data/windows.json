@@ -2798,6 +2798,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-E7310614": {
+"fetched_at": "2026-07-18T15:53:39.383631+00:00",
+"submission_code": "SUB-E7310614",
+"team_id": "60227a2d-97f2-435c-bd9f-74d4bcabc924",
+"team_name": "Big YUAN",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-E76E1455": {
 "fetched_at": "2026-07-17T02:58:04.780695+00:00",
 "submission_code": "SUB-E76E1455",
@@ -3048,6 +3057,15 @@
 "team_name": "KANS",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-FE54AC59": {
+"fetched_at": "2026-07-18T15:53:39.389845+00:00",
+"submission_code": "SUB-FE54AC59",
+"team_id": "5606986c-7d01-4512-bbb1-1be620ff3683",
+"team_name": "Wolf of George Street",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-FE9BC9F9": {
