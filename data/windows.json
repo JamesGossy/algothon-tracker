@@ -2357,6 +2357,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-B6A1054C": {
+"fetched_at": "2026-07-18T21:42:19.921377+00:00",
+"submission_code": "SUB-B6A1054C",
+"team_id": "afff46a7-8f71-4f9f-86a2-1abb3eaf9c69",
+"team_name": "EKTV",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-B783EC15": {
 "fetched_at": "2026-07-17T18:10:35.012119+00:00",
 "submission_code": "SUB-B783EC15",
