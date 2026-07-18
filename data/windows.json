@@ -512,6 +512,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-2F468D88": {
+"fetched_at": "2026-07-18T14:07:44.370474+00:00",
+"submission_code": "SUB-2F468D88",
+"team_id": "d698ef11-55d9-43aa-8ff2-101b6de006bf",
+"team_name": "AlgoAlgo",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-2F4F2422": {
 "fetched_at": "2026-07-17T02:57:55.570362+00:00",
 "submission_code": "SUB-2F4F2422",
@@ -773,6 +782,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-418FD0E1": {
+"fetched_at": "2026-07-18T14:07:44.283920+00:00",
+"submission_code": "SUB-418FD0E1",
+"team_id": "d8ab6024-d815-4703-b7d0-2c9b1896ee2c",
+"team_name": "Guess Who?",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-42EED968": {
 "fetched_at": "2026-07-17T02:58:01.939160+00:00",
 "submission_code": "SUB-42EED968",
@@ -816,6 +834,15 @@
 "team_name": "3musketeers",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-464C2945": {
+"fetched_at": "2026-07-18T14:07:44.349228+00:00",
+"submission_code": "SUB-464C2945",
+"team_id": "8557104f-5e32-40b3-89d8-48e79f377f9f",
+"team_name": "Los Algos Hermanos",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-46DCE649": {
@@ -1150,6 +1177,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-61D435A2": {
+"fetched_at": "2026-07-18T14:07:44.772923+00:00",
+"submission_code": "SUB-61D435A2",
+"team_id": "d8d21c8a-6c7f-44f9-aa98-3c87dad4ffae",
+"team_name": "Axion Labs",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-6351474F": {
 "fetched_at": "2026-07-17T02:58:09.513818+00:00",
@@ -1860,6 +1896,15 @@
 "team_name": "Codeblooded",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9BFF7317": {
+"fetched_at": "2026-07-18T14:07:44.792377+00:00",
+"submission_code": "SUB-9BFF7317",
+"team_id": "875544f0-f851-4c68-80bb-16f6f840e8d3",
+"team_name": "Overfit Anonymous",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-9C163EC8": {
