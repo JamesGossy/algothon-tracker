@@ -179,6 +179,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-12216CF4": {
+"fetched_at": "2026-07-18T13:52:26.210254+00:00",
+"submission_code": "SUB-12216CF4",
+"team_id": "f179c019-8fe9-4021-b8f1-c611d6e5e4f7",
+"team_name": "XOR",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-14862D19": {
 "fetched_at": "2026-07-17T02:58:06.318407+00:00",
 "submission_code": "SUB-14862D19",
