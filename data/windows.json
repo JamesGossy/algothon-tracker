@@ -116,6 +116,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-0CCB9AA0": {
+"fetched_at": "2026-07-18T13:37:20.616077+00:00",
+"submission_code": "SUB-0CCB9AA0",
+"team_id": "41703f92-a576-425d-b8c4-0f48ca5c7e5c",
+"team_name": "Knicks in 5",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-0E0DDBD3": {
 "fetched_at": "2026-07-18T03:31:30.567544+00:00",
 "submission_code": "SUB-0E0DDBD3",
@@ -1151,6 +1160,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-6463F0DF": {
+"fetched_at": "2026-07-18T13:37:21.023425+00:00",
+"submission_code": "SUB-6463F0DF",
+"team_id": "0a445daf-55df-4068-9f3e-7886ba11667c",
+"team_name": "Arbitrage Victims",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-6486ADA2": {
 "fetched_at": "2026-07-17T02:58:07.935258+00:00",
 "submission_code": "SUB-6486ADA2",
@@ -1257,6 +1275,15 @@
 "team_name": "Wolf of George Street",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-686D7BDF": {
+"fetched_at": "2026-07-18T13:37:21.011188+00:00",
+"submission_code": "SUB-686D7BDF",
+"team_id": "36e0dc46-4ee5-48fb-af2e-a7483c22390b",
+"team_name": "Nikkei Traders",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
 "SUB-6BB82BCB": {
@@ -1573,6 +1600,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-8A88D2BE": {
+"fetched_at": "2026-07-18T13:37:20.245272+00:00",
+"submission_code": "SUB-8A88D2BE",
+"team_id": "c638819d-2997-4390-917d-6731ba3c43c5",
+"team_name": "The Dark Knights",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-8A9ECDB6": {
 "fetched_at": "2026-07-17T02:58:06.539023+00:00",
@@ -2267,6 +2303,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-BDFE099B": {
+"fetched_at": "2026-07-18T13:37:20.619798+00:00",
+"submission_code": "SUB-BDFE099B",
+"team_id": "99962af7-a1e1-4cea-9f42-7f3eabe704e7",
+"team_name": "MARJinal Gains",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
 "SUB-BFF1CA1C": {
 "fetched_at": "2026-07-18T05:17:29.066147+00:00",
 "submission_code": "SUB-BFF1CA1C",
@@ -2689,6 +2734,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-EB9651FF": {
+"fetched_at": "2026-07-18T13:37:20.289060+00:00",
+"submission_code": "SUB-EB9651FF",
+"team_id": "06be41a1-2580-41c5-87ef-3bfeace8516d",
+"team_name": "Mingimum Risk",
+"window_end": 849,
+"window_name": "live_leaderboard_days_751_850",
+"window_start": 750
 },
 "SUB-EBEA12BE": {
 "fetched_at": "2026-07-17T02:58:00.199868+00:00",
