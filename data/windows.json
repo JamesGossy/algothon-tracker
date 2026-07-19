@@ -764,6 +764,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-372294C8": {
+"fetched_at": "2026-07-19T14:37:36.227285+00:00",
+"submission_code": "SUB-372294C8",
+"team_id": "3b5ead06-0534-4a81-bffa-702bb602a87a",
+"team_name": "Band of the Hawk",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-37653A98": {
 "fetched_at": "2026-07-17T02:58:05.151464+00:00",
 "submission_code": "SUB-37653A98",
@@ -1329,6 +1338,15 @@
 "team_name": "Seven Deuce Brownies",
 "window_end": 899,
 "window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
+"SUB-5EAFEFFF": {
+"fetched_at": "2026-07-19T14:37:35.916132+00:00",
+"submission_code": "SUB-5EAFEFFF",
+"team_id": "7797219b-db49-4832-baee-24a9056825cf",
+"team_name": "TraderHabibs",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-5ED7C4D9": {
