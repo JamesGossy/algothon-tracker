@@ -2573,6 +2573,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-B0E4AD11": {
+"fetched_at": "2026-07-19T17:09:05.419178+00:00",
+"submission_code": "SUB-B0E4AD11",
+"team_id": "f99dc6e2-561f-4fdb-afd8-63e615d507c4",
+"team_name": "Zero Alpha",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-B1598DDB": {
 "fetched_at": "2026-07-18T08:04:12.966705+00:00",
 "submission_code": "SUB-B1598DDB",
