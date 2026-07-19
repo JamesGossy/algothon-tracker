@@ -2069,6 +2069,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-8FCD74A2": {
+"fetched_at": "2026-07-19T15:07:56.523269+00:00",
+"submission_code": "SUB-8FCD74A2",
+"team_id": "c4b9d83c-1016-4e71-86c5-28f45f903647",
+"team_name": "Rocks",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-909070CB": {
 "fetched_at": "2026-07-17T11:21:10.856105+00:00",
 "submission_code": "SUB-909070CB",
@@ -2625,6 +2634,15 @@
 "team_name": "the DESTination",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-B57B5E02": {
+"fetched_at": "2026-07-19T15:07:57.684503+00:00",
+"submission_code": "SUB-B57B5E02",
+"team_id": "f933d72a-b86c-46fa-a817-62a149f13bf4",
+"team_name": "JAF",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-B6A1054C": {
