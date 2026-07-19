@@ -2582,6 +2582,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-C035EA2A": {
+"fetched_at": "2026-07-19T07:02:54.640563+00:00",
+"submission_code": "SUB-C035EA2A",
+"team_id": "f08238a6-0009-4043-9927-7fa4272168d0",
+"team_name": "SigAlgoteam",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-C0BF21A2": {
 "fetched_at": "2026-07-17T02:57:54.744461+00:00",
 "submission_code": "SUB-C0BF21A2",
