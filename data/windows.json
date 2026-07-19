@@ -854,6 +854,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-3DA0F747": {
+"fetched_at": "2026-07-19T14:22:28.912708+00:00",
+"submission_code": "SUB-3DA0F747",
+"team_id": "0653a73b-e467-4673-80e0-087cc2f4528d",
+"team_name": "The Market Makers",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-3EAA0DDA": {
 "fetched_at": "2026-07-17T05:32:47.734566+00:00",
 "submission_code": "SUB-3EAA0DDA",
@@ -970,6 +979,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-45F1B226": {
+"fetched_at": "2026-07-19T14:22:30.367174+00:00",
+"submission_code": "SUB-45F1B226",
+"team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
+"team_name": "the DESTination",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
 },
 "SUB-461D9580": {
 "fetched_at": "2026-07-17T11:36:26.575746+00:00",
@@ -3068,6 +3086,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-D68DA806": {
+"fetched_at": "2026-07-19T14:22:28.950508+00:00",
+"submission_code": "SUB-D68DA806",
+"team_id": "34a12949-c8dc-445d-961e-9e52b67b34ef",
+"team_name": "Curry & Rice",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-D6C438B8": {
 "fetched_at": "2026-07-17T02:58:01.173055+00:00",
 "submission_code": "SUB-D6C438B8",
@@ -3156,6 +3183,15 @@
 "team_name": "Algoholics",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E519BB98": {
+"fetched_at": "2026-07-19T14:22:28.908569+00:00",
+"submission_code": "SUB-E519BB98",
+"team_id": "44401cda-f157-4c5d-8076-a2f66031d0bf",
+"team_name": "I'm going to quit",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-E6450018": {
