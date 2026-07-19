@@ -3005,6 +3005,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-ED70DCA7": {
+"fetched_at": "2026-07-19T00:28:50.108509+00:00",
+"submission_code": "SUB-ED70DCA7",
+"team_id": "aba1f33a-ae09-4717-8308-70520a7a39bf",
+"team_name": "Three Sigma",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-ED7A08DD": {
 "fetched_at": "2026-07-17T02:57:57.502035+00:00",
 "submission_code": "SUB-ED7A08DD",
