@@ -2645,6 +2645,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-CC649C1F": {
+"fetched_at": "2026-07-19T00:13:44.498873+00:00",
+"submission_code": "SUB-CC649C1F",
+"team_id": "33899ce5-d6c1-4456-8889-f7cb8b2b0a5c",
+"team_name": "Crank the Money Machine",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-CD770227": {
 "fetched_at": "2026-07-17T02:58:00.344508+00:00",
 "submission_code": "SUB-CD770227",
