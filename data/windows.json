@@ -134,6 +134,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-0B06691D": {
+"fetched_at": "2026-07-19T10:50:11.307851+00:00",
+"submission_code": "SUB-0B06691D",
+"team_id": "887aaacc-2e63-4a6d-9c7c-39bd25ae3f15",
+"team_name": "Capital Gains",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-0C91097C": {
 "fetched_at": "2026-07-17T06:02:58.452191+00:00",
 "submission_code": "SUB-0C91097C",
@@ -3253,6 +3262,15 @@
 "submission_code": "SUB-F62428A9",
 "team_id": "924770c2-b910-4e8f-89f5-7cf2f39f5fda",
 "team_name": "Schuylkill Captial",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
+"SUB-F6496B8C": {
+"fetched_at": "2026-07-19T10:50:11.659724+00:00",
+"submission_code": "SUB-F6496B8C",
+"team_id": "e3b7309f-1712-482d-b707-3321cdc3a4e4",
+"team_name": "Hearts",
 "window_end": 899,
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
