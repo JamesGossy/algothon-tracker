@@ -773,6 +773,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-37EC15BE": {
+"fetched_at": "2026-07-19T11:50:48.470659+00:00",
+"submission_code": "SUB-37EC15BE",
+"team_id": "12ceeeb0-cedb-4524-b6ea-4f20e700f397",
+"team_name": "Great Court Gains",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-3960E196": {
 "fetched_at": "2026-07-19T10:19:46.847931+00:00",
 "submission_code": "SUB-3960E196",
@@ -3229,6 +3238,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-F16A4990": {
+"fetched_at": "2026-07-19T11:50:48.096776+00:00",
+"submission_code": "SUB-F16A4990",
+"team_id": "755e04d5-d430-4417-8902-8cb3e53f1680",
+"team_name": "Hashi Warriors",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
 },
 "SUB-F2DEED0D": {
 "fetched_at": "2026-07-17T02:57:57.905900+00:00",
