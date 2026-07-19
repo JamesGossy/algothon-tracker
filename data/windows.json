@@ -1601,6 +1601,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-78305508": {
+"fetched_at": "2026-07-19T08:18:44.288231+00:00",
+"submission_code": "SUB-78305508",
+"team_id": "360b2685-12bf-41d1-a3cb-2f403e53bfe2",
+"team_name": "Bluff",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-795379E2": {
 "fetched_at": "2026-07-17T02:57:56.530314+00:00",
 "submission_code": "SUB-795379E2",
@@ -3175,6 +3184,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-F62428A9": {
+"fetched_at": "2026-07-19T08:18:44.085246+00:00",
+"submission_code": "SUB-F62428A9",
+"team_id": "924770c2-b910-4e8f-89f5-7cf2f39f5fda",
+"team_name": "Schuylkill Captial",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
 },
 "SUB-F7399CBF": {
 "fetched_at": "2026-07-17T02:58:00.754455+00:00",
