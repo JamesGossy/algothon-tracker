@@ -1736,6 +1736,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-793EAF4D": {
+"fetched_at": "2026-07-19T15:53:26.370505+00:00",
+"submission_code": "SUB-793EAF4D",
+"team_id": "76e76842-e0b5-4878-9648-a135118ba44d",
+"team_name": "raveenfanclub",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-795379E2": {
 "fetched_at": "2026-07-17T02:57:56.530314+00:00",
 "submission_code": "SUB-795379E2",
@@ -3022,6 +3031,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-CEDFDEB3": {
+"fetched_at": "2026-07-19T15:53:26.028184+00:00",
+"submission_code": "SUB-CEDFDEB3",
+"team_id": "55f1e493-9c6b-4e78-bdd2-a77fb4ab83af",
+"team_name": "abc123",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
 },
 "SUB-CEF1073F": {
 "fetched_at": "2026-07-17T02:58:07.777856+00:00",
