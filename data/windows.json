@@ -2465,6 +2465,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A8D0981D": {
+"fetched_at": "2026-07-19T19:40:49.405477+00:00",
+"submission_code": "SUB-A8D0981D",
+"team_id": "28d870df-5e6e-4a06-bd4f-ac957f928ed7",
+"team_name": "Ace",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-A92903DF": {
 "fetched_at": "2026-07-17T02:58:09.835341+00:00",
 "submission_code": "SUB-A92903DF",
