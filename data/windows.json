@@ -1052,6 +1052,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-4B523413": {
+"fetched_at": "2026-07-19T11:20:37.688411+00:00",
+"submission_code": "SUB-4B523413",
+"team_id": "41703f92-a576-425d-b8c4-0f48ca5c7e5c",
+"team_name": "Knicks in 5",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-4BC7A484": {
 "fetched_at": "2026-07-17T02:58:01.722151+00:00",
 "submission_code": "SUB-4BC7A484",
@@ -2148,6 +2157,15 @@
 "team_name": "XOR",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-9C724071": {
+"fetched_at": "2026-07-19T11:20:38.160877+00:00",
+"submission_code": "SUB-9C724071",
+"team_id": "c0d27f62-68cb-4c33-a9eb-61c4e592c095",
+"team_name": "Pokies",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-9C7FBF13": {
