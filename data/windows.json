@@ -1529,6 +1529,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-68E53C38": {
+"fetched_at": "2026-07-19T13:52:05.392960+00:00",
+"submission_code": "SUB-68E53C38",
+"team_id": "7980c9ca-620b-4643-817e-0d848f811d3a",
+"team_name": "Knights Templar",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-6BB82BCB": {
 "fetched_at": "2026-07-17T02:57:57.183101+00:00",
 "submission_code": "SUB-6BB82BCB",
@@ -2085,6 +2094,15 @@
 "team_name": "DC KB",
 "window_end": 899,
 "window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
+"SUB-96CA3B53": {
+"fetched_at": "2026-07-19T13:52:04.996284+00:00",
+"submission_code": "SUB-96CA3B53",
+"team_id": "06be41a1-2580-41c5-87ef-3bfeace8516d",
+"team_name": "Mingimum Risk",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-981FCBDF": {
@@ -2814,6 +2832,15 @@
 "team_name": "Sigma0",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C897E575": {
+"fetched_at": "2026-07-19T13:52:05.110958+00:00",
+"submission_code": "SUB-C897E575",
+"team_id": "e92ef1d1-dd28-4ef9-8077-6d0a19d34364",
+"team_name": "Rush Hour",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-C93A7839": {
