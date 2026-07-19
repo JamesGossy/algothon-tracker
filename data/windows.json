@@ -1817,6 +1817,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-7BED0011": {
+"fetched_at": "2026-07-19T23:43:12.554912+00:00",
+"submission_code": "SUB-7BED0011",
+"team_id": "2eb973b2-9db3-4769-80b2-70e5daa72015",
+"team_name": "Big A",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-7D03B4B0": {
 "fetched_at": "2026-07-17T02:57:57.654321+00:00",
 "submission_code": "SUB-7D03B4B0",
@@ -3442,6 +3451,15 @@
 "submission_code": "SUB-EC02E61D",
 "team_id": "06e80c1b-ad2f-4c5e-94da-e7a332293a00",
 "team_name": "Wingspan",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-ED06358F": {
+"fetched_at": "2026-07-19T23:43:11.345597+00:00",
+"submission_code": "SUB-ED06358F",
+"team_id": "e9749390-6187-47dd-8c5f-babf9cbee0bb",
+"team_name": "Guers",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
