@@ -2573,6 +2573,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-BA083022": {
+"fetched_at": "2026-07-19T13:37:00.440091+00:00",
+"submission_code": "SUB-BA083022",
+"team_id": "b4ea4651-3ec0-486b-aeb9-a266a38293e5",
+"team_name": "GO ALL IN",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-BA668BD5": {
 "fetched_at": "2026-07-19T10:19:47.373637+00:00",
 "submission_code": "SUB-BA668BD5",
