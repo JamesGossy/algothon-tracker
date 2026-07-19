@@ -1421,6 +1421,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-6829B0D7": {
+"fetched_at": "2026-07-19T04:31:26.979513+00:00",
+"submission_code": "SUB-6829B0D7",
+"team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
+"team_name": "SYD2AKL",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-686D7BDF": {
 "fetched_at": "2026-07-18T13:37:21.011188+00:00",
 "submission_code": "SUB-686D7BDF",
