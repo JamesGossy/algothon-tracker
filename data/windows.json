@@ -197,6 +197,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-0EE97617": {
+"fetched_at": "2026-07-19T10:35:06.771472+00:00",
+"submission_code": "SUB-0EE97617",
+"team_id": "28333ef4-76f6-4369-943f-70df09d2d312",
+"team_name": "Tundra-wawa",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-1031775A": {
 "fetched_at": "2026-07-17T07:49:13.049035+00:00",
 "submission_code": "SUB-1031775A",
@@ -2616,6 +2625,15 @@
 "team_name": "MARJinal Gains",
 "window_end": 849,
 "window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
+"SUB-BF3F5959": {
+"fetched_at": "2026-07-19T10:35:07.031896+00:00",
+"submission_code": "SUB-BF3F5959",
+"team_id": "dfbe2719-e9c0-42aa-a63a-2816ca646030",
+"team_name": "Algoholics",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-BFF1CA1C": {
