@@ -467,6 +467,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-26A4B9B6": {
+"fetched_at": "2026-07-19T10:19:47.870548+00:00",
+"submission_code": "SUB-26A4B9B6",
+"team_id": "f74512ff-2951-46e5-aac5-13c282011824",
+"team_name": "mathlarpers",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-2710F0A2": {
 "fetched_at": "2026-07-17T20:27:02.372625+00:00",
 "submission_code": "SUB-2710F0A2",
@@ -735,6 +744,15 @@
 "team_name": "The Financiers",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-3960E196": {
+"fetched_at": "2026-07-19T10:19:46.847931+00:00",
+"submission_code": "SUB-3960E196",
+"team_id": "c3d0357b-3453-4c2a-ac95-722d744180ae",
+"team_name": "Clankers",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-39F6FAC4": {
@@ -2501,6 +2519,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-BA668BD5": {
+"fetched_at": "2026-07-19T10:19:47.373637+00:00",
+"submission_code": "SUB-BA668BD5",
+"team_id": "b89fb826-629d-4986-9953-b74c43bbb662",
+"team_name": "3musketeers",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-BA96F59E": {
 "fetched_at": "2026-07-17T02:57:54.018269+00:00",
 "submission_code": "SUB-BA96F59E",
@@ -2688,6 +2715,15 @@
 "team_name": "Schuylkill Captial",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-C6A51BBA": {
+"fetched_at": "2026-07-19T10:19:47.585984+00:00",
+"submission_code": "SUB-C6A51BBA",
+"team_id": "2aae3b84-608b-41b0-8dbc-24c5d616dfc7",
+"team_name": "Monte Claudo",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
 "SUB-C7BFCBBD": {
