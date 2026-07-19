@@ -2690,6 +2690,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-B7CDD778": {
+"fetched_at": "2026-07-19T17:24:26.936527+00:00",
+"submission_code": "SUB-B7CDD778",
+"team_id": "002b33f3-93a1-495b-bd85-abfc285bdb56",
+"team_name": "finding_sigma",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-B937C6DE": {
 "fetched_at": "2026-07-17T12:22:00.243502+00:00",
 "submission_code": "SUB-B937C6DE",
