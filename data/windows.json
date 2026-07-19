@@ -62,6 +62,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-05FDE9FB": {
+"fetched_at": "2026-07-19T22:42:44.812803+00:00",
+"submission_code": "SUB-05FDE9FB",
+"team_id": "929a7316-c49b-44f8-89e7-fc9a283e62b3",
+"team_name": "Lean Mean Algo Machine",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-06073EE8": {
 "fetched_at": "2026-07-17T02:58:06.449430+00:00",
 "submission_code": "SUB-06073EE8",
@@ -1222,6 +1231,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-52E82E31": {
+"fetched_at": "2026-07-19T22:42:44.215542+00:00",
+"submission_code": "SUB-52E82E31",
+"team_id": "55fb9ade-fd94-4014-927c-800957a4c603",
+"team_name": "Sydney Quant Traders",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
 },
 "SUB-53192111": {
 "fetched_at": "2026-07-17T02:57:55.260805+00:00",
@@ -3291,6 +3309,15 @@
 "team_name": "Algoholics",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E43D7106": {
+"fetched_at": "2026-07-19T22:42:43.462072+00:00",
+"submission_code": "SUB-E43D7106",
+"team_id": "8c46076d-5d48-4ebe-b90c-bb7525153bfc",
+"team_name": "Fig Tree Capital",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-E519BB98": {
