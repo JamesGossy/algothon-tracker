@@ -1799,6 +1799,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-8C523C0D": {
+"fetched_at": "2026-07-19T03:30:39.736289+00:00",
+"submission_code": "SUB-8C523C0D",
+"team_id": "3b5ead06-0534-4a81-bffa-702bb602a87a",
+"team_name": "Band of the Hawk",
+"window_end": 899,
+"window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
 "SUB-8CFC7896": {
 "fetched_at": "2026-07-17T02:58:06.704412+00:00",
 "submission_code": "SUB-8CFC7896",
