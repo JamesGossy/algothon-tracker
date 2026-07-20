@@ -2780,6 +2780,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-B0406C41": {
+"fetched_at": "2026-07-20T07:29:47.145604+00:00",
+"submission_code": "SUB-B0406C41",
+"team_id": "4921eb70-4145-4f78-b83a-18c24bca9f20",
+"team_name": "FPGA Engineers",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-B0E4AD11": {
 "fetched_at": "2026-07-19T17:09:05.419178+00:00",
 "submission_code": "SUB-B0E4AD11",
