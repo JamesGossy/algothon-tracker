@@ -269,6 +269,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-0E8E937F": {
+"fetched_at": "2026-07-20T14:04:12.808548+00:00",
+"submission_code": "SUB-0E8E937F",
+"team_id": "08da4296-9056-44d8-8468-365f75882536",
+"team_name": "PathwayToPR",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-0EE97617": {
 "fetched_at": "2026-07-19T10:35:06.771472+00:00",
 "submission_code": "SUB-0EE97617",
@@ -348,6 +357,15 @@
 "team_name": "TMHS",
 "window_end": 899,
 "window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
+"SUB-14B5551F": {
+"fetched_at": "2026-07-20T14:04:13.118358+00:00",
+"submission_code": "SUB-14B5551F",
+"team_id": "c57909fc-812b-40a7-a4bb-53e397db6108",
+"team_name": "Three Big Guys",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-14B6889D": {
@@ -1052,6 +1070,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-40DF125D": {
+"fetched_at": "2026-07-20T14:04:13.394912+00:00",
+"submission_code": "SUB-40DF125D",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-40F76A49": {
 "fetched_at": "2026-07-17T02:58:09.659425+00:00",
 "submission_code": "SUB-40F76A49",
@@ -1437,6 +1464,24 @@
 "team_name": "SNK",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-56087E94": {
+"fetched_at": "2026-07-20T14:04:12.636708+00:00",
+"submission_code": "SUB-56087E94",
+"team_id": "d0115864-0e80-4f9b-acb5-d0a873424622",
+"team_name": "Sigma0",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
+"SUB-5644BDDC": {
+"fetched_at": "2026-07-20T14:04:13.130503+00:00",
+"submission_code": "SUB-5644BDDC",
+"team_id": "6710fbcc-6625-4722-989f-5e6f5d8ffc3f",
+"team_name": "Duo Dual Function",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-56AAD1A7": {
@@ -2526,6 +2571,24 @@
 "team_name": "Big YUAN",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-98A29297": {
+"fetched_at": "2026-07-20T14:04:12.668949+00:00",
+"submission_code": "SUB-98A29297",
+"team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
+"team_name": "the DESTination",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
+"SUB-99149984": {
+"fetched_at": "2026-07-20T14:04:13.435861+00:00",
+"submission_code": "SUB-99149984",
+"team_id": "81dec5b9-5c08-4a0d-8980-8ab9d3eb0183",
+"team_name": "Ivan & Haowen",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-99C81237": {
