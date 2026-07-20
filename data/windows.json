@@ -233,6 +233,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-0DE8AB81": {
+"fetched_at": "2026-07-20T11:02:14.116312+00:00",
+"submission_code": "SUB-0DE8AB81",
+"team_id": "54d9cc82-2223-4816-8ad9-ee5ace91baff",
+"team_name": "Frontier Markets",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-0E0DDBD3": {
 "fetched_at": "2026-07-18T03:31:30.567544+00:00",
 "submission_code": "SUB-0E0DDBD3",
@@ -321,6 +330,15 @@
 "team_name": "mathlarpers",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-14869DFE": {
+"fetched_at": "2026-07-20T11:02:13.194019+00:00",
+"submission_code": "SUB-14869DFE",
+"team_id": "d2cf32e9-ba0c-4266-8b3e-9eface7341cd",
+"team_name": "Lebnan",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-1491904C": {
