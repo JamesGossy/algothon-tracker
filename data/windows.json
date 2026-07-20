@@ -287,6 +287,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-1289F4C6": {
+"fetched_at": "2026-07-20T06:13:48.969197+00:00",
+"submission_code": "SUB-1289F4C6",
+"team_id": "36e0dc46-4ee5-48fb-af2e-a7483c22390b",
+"team_name": "Nikkei Traders",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-14862D19": {
 "fetched_at": "2026-07-17T02:58:06.318407+00:00",
 "submission_code": "SUB-14862D19",
