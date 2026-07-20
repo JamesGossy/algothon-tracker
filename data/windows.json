@@ -512,6 +512,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-1C2C7275": {
+"fetched_at": "2026-07-20T23:56:03.387455+00:00",
+"submission_code": "SUB-1C2C7275",
+"team_id": "28333ef4-76f6-4369-943f-70df09d2d312",
+"team_name": "Tundra-wawa",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-1CA65439": {
 "fetched_at": "2026-07-20T05:58:42.830333+00:00",
 "submission_code": "SUB-1CA65439",
