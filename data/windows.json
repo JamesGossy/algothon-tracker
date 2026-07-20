@@ -44,6 +44,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-02E462BF": {
+"fetched_at": "2026-07-20T06:59:21.971144+00:00",
+"submission_code": "SUB-02E462BF",
+"team_id": "ceb75468-3270-4c3b-b2e6-b1eff64df87e",
+"team_name": "cycling",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-03C24174": {
 "fetched_at": "2026-07-17T02:58:06.798802+00:00",
 "submission_code": "SUB-03C24174",
@@ -2256,6 +2265,15 @@
 "team_name": "ANVI Traders",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-910C90B6": {
+"fetched_at": "2026-07-20T06:59:21.887356+00:00",
+"submission_code": "SUB-910C90B6",
+"team_id": "06be41a1-2580-41c5-87ef-3bfeace8516d",
+"team_name": "Mingimum Risk",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
 "SUB-9228F8EB": {
