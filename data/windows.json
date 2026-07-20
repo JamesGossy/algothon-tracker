@@ -476,6 +476,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-1B019BA2": {
+"fetched_at": "2026-07-20T14:19:18.913061+00:00",
+"submission_code": "SUB-1B019BA2",
+"team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
+"team_name": "SYD2AKL",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-1B362A37": {
 "fetched_at": "2026-07-17T02:57:56.609531+00:00",
 "submission_code": "SUB-1B362A37",
@@ -2474,6 +2483,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-92EA6B85": {
+"fetched_at": "2026-07-20T14:19:18.439773+00:00",
+"submission_code": "SUB-92EA6B85",
+"team_id": "f43c0431-aa11-4284-8365-51a8e8b345aa",
+"team_name": "RegardedTraders",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-93549561": {
 "fetched_at": "2026-07-17T16:24:31.375296+00:00",
 "submission_code": "SUB-93549561",
@@ -3446,6 +3464,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-CDEADE1B": {
+"fetched_at": "2026-07-20T14:19:19.282065+00:00",
+"submission_code": "SUB-CDEADE1B",
+"team_id": "d3b7aac0-33af-472e-8627-0ee7234598d7",
+"team_name": "Jame Street",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-CE303479": {
 "fetched_at": "2026-07-17T03:40:33.708750+00:00",
 "submission_code": "SUB-CE303479",
@@ -3589,6 +3616,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-D665270C": {
+"fetched_at": "2026-07-20T14:19:19.553605+00:00",
+"submission_code": "SUB-D665270C",
+"team_id": "7797219b-db49-4832-baee-24a9056825cf",
+"team_name": "TraderHabibs",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-D68DA806": {
 "fetched_at": "2026-07-19T14:22:28.950508+00:00",
