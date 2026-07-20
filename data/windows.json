@@ -1403,6 +1403,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-598DA40F": {
+"fetched_at": "2026-07-20T08:30:19.975408+00:00",
+"submission_code": "SUB-598DA40F",
+"team_id": "65f91483-b812-411d-add0-a81f9a841c7c",
+"team_name": "setwithfriends",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-5995F597": {
 "fetched_at": "2026-07-20T03:57:43.464284+00:00",
 "submission_code": "SUB-5995F597",
