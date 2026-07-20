@@ -1178,6 +1178,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-4A71013D": {
+"fetched_at": "2026-07-20T10:01:20.738551+00:00",
+"submission_code": "SUB-4A71013D",
+"team_id": "97929762-4634-4149-86f0-e8383fc8e137",
+"team_name": "cloudplayer",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-4AC60848": {
 "fetched_at": "2026-07-17T02:57:55.955784+00:00",
 "submission_code": "SUB-4AC60848",
