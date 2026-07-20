@@ -3383,6 +3383,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-C6BD1D07": {
+"fetched_at": "2026-07-20T15:04:56.302266+00:00",
+"submission_code": "SUB-C6BD1D07",
+"team_id": "65d37cd5-4e1c-4555-9115-b4f7ed5547c3",
+"team_name": "Significant Losses v2",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-C7BFCBBD": {
 "fetched_at": "2026-07-18T15:38:34.205139+00:00",
 "submission_code": "SUB-C7BFCBBD",
