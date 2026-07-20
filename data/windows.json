@@ -1016,6 +1016,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3F490CF5": {
+"fetched_at": "2026-07-20T13:33:45.350151+00:00",
+"submission_code": "SUB-3F490CF5",
+"team_id": "ec5916e3-1c60-4bad-a02f-9a34e0dc0546",
+"team_name": "emaN maeT",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-3FA59CBB": {
 "fetched_at": "2026-07-17T14:08:00.607819+00:00",
 "submission_code": "SUB-3FA59CBB",
@@ -1176,6 +1185,15 @@
 "team_name": "King's Gambit",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-483A3D88": {
+"fetched_at": "2026-07-20T13:33:45.265662+00:00",
+"submission_code": "SUB-483A3D88",
+"team_id": "d1c741c1-7471-4819-aae1-e139515c115b",
+"team_name": "gainzalgo v3 edge",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-483BDA47": {
