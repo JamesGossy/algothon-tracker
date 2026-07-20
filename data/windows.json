@@ -2087,6 +2087,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-8A066DDA": {
+"fetched_at": "2026-07-20T10:31:45.384110+00:00",
+"submission_code": "SUB-8A066DDA",
+"team_id": "b6271555-c556-4d1a-b77d-085f0fd5a87c",
+"team_name": "Markov Monkeys",
+"window_end": 949,
+"window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
 "SUB-8A06E548": {
 "fetched_at": "2026-07-17T02:57:59.381194+00:00",
 "submission_code": "SUB-8A06E548",
