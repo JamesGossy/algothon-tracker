@@ -1079,6 +1079,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-416448BE": {
+"fetched_at": "2026-07-20T13:48:50.618431+00:00",
+"submission_code": "SUB-416448BE",
+"team_id": "04d2ac70-76be-47b1-86e8-d312e54511ca",
+"team_name": "money_makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-4179BA66": {
 "fetched_at": "2026-07-17T02:58:03.880133+00:00",
 "submission_code": "SUB-4179BA66",
@@ -1817,6 +1826,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-6F2C03D3": {
+"fetched_at": "2026-07-20T13:48:50.766245+00:00",
+"submission_code": "SUB-6F2C03D3",
+"team_id": "65d37cd5-4e1c-4555-9115-b4f7ed5547c3",
+"team_name": "Significant Losses v2",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-710C4B08": {
 "fetched_at": "2026-07-17T02:57:58.715517+00:00",
 "submission_code": "SUB-710C4B08",
@@ -2392,6 +2410,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-9277EDBA": {
+"fetched_at": "2026-07-20T13:48:50.032616+00:00",
+"submission_code": "SUB-9277EDBA",
+"team_id": "075cec4b-9c63-4d4a-a4d3-c89eeb924169",
+"team_name": "Mara Sov's Twilight Gap",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-928EA984": {
 "fetched_at": "2026-07-17T02:58:07.666634+00:00",
@@ -3707,6 +3734,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-E9A10E1D": {
+"fetched_at": "2026-07-20T13:48:51.121210+00:00",
+"submission_code": "SUB-E9A10E1D",
+"team_id": "a5a90afb-b65d-412f-a1fa-15ac9137dd74",
+"team_name": "cheah",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-EA13013B": {
 "fetched_at": "2026-07-19T02:15:02.890329+00:00",
 "submission_code": "SUB-EA13013B",
@@ -3759,6 +3795,15 @@
 "team_name": "Curry & Rice",
 "window_end": 899,
 "window_name": "live_leaderboard_days_751_900",
+"window_start": 750
+},
+"SUB-ED23E8A9": {
+"fetched_at": "2026-07-20T13:48:51.212843+00:00",
+"submission_code": "SUB-ED23E8A9",
+"team_id": "06d04e70-3ed8-4508-979e-134ca0784436",
+"team_name": "CX138",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-ED24D704": {
@@ -3886,6 +3931,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-F55F6304": {
+"fetched_at": "2026-07-20T13:48:50.421905+00:00",
+"submission_code": "SUB-F55F6304",
+"team_id": "5292dc9e-bbd0-4fc3-9ad5-1887d445b04f",
+"team_name": "Negative Alpha",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-F62428A9": {
 "fetched_at": "2026-07-19T08:18:44.085246+00:00",
