@@ -3257,6 +3257,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-B5C8A58B": {
+"fetched_at": "2026-07-21T09:32:08.524584+00:00",
+"submission_code": "SUB-B5C8A58B",
+"team_id": "0e82075c-e475-438c-a8b2-198479b34594",
+"team_name": "TMHS",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-B6A1054C": {
 "fetched_at": "2026-07-18T21:42:19.921377+00:00",
 "submission_code": "SUB-B6A1054C",
