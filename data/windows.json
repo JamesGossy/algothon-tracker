@@ -872,6 +872,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-31312902": {
+"fetched_at": "2026-07-21T12:04:07.798638+00:00",
+"submission_code": "SUB-31312902",
+"team_id": "c4b9d83c-1016-4e71-86c5-28f45f903647",
+"team_name": "Rocks",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-313157BE": {
 "fetched_at": "2026-07-17T02:58:01.017188+00:00",
 "submission_code": "SUB-313157BE",
@@ -1555,6 +1564,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-533913E9": {
+"fetched_at": "2026-07-21T12:04:07.928871+00:00",
+"submission_code": "SUB-533913E9",
+"team_id": "002b33f3-93a1-495b-bd85-abfc285bdb56",
+"team_name": "finding_sigma",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-536274A7": {
 "fetched_at": "2026-07-17T02:58:03.747404+00:00",
