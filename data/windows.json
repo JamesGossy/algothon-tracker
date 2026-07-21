@@ -980,6 +980,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3792D74A": {
+"fetched_at": "2026-07-21T05:29:36.162651+00:00",
+"submission_code": "SUB-3792D74A",
+"team_id": "b52c119f-a37f-4690-85f8-452b2bca3d0d",
+"team_name": "Team NCR",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-37EC15BE": {
 "fetched_at": "2026-07-19T11:50:48.470659+00:00",
 "submission_code": "SUB-37EC15BE",
