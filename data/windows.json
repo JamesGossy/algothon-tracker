@@ -1160,6 +1160,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-3F788E0B": {
+"fetched_at": "2026-07-21T15:21:47.094347+00:00",
+"submission_code": "SUB-3F788E0B",
+"team_id": "04d2ac70-76be-47b1-86e8-d312e54511ca",
+"team_name": "money_makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-3FA59CBB": {
 "fetched_at": "2026-07-17T14:08:00.607819+00:00",
 "submission_code": "SUB-3FA59CBB",
@@ -1754,6 +1763,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-5E8E5672": {
+"fetched_at": "2026-07-21T15:21:47.559284+00:00",
+"submission_code": "SUB-5E8E5672",
+"team_id": "e87514dd-32ba-4455-8de0-4ba1bd616721",
+"team_name": "the DESTination",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-5EAFEFFF": {
 "fetched_at": "2026-07-19T14:37:35.916132+00:00",
 "submission_code": "SUB-5EAFEFFF",
@@ -2283,6 +2301,15 @@
 "team_name": "Big A",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-7C62C71C": {
+"fetched_at": "2026-07-21T15:21:47.989442+00:00",
+"submission_code": "SUB-7C62C71C",
+"team_id": "08d4f959-3747-4578-b962-e5d3cad16c4f",
+"team_name": "Walking Devs",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-7D03B4B0": {
