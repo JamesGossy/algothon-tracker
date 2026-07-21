@@ -2330,6 +2330,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-807B6D21": {
+"fetched_at": "2026-07-21T14:20:53.388718+00:00",
+"submission_code": "SUB-807B6D21",
+"team_id": "9c52e094-e5fb-4450-a113-2ae071de940a",
+"team_name": "Eric Allen Le",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-8199EFE6": {
 "fetched_at": "2026-07-17T02:58:08.201487+00:00",
 "submission_code": "SUB-8199EFE6",
@@ -4066,6 +4075,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-DF94E25A": {
+"fetched_at": "2026-07-21T14:20:53.657424+00:00",
+"submission_code": "SUB-DF94E25A",
+"team_id": "55f1e493-9c6b-4e78-bdd2-a77fb4ab83af",
+"team_name": "abc123",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-DFFBD626": {
 "fetched_at": "2026-07-17T02:57:55.589331+00:00",
