@@ -251,6 +251,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-0D833EE5": {
+"fetched_at": "2026-07-21T08:31:31.246627+00:00",
+"submission_code": "SUB-0D833EE5",
+"team_id": "8267d4c2-26a5-485b-b85c-4b481254e06f",
+"team_name": "IT team",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-0DE8AB81": {
 "fetched_at": "2026-07-20T11:02:14.116312+00:00",
 "submission_code": "SUB-0DE8AB81",
