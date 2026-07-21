@@ -4202,6 +4202,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-E2F4AE44": {
+"fetched_at": "2026-07-21T16:22:30.533353+00:00",
+"submission_code": "SUB-E2F4AE44",
+"team_id": "1531aca8-6f3c-4166-8e3c-64e96997940c",
+"team_name": "+xp",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-E30A162F": {
 "fetched_at": "2026-07-21T14:05:20.358416+00:00",
 "submission_code": "SUB-E30A162F",
