@@ -2942,6 +2942,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A1E693BF": {
+"fetched_at": "2026-07-21T12:49:38.117135+00:00",
+"submission_code": "SUB-A1E693BF",
+"team_id": "a3a8a023-e92b-4933-83b3-2b6600de31b1",
+"team_name": "The Quant Knights",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A20973B7": {
 "fetched_at": "2026-07-17T02:58:01.203140+00:00",
 "submission_code": "SUB-A20973B7",
@@ -3345,6 +3354,15 @@
 "team_name": "finding_sigma",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-B811BCFA": {
+"fetched_at": "2026-07-21T12:49:38.066914+00:00",
+"submission_code": "SUB-B811BCFA",
+"team_id": "e9749390-6187-47dd-8c5f-babf9cbee0bb",
+"team_name": "Guers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-B937C6DE": {
