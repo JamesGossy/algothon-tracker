@@ -3716,6 +3716,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-CC1FC3B3": {
+"fetched_at": "2026-07-21T13:50:14.568052+00:00",
+"submission_code": "SUB-CC1FC3B3",
+"team_id": "51036c65-61e7-4ee0-89d5-f8e510f5ecb2",
+"team_name": "Print(money)",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-CC649C1F": {
 "fetched_at": "2026-07-19T00:13:44.498873+00:00",
 "submission_code": "SUB-CC649C1F",
