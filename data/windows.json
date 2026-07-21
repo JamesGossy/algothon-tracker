@@ -1916,6 +1916,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-66CFB3C9": {
+"fetched_at": "2026-07-21T13:19:47.857948+00:00",
+"submission_code": "SUB-66CFB3C9",
+"team_id": "2df23a1e-146a-4dd3-80e9-82b618e5b022",
+"team_name": "KN",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-6726A31B": {
 "fetched_at": "2026-07-17T02:58:01.807463+00:00",
 "submission_code": "SUB-6726A31B",
