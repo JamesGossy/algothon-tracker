@@ -3482,6 +3482,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-C0934DB4": {
+"fetched_at": "2026-07-21T10:33:03.418332+00:00",
+"submission_code": "SUB-C0934DB4",
+"team_id": "d8d21c8a-6c7f-44f9-aa98-3c87dad4ffae",
+"team_name": "Axion Labs",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-C0BF21A2": {
 "fetched_at": "2026-07-17T02:57:54.744461+00:00",
 "submission_code": "SUB-C0BF21A2",
