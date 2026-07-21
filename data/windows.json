@@ -1151,6 +1151,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-4152C2B7": {
+"fetched_at": "2026-07-21T02:27:31.950157+00:00",
+"submission_code": "SUB-4152C2B7",
+"team_id": "af5acc76-3232-470d-ad19-b764cb9671be",
+"team_name": "FortniteLegendz",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-416448BE": {
 "fetched_at": "2026-07-20T13:48:50.618431+00:00",
 "submission_code": "SUB-416448BE",
