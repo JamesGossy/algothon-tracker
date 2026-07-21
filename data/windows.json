@@ -575,6 +575,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-1ECAE9B1": {
+"fetched_at": "2026-07-21T16:07:23.580443+00:00",
+"submission_code": "SUB-1ECAE9B1",
+"team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
+"team_name": "SYD2AKL",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-1F608474": {
 "fetched_at": "2026-07-18T11:36:02.686776+00:00",
 "submission_code": "SUB-1F608474",
@@ -4111,6 +4120,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-DA9BAAB6": {
+"fetched_at": "2026-07-21T16:07:22.027782+00:00",
+"submission_code": "SUB-DA9BAAB6",
+"team_id": "8ede41dc-347c-4cc8-89b3-771bf1e9cf42",
+"team_name": "jaiden hanwool",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-DCF78783": {
 "fetched_at": "2026-07-21T14:35:59.153774+00:00",
