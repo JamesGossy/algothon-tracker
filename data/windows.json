@@ -53,6 +53,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-030E1FF2": {
+"fetched_at": "2026-07-21T14:05:19.726309+00:00",
+"submission_code": "SUB-030E1FF2",
+"team_id": "0a445daf-55df-4068-9f3e-7886ba11667c",
+"team_name": "Arbitrage Victims",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-03C24174": {
 "fetched_at": "2026-07-17T02:58:06.798802+00:00",
 "submission_code": "SUB-03C24174",
@@ -1691,6 +1700,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-5A392B27": {
+"fetched_at": "2026-07-21T14:05:20.474975+00:00",
+"submission_code": "SUB-5A392B27",
+"team_id": "ec5916e3-1c60-4bad-a02f-9a34e0dc0546",
+"team_name": "emaN maeT",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-5C63BAD5": {
 "fetched_at": "2026-07-17T14:08:00.440617+00:00",
 "submission_code": "SUB-5C63BAD5",
@@ -3284,6 +3302,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-B391E327": {
+"fetched_at": "2026-07-21T14:05:21.507073+00:00",
+"submission_code": "SUB-B391E327",
+"team_id": "d8ab6024-d815-4703-b7d0-2c9b1896ee2c",
+"team_name": "Guess Who?",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-B4268921": {
 "fetched_at": "2026-07-17T02:58:06.068005+00:00",
 "submission_code": "SUB-B4268921",
@@ -3507,6 +3534,15 @@
 "team_name": "MARJinal Gains",
 "window_end": 849,
 "window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
+"SUB-BEED4335": {
+"fetched_at": "2026-07-21T14:05:19.794577+00:00",
+"submission_code": "SUB-BEED4335",
+"team_id": "817bbd4a-6561-46b7-a9ff-c34cf153909c",
+"team_name": "vibing voltures",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-BF3F5959": {
@@ -4049,6 +4085,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-E30A162F": {
+"fetched_at": "2026-07-21T14:05:20.358416+00:00",
+"submission_code": "SUB-E30A162F",
+"team_id": "e92ef1d1-dd28-4ef9-8077-6d0a19d34364",
+"team_name": "Rush Hour",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-E33CCEF1": {
 "fetched_at": "2026-07-19T20:26:19.180726+00:00",
 "submission_code": "SUB-E33CCEF1",
@@ -4138,6 +4183,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-E874DD6A": {
+"fetched_at": "2026-07-21T14:05:20.035509+00:00",
+"submission_code": "SUB-E874DD6A",
+"team_id": "a5a90afb-b65d-412f-a1fa-15ac9137dd74",
+"team_name": "cheah",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-E88672EA": {
 "fetched_at": "2026-07-18T15:38:33.631681+00:00",
