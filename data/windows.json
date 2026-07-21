@@ -611,6 +611,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-20453181": {
+"fetched_at": "2026-07-21T14:35:58.194945+00:00",
+"submission_code": "SUB-20453181",
+"team_id": "06e80c1b-ad2f-4c5e-94da-e7a332293a00",
+"team_name": "Wingspan",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-2061EDF5": {
 "fetched_at": "2026-07-18T06:18:00.792452+00:00",
 "submission_code": "SUB-2061EDF5",
@@ -2546,6 +2555,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-8D3BCB63": {
+"fetched_at": "2026-07-21T14:35:58.429036+00:00",
+"submission_code": "SUB-8D3BCB63",
+"team_id": "74210303-d929-4f1d-8de7-873dfcee328f",
+"team_name": "Kumar Dhananjaya Shivanna",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-8DEB2F11": {
 "fetched_at": "2026-07-17T02:57:54.115119+00:00",
 "submission_code": "SUB-8DEB2F11",
@@ -3545,6 +3563,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-BE4AFA80": {
+"fetched_at": "2026-07-21T14:35:58.105973+00:00",
+"submission_code": "SUB-BE4AFA80",
+"team_id": "d698ef11-55d9-43aa-8ff2-101b6de006bf",
+"team_name": "AlgoAlgo",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-BEED4335": {
 "fetched_at": "2026-07-21T14:05:19.794577+00:00",
 "submission_code": "SUB-BEED4335",
@@ -4039,6 +4066,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-DCF78783": {
+"fetched_at": "2026-07-21T14:35:59.153774+00:00",
+"submission_code": "SUB-DCF78783",
+"team_id": "60227a2d-97f2-435c-bd9f-74d4bcabc924",
+"team_name": "Big YUAN",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-DE9B0AB8": {
 "fetched_at": "2026-07-17T02:58:05.817845+00:00",
