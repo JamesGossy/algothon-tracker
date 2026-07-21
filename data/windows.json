@@ -2960,6 +2960,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A655C54F": {
+"fetched_at": "2026-07-21T09:17:01.991901+00:00",
+"submission_code": "SUB-A655C54F",
+"team_id": "d698ef11-55d9-43aa-8ff2-101b6de006bf",
+"team_name": "AlgoAlgo",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A6723C42": {
 "fetched_at": "2026-07-20T03:57:43.225898+00:00",
 "submission_code": "SUB-A6723C42",
