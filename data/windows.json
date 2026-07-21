@@ -2951,6 +2951,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-A4DBE8A2": {
+"fetched_at": "2026-07-21T09:47:32.186521+00:00",
+"submission_code": "SUB-A4DBE8A2",
+"team_id": "dfbe2719-e9c0-42aa-a63a-2816ca646030",
+"team_name": "Algoholics",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A553C26D": {
 "fetched_at": "2026-07-17T02:57:56.521454+00:00",
 "submission_code": "SUB-A553C26D",
