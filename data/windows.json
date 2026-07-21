@@ -2492,6 +2492,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-90E9AB5C": {
+"fetched_at": "2026-07-21T02:12:25.507265+00:00",
+"submission_code": "SUB-90E9AB5C",
+"team_id": "4ee538be-9685-409e-a459-bb1002deaac6",
+"team_name": "Koala Capital",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-910A020D": {
 "fetched_at": "2026-07-17T11:36:28.063624+00:00",
 "submission_code": "SUB-910A020D",
