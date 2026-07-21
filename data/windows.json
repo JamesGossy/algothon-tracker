@@ -1034,6 +1034,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-3A8EC084": {
+"fetched_at": "2026-07-21T05:59:56.671977+00:00",
+"submission_code": "SUB-3A8EC084",
+"team_id": "d7ebbc54-bee6-48a5-859d-a2e333ccdc32",
+"team_name": "caringbah quant traders",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-3AD7DD5C": {
 "fetched_at": "2026-07-17T02:57:56.176975+00:00",
 "submission_code": "SUB-3AD7DD5C",
