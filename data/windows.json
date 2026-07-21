@@ -1799,6 +1799,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-627C241E": {
+"fetched_at": "2026-07-21T11:33:39.128510+00:00",
+"submission_code": "SUB-627C241E",
+"team_id": "41703f92-a576-425d-b8c4-0f48ca5c7e5c",
+"team_name": "Knicks in 5",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-6351474F": {
 "fetched_at": "2026-07-17T02:58:09.513818+00:00",
 "submission_code": "SUB-6351474F",
@@ -3759,6 +3768,15 @@
 "team_name": "Print(money)",
 "window_end": 849,
 "window_name": "live_leaderboard_days_751_850",
+"window_start": 750
+},
+"SUB-D0CF5934": {
+"fetched_at": "2026-07-21T11:33:39.488438+00:00",
+"submission_code": "SUB-D0CF5934",
+"team_id": "aefa7c5b-c711-465e-9099-0c0a527ba821",
+"team_name": "Moffat Money Makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-D12E27E8": {
