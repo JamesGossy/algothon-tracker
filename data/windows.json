@@ -3617,6 +3617,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-C9FE09CD": {
+"fetched_at": "2026-07-21T11:03:14.006089+00:00",
+"submission_code": "SUB-C9FE09CD",
+"team_id": "e8a4ffdd-7645-472d-8cff-1b12b6cc115a",
+"team_name": "DC KB",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-CA308C84": {
 "fetched_at": "2026-07-17T02:58:08.190656+00:00",
 "submission_code": "SUB-CA308C84",
