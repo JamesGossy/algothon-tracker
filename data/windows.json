@@ -944,6 +944,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-36CEF968": {
+"fetched_at": "2026-07-21T00:56:38.328239+00:00",
+"submission_code": "SUB-36CEF968",
+"team_id": "7fc7dfa2-6dd8-4fb9-91e1-60650e100889",
+"team_name": "Farmers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-37183B13": {
 "fetched_at": "2026-07-18T13:22:16.149080+00:00",
 "submission_code": "SUB-37183B13",
