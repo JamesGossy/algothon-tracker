@@ -1871,6 +1871,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-683C135D": {
+"fetched_at": "2026-07-21T00:26:14.750109+00:00",
+"submission_code": "SUB-683C135D",
+"team_id": "ceb75468-3270-4c3b-b2e6-b1eff64df87e",
+"team_name": "cycling",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-686D7BDF": {
 "fetched_at": "2026-07-18T13:37:21.011188+00:00",
 "submission_code": "SUB-686D7BDF",
