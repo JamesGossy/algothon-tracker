@@ -575,6 +575,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-1FBF4648": {
+"fetched_at": "2026-07-21T07:15:42.072616+00:00",
+"submission_code": "SUB-1FBF4648",
+"team_id": "a2f8545f-41c9-40f7-b150-0766eac849b7",
+"team_name": "squirrels",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-1FF75175": {
 "fetched_at": "2026-07-17T11:06:04.820076+00:00",
 "submission_code": "SUB-1FF75175",
