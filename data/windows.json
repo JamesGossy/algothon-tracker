@@ -2060,6 +2060,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-72A52573": {
+"fetched_at": "2026-07-21T11:48:44.799439+00:00",
+"submission_code": "SUB-72A52573",
+"team_id": "972d1320-7508-4e04-a4f1-cfe55939a777",
+"team_name": "Three Stooges",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-7331F534": {
 "fetched_at": "2026-07-17T08:19:23.927466+00:00",
 "submission_code": "SUB-7331F534",
