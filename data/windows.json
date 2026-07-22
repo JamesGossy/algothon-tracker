@@ -710,6 +710,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-23B7C406": {
+"fetched_at": "2026-07-22T13:53:21.090537+00:00",
+"submission_code": "SUB-23B7C406",
+"team_id": "dc9cded4-3f44-4ee1-9bb0-958de6979ed7",
+"team_name": "IDF Soldiers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-2480E3A9": {
 "fetched_at": "2026-07-17T02:58:06.132080+00:00",
 "submission_code": "SUB-2480E3A9",
@@ -1527,6 +1536,15 @@
 "team_name": "Candyland",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-495DDFF6": {
+"fetched_at": "2026-07-22T13:53:20.723298+00:00",
+"submission_code": "SUB-495DDFF6",
+"team_id": "b173d673-41f9-4681-bbdb-57968c58638a",
+"team_name": "PURESIGMA",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-4A71013D": {
@@ -4659,6 +4677,15 @@
 "team_name": "Rocks",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-EF86CEC8": {
+"fetched_at": "2026-07-22T13:53:21.598557+00:00",
+"submission_code": "SUB-EF86CEC8",
+"team_id": "f43c0431-aa11-4284-8365-51a8e8b345aa",
+"team_name": "RegardedTraders",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-F15D1DBD": {
