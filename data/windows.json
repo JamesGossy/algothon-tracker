@@ -944,6 +944,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-31666510": {
+"fetched_at": "2026-07-22T05:48:00.249506+00:00",
+"submission_code": "SUB-31666510",
+"team_id": "81dec5b9-5c08-4a0d-8980-8ab9d3eb0183",
+"team_name": "Ivan & Haowen",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-32F582AA": {
 "fetched_at": "2026-07-17T02:57:58.862668+00:00",
 "submission_code": "SUB-32F582AA",
