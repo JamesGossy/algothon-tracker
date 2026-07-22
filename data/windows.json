@@ -125,6 +125,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-078407CC": {
+"fetched_at": "2026-07-22T13:07:48.384029+00:00",
+"submission_code": "SUB-078407CC",
+"team_id": "7a959f1b-abb7-4b69-be5d-56bfe7111860",
+"team_name": "Table Trading",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-0787EF0F": {
 "fetched_at": "2026-07-17T02:57:53.656825+00:00",
 "submission_code": "SUB-0787EF0F",
