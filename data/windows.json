@@ -1700,6 +1700,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-5773C257": {
+"fetched_at": "2026-07-22T02:00:38.873468+00:00",
+"submission_code": "SUB-5773C257",
+"team_id": "d76a2aba-6450-45b4-85d8-2093e2371ded",
+"team_name": "Larp Sharpe",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-5844175F": {
 "fetched_at": "2026-07-17T02:58:07.849944+00:00",
 "submission_code": "SUB-5844175F",
@@ -3211,6 +3220,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-A759C300": {
+"fetched_at": "2026-07-22T02:00:39.760325+00:00",
+"submission_code": "SUB-A759C300",
+"team_id": "d7ebbc54-bee6-48a5-859d-a2e333ccdc32",
+"team_name": "caringbah quant traders",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-A8789AA7": {
 "fetched_at": "2026-07-18T09:04:46.317416+00:00",
