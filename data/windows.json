@@ -3167,6 +3167,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-A70E666F": {
+"fetched_at": "2026-07-22T01:15:09.252718+00:00",
+"submission_code": "SUB-A70E666F",
+"team_id": "b88ca523-c138-489d-a67c-c62940c820e6",
+"team_name": "TriQuant",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A73BAF77": {
 "fetched_at": "2026-07-17T02:58:03.301765+00:00",
 "submission_code": "SUB-A73BAF77",
