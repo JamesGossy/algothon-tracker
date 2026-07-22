@@ -3995,6 +3995,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-C938804C": {
+"fetched_at": "2026-07-22T13:38:01.302549+00:00",
+"submission_code": "SUB-C938804C",
+"team_id": "a2f8545f-41c9-40f7-b150-0766eac849b7",
+"team_name": "squirrels",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-C93A7839": {
 "fetched_at": "2026-07-17T03:06:58.816678+00:00",
 "submission_code": "SUB-C93A7839",
