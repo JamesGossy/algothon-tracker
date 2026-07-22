@@ -368,6 +368,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-137A6A9F": {
+"fetched_at": "2026-07-22T05:32:55.076440+00:00",
+"submission_code": "SUB-137A6A9F",
+"team_id": "c3d0357b-3453-4c2a-ac95-722d744180ae",
+"team_name": "Clankers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-14862D19": {
 "fetched_at": "2026-07-17T02:58:06.318407+00:00",
 "submission_code": "SUB-14862D19",
@@ -2986,6 +2995,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-9B94A944": {
+"fetched_at": "2026-07-22T05:32:54.381305+00:00",
+"submission_code": "SUB-9B94A944",
+"team_id": "4ee538be-9685-409e-a459-bb1002deaac6",
+"team_name": "Koala Capital",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-9BBA7984": {
 "fetched_at": "2026-07-17T02:58:04.728744+00:00",
