@@ -1403,6 +1403,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-480A50F4": {
+"fetched_at": "2026-07-22T01:30:15.763263+00:00",
+"submission_code": "SUB-480A50F4",
+"team_id": "079a6e0a-b321-4e9a-8790-c20290824e0a",
+"team_name": "SNK",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-483A3D88": {
 "fetched_at": "2026-07-20T13:33:45.265662+00:00",
 "submission_code": "SUB-483A3D88",
@@ -3382,6 +3391,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-B2A1CD96": {
+"fetched_at": "2026-07-22T01:30:16.246377+00:00",
+"submission_code": "SUB-B2A1CD96",
+"team_id": "aba1f33a-ae09-4717-8308-70520a7a39bf",
+"team_name": "Three Sigma",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-B2FE14DE": {
 "fetched_at": "2026-07-17T02:58:02.505234+00:00",
