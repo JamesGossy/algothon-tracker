@@ -1133,6 +1133,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3A6E11D1": {
+"fetched_at": "2026-07-22T11:06:24.106026+00:00",
+"submission_code": "SUB-3A6E11D1",
+"team_id": "afff46a7-8f71-4f9f-86a2-1abb3eaf9c69",
+"team_name": "EKTV",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-3A763BA1": {
 "fetched_at": "2026-07-17T02:58:03.409992+00:00",
 "submission_code": "SUB-3A763BA1",
@@ -4803,6 +4812,15 @@
 "team_name": "Med Students",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-FD0C107C": {
+"fetched_at": "2026-07-22T11:06:24.578986+00:00",
+"submission_code": "SUB-FD0C107C",
+"team_id": "b5372b35-ef37-4bf2-bda8-6b4bc2449c4a",
+"team_name": "Taleous",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-FD290A02": {
