@@ -2483,6 +2483,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-83F9F1DC": {
+"fetched_at": "2026-07-22T04:47:23.821351+00:00",
+"submission_code": "SUB-83F9F1DC",
+"team_id": "7cb57579-845a-462e-bbf5-f62ddd0bdbaf",
+"team_name": "Team Classic",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-86209988": {
 "fetched_at": "2026-07-17T02:57:58.992315+00:00",
 "submission_code": "SUB-86209988",
@@ -2509,6 +2518,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-87BC9395": {
+"fetched_at": "2026-07-22T04:47:23.998776+00:00",
+"submission_code": "SUB-87BC9395",
+"team_id": "f74512ff-2951-46e5-aac5-13c282011824",
+"team_name": "mathlarpers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-8945CC3F": {
 "fetched_at": "2026-07-17T02:58:02.336593+00:00",
