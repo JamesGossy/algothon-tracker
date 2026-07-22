@@ -1007,6 +1007,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-354C9190": {
+"fetched_at": "2026-07-22T11:51:54.355547+00:00",
+"submission_code": "SUB-354C9190",
+"team_id": "002b33f3-93a1-495b-bd85-abfc285bdb56",
+"team_name": "finding_sigma",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-357D2460": {
 "fetched_at": "2026-07-20T23:25:43.190380+00:00",
 "submission_code": "SUB-357D2460",
