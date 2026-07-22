@@ -4256,6 +4256,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-DB9DAA6E": {
+"fetched_at": "2026-07-22T10:20:50.067132+00:00",
+"submission_code": "SUB-DB9DAA6E",
+"team_id": "4b857a04-29f4-42db-a7a4-5efbc80c3c61",
+"team_name": "Django Unchained (2012)",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-DCF78783": {
 "fetched_at": "2026-07-21T14:35:59.153774+00:00",
 "submission_code": "SUB-DCF78783",
