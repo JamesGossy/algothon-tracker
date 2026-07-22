@@ -1889,6 +1889,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-5D223700": {
+"fetched_at": "2026-07-22T14:08:27.813430+00:00",
+"submission_code": "SUB-5D223700",
+"team_id": "04d2ac70-76be-47b1-86e8-d312e54511ca",
+"team_name": "money_makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-5D555797": {
 "fetched_at": "2026-07-17T02:57:54.869584+00:00",
 "submission_code": "SUB-5D555797",
@@ -1977,6 +1986,15 @@
 "team_name": "Crank the Money Machine",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-60A542F3": {
+"fetched_at": "2026-07-22T14:08:27.440038+00:00",
+"submission_code": "SUB-60A542F3",
+"team_id": "e92ef1d1-dd28-4ef9-8077-6d0a19d34364",
+"team_name": "Rush Hour",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-60A9E290": {
@@ -4265,6 +4283,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-D3FCD14F": {
+"fetched_at": "2026-07-22T14:08:27.516571+00:00",
+"submission_code": "SUB-D3FCD14F",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-D570FEAB": {
 "fetched_at": "2026-07-17T02:58:03.200081+00:00",
 "submission_code": "SUB-D570FEAB",
@@ -4309,6 +4336,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-D88BFD72": {
+"fetched_at": "2026-07-22T14:08:28.657748+00:00",
+"submission_code": "SUB-D88BFD72",
+"team_id": "8557104f-5e32-40b3-89d8-48e79f377f9f",
+"team_name": "Los Algos Hermanos",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-D90082F3": {
 "fetched_at": "2026-07-17T02:57:57.996829+00:00",
