@@ -332,6 +332,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-10388A29": {
+"fetched_at": "2026-07-22T12:22:16.605736+00:00",
+"submission_code": "SUB-10388A29",
+"team_id": "f179c019-8fe9-4021-b8f1-c611d6e5e4f7",
+"team_name": "XOR",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-10DF4BEF": {
 "fetched_at": "2026-07-17T02:58:08.085205+00:00",
 "submission_code": "SUB-10DF4BEF",
@@ -808,6 +817,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-2DF643B2": {
+"fetched_at": "2026-07-22T12:22:18.139352+00:00",
+"submission_code": "SUB-2DF643B2",
+"team_id": "06d04e70-3ed8-4508-979e-134ca0784436",
+"team_name": "CX138",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-2E19496E": {
 "fetched_at": "2026-07-20T03:57:42.427122+00:00",
