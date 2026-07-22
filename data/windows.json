@@ -485,6 +485,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-1841D224": {
+"fetched_at": "2026-07-22T14:23:34.086393+00:00",
+"submission_code": "SUB-1841D224",
+"team_id": "0e82075c-e475-438c-a8b2-198479b34594",
+"team_name": "TMHS",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-187264C5": {
 "fetched_at": "2026-07-18T08:34:21.455497+00:00",
 "submission_code": "SUB-187264C5",
@@ -3786,6 +3795,15 @@
 "team_name": "Disciples of Claude",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-BB26F1C2": {
+"fetched_at": "2026-07-22T14:23:34.889471+00:00",
+"submission_code": "SUB-BB26F1C2",
+"team_id": "f25455fc-daee-4c04-9616-0d71c5537e17",
+"team_name": "MSAM",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-BCA24CB5": {
