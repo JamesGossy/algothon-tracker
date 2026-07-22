@@ -2573,6 +2573,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-86B27EAE": {
+"fetched_at": "2026-07-22T12:52:27.422720+00:00",
+"submission_code": "SUB-86B27EAE",
+"team_id": "d1c741c1-7471-4819-aae1-e139515c115b",
+"team_name": "gainzalgo v3 edge",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-87AB4987": {
 "fetched_at": "2026-07-17T02:58:09.226658+00:00",
 "submission_code": "SUB-87AB4987",
