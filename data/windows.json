@@ -953,6 +953,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-3415A7AD": {
+"fetched_at": "2026-07-22T00:44:47.317304+00:00",
+"submission_code": "SUB-3415A7AD",
+"team_id": "12429a60-cb62-4140-9071-25912b4070e0",
+"team_name": "KingTonka",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-3437E36C": {
 "fetched_at": "2026-07-17T11:21:10.644868+00:00",
 "submission_code": "SUB-3437E36C",
