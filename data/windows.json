@@ -1493,6 +1493,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-472A92D1": {
+"fetched_at": "2026-07-22T14:39:10.705413+00:00",
+"submission_code": "SUB-472A92D1",
+"team_id": "0653a73b-e467-4673-80e0-087cc2f4528d",
+"team_name": "The Market Makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-480A50F4": {
 "fetched_at": "2026-07-22T01:30:15.763263+00:00",
 "submission_code": "SUB-480A50F4",
