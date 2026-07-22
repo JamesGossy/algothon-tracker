@@ -4616,6 +4616,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-E858AA5B": {
+"fetched_at": "2026-07-22T19:27:30.798115+00:00",
+"submission_code": "SUB-E858AA5B",
+"team_id": "c0d27f62-68cb-4c33-a9eb-61c4e592c095",
+"team_name": "Pokies",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-E874DD6A": {
 "fetched_at": "2026-07-21T14:05:20.035509+00:00",
 "submission_code": "SUB-E874DD6A",
