@@ -4607,6 +4607,15 @@
 "window_name": "live_leaderboard_days_751_900",
 "window_start": 750
 },
+"SUB-F1FC21AA": {
+"fetched_at": "2026-07-22T10:51:17.178360+00:00",
+"submission_code": "SUB-F1FC21AA",
+"team_id": "217e1ce6-53a0-481c-ac09-fcd673fd33c6",
+"team_name": "Claude Opus 4.8",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-F234BDED": {
 "fetched_at": "2026-07-20T11:47:42.688971+00:00",
 "submission_code": "SUB-F234BDED",
