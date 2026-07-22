@@ -1628,6 +1628,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-53290A5C": {
+"fetched_at": "2026-07-22T03:31:33.863863+00:00",
+"submission_code": "SUB-53290A5C",
+"team_id": "44401cda-f157-4c5d-8076-a2f66031d0bf",
+"team_name": "I'm going to quit",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-533913E9": {
 "fetched_at": "2026-07-21T12:04:07.928871+00:00",
 "submission_code": "SUB-533913E9",
