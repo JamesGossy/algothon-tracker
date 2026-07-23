@@ -476,6 +476,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-16A599A6": {
+"fetched_at": "2026-07-23T23:32:55.870452+00:00",
+"submission_code": "SUB-16A599A6",
+"team_id": "aac259dc-bb28-4b0d-9c17-324f2d83b610",
+"team_name": "Med Students",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-16F5B8D1": {
 "fetched_at": "2026-07-20T08:45:41.577709+00:00",
 "submission_code": "SUB-16F5B8D1",
