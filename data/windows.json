@@ -3500,6 +3500,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-A5250555": {
+"fetched_at": "2026-07-23T14:39:51.727874+00:00",
+"submission_code": "SUB-A5250555",
+"team_id": "f25455fc-daee-4c04-9616-0d71c5537e17",
+"team_name": "MSAM",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A553C26D": {
 "fetched_at": "2026-07-17T02:57:56.521454+00:00",
 "submission_code": "SUB-A553C26D",
