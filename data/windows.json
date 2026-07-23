@@ -1385,6 +1385,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-41045CDE": {
+"fetched_at": "2026-07-23T20:15:45.235844+00:00",
+"submission_code": "SUB-41045CDE",
+"team_id": "afff46a7-8f71-4f9f-86a2-1abb3eaf9c69",
+"team_name": "EKTV",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-410CBE3F": {
 "fetched_at": "2026-07-17T02:58:05.121623+00:00",
 "submission_code": "SUB-410CBE3F",
