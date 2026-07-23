@@ -1664,6 +1664,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-4DD20E99": {
+"fetched_at": "2026-07-23T04:33:35.209952+00:00",
+"submission_code": "SUB-4DD20E99",
+"team_id": "b5372b35-ef37-4bf2-bda8-6b4bc2449c4a",
+"team_name": "Taleous",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-4E1DBDAA": {
 "fetched_at": "2026-07-17T02:57:59.872097+00:00",
 "submission_code": "SUB-4E1DBDAA",
