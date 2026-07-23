@@ -1826,6 +1826,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-552DEE76": {
+"fetched_at": "2026-07-23T15:25:22.662046+00:00",
+"submission_code": "SUB-552DEE76",
+"team_id": "08da4296-9056-44d8-8468-365f75882536",
+"team_name": "PathwayToPR",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-55EA4E3F": {
 "fetched_at": "2026-07-17T02:58:07.531760+00:00",
 "submission_code": "SUB-55EA4E3F",
