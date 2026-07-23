@@ -125,6 +125,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-07728E6C": {
+"fetched_at": "2026-07-23T12:53:46.372670+00:00",
+"submission_code": "SUB-07728E6C",
+"team_id": "875544f0-f851-4c68-80bb-16f6f840e8d3",
+"team_name": "Overfit Anonymous",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-078407CC": {
 "fetched_at": "2026-07-22T13:07:48.384029+00:00",
 "submission_code": "SUB-078407CC",
@@ -4641,6 +4650,15 @@
 "team_name": "Algoholics",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-E42DDDC0": {
+"fetched_at": "2026-07-23T12:53:46.358038+00:00",
+"submission_code": "SUB-E42DDDC0",
+"team_id": "002b33f3-93a1-495b-bd85-abfc285bdb56",
+"team_name": "finding_sigma",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-E43D7106": {
