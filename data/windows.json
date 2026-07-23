@@ -3014,6 +3014,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-92485BAC": {
+"fetched_at": "2026-07-23T11:37:54.564776+00:00",
+"submission_code": "SUB-92485BAC",
+"team_id": "972d1320-7508-4e04-a4f1-cfe55939a777",
+"team_name": "Three Stooges",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-9277EDBA": {
 "fetched_at": "2026-07-20T13:48:50.032616+00:00",
 "submission_code": "SUB-9277EDBA",
@@ -4972,6 +4981,15 @@
 "submission_code": "SUB-F55F6304",
 "team_id": "5292dc9e-bbd0-4fc3-9ad5-1887d445b04f",
 "team_name": "Negative Alpha",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
+"SUB-F5C38D1D": {
+"fetched_at": "2026-07-23T11:37:55.382060+00:00",
+"submission_code": "SUB-F5C38D1D",
+"team_id": "4ee538be-9685-409e-a459-bb1002deaac6",
+"team_name": "Koala Capital",
 "window_end": 999,
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
