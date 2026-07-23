@@ -1925,6 +1925,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-5C33334E": {
+"fetched_at": "2026-07-23T13:24:10.942284+00:00",
+"submission_code": "SUB-5C33334E",
+"team_id": "d8ab6024-d815-4703-b7d0-2c9b1896ee2c",
+"team_name": "Guess Who?",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-5C63BAD5": {
 "fetched_at": "2026-07-17T14:08:00.440617+00:00",
 "submission_code": "SUB-5C63BAD5",
@@ -4209,6 +4218,15 @@
 "team_name": "The Dark Knights",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-CACAEEF5": {
+"fetched_at": "2026-07-23T13:24:10.480306+00:00",
+"submission_code": "SUB-CACAEEF5",
+"team_id": "8557104f-5e32-40b3-89d8-48e79f377f9f",
+"team_name": "Los Algos Hermanos",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-CBFE8DE6": {
