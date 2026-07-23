@@ -800,6 +800,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-289AC583": {
+"fetched_at": "2026-07-23T14:09:42.755591+00:00",
+"submission_code": "SUB-289AC583",
+"team_id": "d1c741c1-7471-4819-aae1-e139515c115b",
+"team_name": "gainzalgo v3 edge",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-29D7455C": {
 "fetched_at": "2026-07-19T11:05:18.266412+00:00",
 "submission_code": "SUB-29D7455C",
@@ -2690,6 +2699,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-830CD280": {
+"fetched_at": "2026-07-23T14:09:42.452673+00:00",
+"submission_code": "SUB-830CD280",
+"team_id": "089219cf-5785-4f56-8bb9-a6c3c13b3303",
+"team_name": "Exit Liquidity",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-831C7184": {
 "fetched_at": "2026-07-17T10:05:36.300602+00:00",
 "submission_code": "SUB-831C7184",
@@ -4425,6 +4443,15 @@
 "team_name": "Quantify",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-D1CEAB76": {
+"fetched_at": "2026-07-23T14:09:42.812270+00:00",
+"submission_code": "SUB-D1CEAB76",
+"team_id": "755e04d5-d430-4417-8902-8cb3e53f1680",
+"team_name": "Hashi Warriors",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-D27E3B36": {
