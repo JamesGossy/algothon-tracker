@@ -1304,6 +1304,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-407DEF90": {
+"fetched_at": "2026-07-23T01:46:40.479182+00:00",
+"submission_code": "SUB-407DEF90",
+"team_id": "51036c65-61e7-4ee0-89d5-f8e510f5ecb2",
+"team_name": "Print(money)",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-40B8D4E7": {
 "fetched_at": "2026-07-17T02:58:06.804318+00:00",
 "submission_code": "SUB-40B8D4E7",
@@ -3021,6 +3030,15 @@
 "team_name": "A Solid C++",
 "window_end": 799,
 "window_name": "live_leaderboard_days_751_800",
+"window_start": 750
+},
+"SUB-93C9AA00": {
+"fetched_at": "2026-07-23T01:46:40.448801+00:00",
+"submission_code": "SUB-93C9AA00",
+"team_id": "81dec5b9-5c08-4a0d-8980-8ab9d3eb0183",
+"team_name": "Ivan & Haowen",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-93EE9D73": {
