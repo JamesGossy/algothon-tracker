@@ -2735,6 +2735,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-8A584B47": {
+"fetched_at": "2026-07-23T03:02:34.108269+00:00",
+"submission_code": "SUB-8A584B47",
+"team_id": "67b57c63-04e9-4cc0-b137-92f063eadb6d",
+"team_name": "The miners",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-8A88D2BE": {
 "fetched_at": "2026-07-18T13:37:20.245272+00:00",
 "submission_code": "SUB-8A88D2BE",
