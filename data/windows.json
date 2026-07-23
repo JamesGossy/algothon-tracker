@@ -2528,6 +2528,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-7E8474B2": {
+"fetched_at": "2026-07-23T01:01:10.590245+00:00",
+"submission_code": "SUB-7E8474B2",
+"team_id": "89dae99e-bcbe-4145-ad86-9db5e99af82d",
+"team_name": "7^3",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-7F5CE348": {
 "fetched_at": "2026-07-17T02:58:06.889450+00:00",
 "submission_code": "SUB-7F5CE348",
