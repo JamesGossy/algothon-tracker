@@ -3086,6 +3086,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-955E2462": {
+"fetched_at": "2026-07-23T10:22:15.050239+00:00",
+"submission_code": "SUB-955E2462",
+"team_id": "6e0616e5-66a2-4bff-a23c-360d6827365a",
+"team_name": "River",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-95876242": {
 "fetched_at": "2026-07-17T02:57:57.417572+00:00",
 "submission_code": "SUB-95876242",
