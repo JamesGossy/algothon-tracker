@@ -188,6 +188,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-087EA275": {
+"fetched_at": "2026-07-23T16:26:20.039753+00:00",
+"submission_code": "SUB-087EA275",
+"team_id": "d698ef11-55d9-43aa-8ff2-101b6de006bf",
+"team_name": "AlgoAlgo",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-09B13B35": {
 "fetched_at": "2026-07-17T02:58:05.087649+00:00",
 "submission_code": "SUB-09B13B35",
