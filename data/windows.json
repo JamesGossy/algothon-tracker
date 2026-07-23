@@ -1376,6 +1376,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-40C7B7F7": {
+"fetched_at": "2026-07-23T23:48:02.534573+00:00",
+"submission_code": "SUB-40C7B7F7",
+"team_id": "74210303-d929-4f1d-8de7-873dfcee328f",
+"team_name": "Kumar Dhananjaya Shivanna",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-40DF125D": {
 "fetched_at": "2026-07-20T14:04:13.394912+00:00",
 "submission_code": "SUB-40DF125D",
