@@ -944,6 +944,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-2E3CD231": {
+"fetched_at": "2026-07-24T12:45:51.287116+00:00",
+"submission_code": "SUB-2E3CD231",
+"team_id": "d3b7aac0-33af-472e-8627-0ee7234598d7",
+"team_name": "Jame Street",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-2E4AFDCC": {
 "fetched_at": "2026-07-24T01:49:28.231152+00:00",
 "submission_code": "SUB-2E4AFDCC",
