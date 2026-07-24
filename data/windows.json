@@ -4616,6 +4616,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-D576FC93": {
+"fetched_at": "2026-07-24T01:34:22.161501+00:00",
+"submission_code": "SUB-D576FC93",
+"team_id": "c4b9d83c-1016-4e71-86c5-28f45f903647",
+"team_name": "Rocks",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-D665270C": {
 "fetched_at": "2026-07-20T14:19:19.553605+00:00",
 "submission_code": "SUB-D665270C",
