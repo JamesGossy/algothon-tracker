@@ -2186,6 +2186,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-6354A68F": {
+"fetched_at": "2026-07-24T00:48:46.998517+00:00",
+"submission_code": "SUB-6354A68F",
+"team_id": "fea35a35-9dc2-44f0-941f-ad1bdf9ed244",
+"team_name": "Pink Fluffy Dumplings",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-638DFF82": {
 "fetched_at": "2026-07-17T02:58:04.561956+00:00",
 "submission_code": "SUB-638DFF82",
