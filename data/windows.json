@@ -3572,6 +3572,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-A0DE7423": {
+"fetched_at": "2026-07-24T14:17:00.060305+00:00",
+"submission_code": "SUB-A0DE7423",
+"team_id": "0653a73b-e467-4673-80e0-087cc2f4528d",
+"team_name": "The Market Makers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-A169C332": {
 "fetched_at": "2026-07-22T16:10:16.050892+00:00",
 "submission_code": "SUB-A169C332",
@@ -3814,6 +3823,15 @@
 "window_end": 749,
 "window_name": "training_round",
 "window_start": 500
+},
+"SUB-AD2651E2": {
+"fetched_at": "2026-07-24T14:17:00.923809+00:00",
+"submission_code": "SUB-AD2651E2",
+"team_id": "d8d21c8a-6c7f-44f9-aa98-3c87dad4ffae",
+"team_name": "Axion Labs",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
 },
 "SUB-AD27B96E": {
 "fetched_at": "2026-07-17T12:22:00.886187+00:00",
