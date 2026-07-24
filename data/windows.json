@@ -989,6 +989,15 @@
 "window_name": "live_leaderboard_days_751_800",
 "window_start": 750
 },
+"SUB-2EDADBB6": {
+"fetched_at": "2026-07-24T13:16:15.317732+00:00",
+"submission_code": "SUB-2EDADBB6",
+"team_id": "9cf93b75-08d0-444f-83ab-a28e84a60c30",
+"team_name": "Nexus Destroyers",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-2EE1EED6": {
 "fetched_at": "2026-07-17T02:58:00.905882+00:00",
 "submission_code": "SUB-2EE1EED6",
