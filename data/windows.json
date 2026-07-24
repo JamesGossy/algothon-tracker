@@ -4094,6 +4094,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-B7FCFAC1": {
+"fetched_at": "2026-07-24T20:21:41.214008+00:00",
+"submission_code": "SUB-B7FCFAC1",
+"team_id": "0e82075c-e475-438c-a8b2-198479b34594",
+"team_name": "TMHS",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-B811BCFA": {
 "fetched_at": "2026-07-21T12:49:38.066914+00:00",
 "submission_code": "SUB-B811BCFA",
@@ -4819,6 +4828,15 @@
 "submission_code": "SUB-DB9DAA6E",
 "team_id": "4b857a04-29f4-42db-a7a4-5efbc80c3c61",
 "team_name": "Django Unchained (2012)",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
+"SUB-DC92E2CC": {
+"fetched_at": "2026-07-24T20:21:41.665830+00:00",
+"submission_code": "SUB-DC92E2CC",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
 "window_end": 999,
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
