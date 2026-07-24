@@ -3941,6 +3941,15 @@
 "window_name": "live_leaderboard_days_751_850",
 "window_start": 750
 },
+"SUB-B230D8AF": {
+"fetched_at": "2026-07-24T14:32:06.686890+00:00",
+"submission_code": "SUB-B230D8AF",
+"team_id": "eb94102c-22d8-449a-a99a-c9c52ffeb668",
+"team_name": "SYD2AKL",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-B242A168": {
 "fetched_at": "2026-07-17T02:58:08.503321+00:00",
 "submission_code": "SUB-B242A168",
