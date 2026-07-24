@@ -422,6 +422,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-130592C7": {
+"fetched_at": "2026-07-24T02:34:56.564024+00:00",
+"submission_code": "SUB-130592C7",
+"team_id": "d0115864-0e80-4f9b-acb5-d0a873424622",
+"team_name": "Sigma0",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-137A6A9F": {
 "fetched_at": "2026-07-22T05:32:55.076440+00:00",
 "submission_code": "SUB-137A6A9F",
