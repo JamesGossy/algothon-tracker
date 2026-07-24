@@ -62,6 +62,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-03C0AFC6": {
+"fetched_at": "2026-07-24T01:49:28.660941+00:00",
+"submission_code": "SUB-03C0AFC6",
+"team_id": "ebb5540b-d977-4e20-920f-f99fd27ce2fb",
+"team_name": "get prize",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-03C24174": {
 "fetched_at": "2026-07-17T02:58:06.798802+00:00",
 "submission_code": "SUB-03C24174",
@@ -915,6 +924,15 @@
 "team_name": "7^3",
 "window_end": 949,
 "window_name": "live_leaderboard_days_751_950",
+"window_start": 750
+},
+"SUB-2E4AFDCC": {
+"fetched_at": "2026-07-24T01:49:28.231152+00:00",
+"submission_code": "SUB-2E4AFDCC",
+"team_id": "f43c0431-aa11-4284-8365-51a8e8b345aa",
+"team_name": "RegardedTraders",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
 "SUB-2E60B8B0": {
