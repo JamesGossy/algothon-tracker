@@ -3077,6 +3077,15 @@
 "window_name": "live_leaderboard_days_751_950",
 "window_start": 750
 },
+"SUB-8FED9126": {
+"fetched_at": "2026-07-24T01:03:53.058538+00:00",
+"submission_code": "SUB-8FED9126",
+"team_id": "4d4e1859-f204-4377-949f-75c7840e1040",
+"team_name": "Codeblooded",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-909070CB": {
 "fetched_at": "2026-07-17T11:21:10.856105+00:00",
 "submission_code": "SUB-909070CB",
