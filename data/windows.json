@@ -4895,6 +4895,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-DF85845F": {
+"fetched_at": "2026-07-25T01:24:50.731249+00:00",
+"submission_code": "SUB-DF85845F",
+"team_id": "5adbf0bc-dd12-474b-b005-29c6f8b099bc",
+"team_name": "Chocolate Epoch-y",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-DF94E25A": {
 "fetched_at": "2026-07-21T14:20:53.657424+00:00",
 "submission_code": "SUB-DF94E25A",
