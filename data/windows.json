@@ -2492,6 +2492,15 @@
 "window_name": "live_leaderboard_days_751_1000",
 "window_start": 750
 },
+"SUB-70D6DECD": {
+"fetched_at": "2026-07-25T04:42:13.146433+00:00",
+"submission_code": "SUB-70D6DECD",
+"team_id": "399908c9-4a67-4430-8f28-3028c77b0825",
+"team_name": "Overfitters",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-710C4B08": {
 "fetched_at": "2026-07-17T02:57:58.715517+00:00",
 "submission_code": "SUB-710C4B08",
