@@ -755,6 +755,15 @@
 "window_name": "training_round",
 "window_start": 500
 },
+"SUB-20DC36E0": {
+"fetched_at": "2026-07-25T05:57:46.621363+00:00",
+"submission_code": "SUB-20DC36E0",
+"team_id": "8c8edadd-9ba4-453e-8e6f-1266b0f1211a",
+"team_name": "Quantified Chaos",
+"window_end": 999,
+"window_name": "live_leaderboard_days_751_1000",
+"window_start": 750
+},
 "SUB-216F0866": {
 "fetched_at": "2026-07-18T20:41:33.655738+00:00",
 "submission_code": "SUB-216F0866",
